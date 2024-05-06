@@ -1,8 +1,8 @@
 import React from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import { MdAccountCircle } from 'react-icons/md';
-import { IoHome } from 'react-icons/io5';
 import Link from 'next/link';
+import { HomeIcon } from '../icons';
+import { AccountIcon } from '../icons/AccountIcon';
 
 export const Header = () => {
   const { currentUser } = useAuth();
@@ -17,9 +17,10 @@ export const Header = () => {
         flexDirection: 'row',
         justifyContent: 'space-between',
         padding: '16px 16px'
-      }}>
+      }}
+    >
       <Link href='/' className=''>
-        <IoHome fill='white' size={30} />
+        <HomeIcon fill='white' />
       </Link>
       <div style={{ display: 'flex', flexDirection: 'row' }}>
         <div
@@ -29,11 +30,12 @@ export const Header = () => {
             display: 'flex',
             alignItems: 'center',
             fontSize: 18
-          }}>
+          }}
+        >
           Hi {currentUser.displayName}
         </div>
         <Link href='/left-menu' className=''>
-          <MdAccountCircle fill='white' size={30} />
+          <AccountIcon fill='white' />
         </Link>
       </div>
     </div>

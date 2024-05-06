@@ -11,16 +11,16 @@ export const LeftMenu = () => {
   const { currentUser, logout } = useAuth();
   const router = useRouter();
 
-  async function handleLogout() {
+  const handleLogout = async () => {
     setError('');
 
     try {
       await logout();
-      router.push('/login');
+      router.push('/sign-in');
     } catch {
       setError('Failed to log out');
     }
-  }
+  };
 
   return (
     <div className='w-100' style={{ maxWidth: '400px' }}>

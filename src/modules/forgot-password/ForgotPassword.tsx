@@ -13,7 +13,7 @@ export const ForgotPassword = () => {
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
 
-  async function handleSubmit(e: any) {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
 
     try {
@@ -27,7 +27,7 @@ export const ForgotPassword = () => {
     }
 
     setLoading(false);
-  }
+  };
 
   return (
     <Layout>
@@ -53,7 +53,7 @@ export const ForgotPassword = () => {
             </Button>
           </Form>
           <div className='w-100 text-center mt-3'>
-            <Link href='/login'>Login</Link>
+            <Link href='/sign-in'>Sign In</Link>
           </div>
         </Card.Body>
       </Card>

@@ -16,7 +16,7 @@ import { auth } from '../firebase';
 
 export type AuthContextProps = {
   currentUser: any;
-  login: (email: any, password: any) => void;
+  signIn: (email: any, password: any) => void;
   signUp: (email: any, password: any) => void;
   logout: () => void;
   resetPassword: (email: any) => void;
@@ -27,7 +27,7 @@ export type AuthContextProps = {
 
 const AuthContext = createContext<AuthContextProps>({
   currentUser: {},
-  login: () => {},
+  signIn: () => {},
   signUp: () => {},
   logout: () => {},
   resetPassword: () => {},
@@ -36,48 +36,44 @@ const AuthContext = createContext<AuthContextProps>({
   updateProfile: () => {}
 });
 
-export function useAuth() {
+export const useAuth = () => {
   return useContext(AuthContext);
-}
+};
 
-export function AuthProvider({ children }: any) {
+export const AuthProvider = ({ children }: any) => {
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
-  function signUp(email: any, password: any) {
+  const signUp = (email: any, password: any) => {
     return createUserWithEmailAndPassword(auth, email, password);
-  }
+  };
 
-  console.log(2222);
-
-  const login = (email: any, password: any) => {
-    console.log(1111);
-    console.log(auth, email, password);
+  const signIn = (email: any, password: any) => {
     return signInWithEmailAndPassword(auth, email, password);
   };
 
-  function logout() {
+  const logout = () => {
     return signOut(auth);
-  }
+  };
 
-  function resetPassword(email: any) {
+  const resetPassword = (email: any) => {
     return sendPasswordResetEmail(auth, email);
-  }
+  };
 
-  function updateUserEmail(email: any) {
+  const updateUserEmail = (email: any) => {
     return updateEmail(currentUser, email);
-  }
+  };
 
-  function updateUserProfile({ name, photoURL }: { name?: string; photoURL?: string }) {
+  const updateUserProfile = ({ name, photoURL }: { name?: string; photoURL?: string }) => {
     return updateProfile(currentUser, {
       displayName: name,
       photoURL
     });
-  }
+  };
 
-  function updateUserPassword(password: any) {
+  const updateUserPassword = (password: any) => {
     return updatePassword(currentUser, password);
-  }
+  };
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user: any) => {
@@ -90,7 +86,7 @@ export function AuthProvider({ children }: any) {
 
   const value = {
     currentUser,
-    login,
+    signIn,
     signUp,
     logout,
     resetPassword,
@@ -100,4 +96,4 @@ export function AuthProvider({ children }: any) {
   };
 
   return <AuthContext.Provider value={value}>{!loading && children}</AuthContext.Provider>;
-}
+};

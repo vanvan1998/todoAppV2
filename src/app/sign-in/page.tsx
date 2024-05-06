@@ -1,11 +1,13 @@
 import React from 'react';
-import { Login } from 'src/modules';
+import { SignIn } from 'src/modules';
 import RootLayout from '../layout';
 
-export default function Page() {
+const Page = () => {
   return (
     <RootLayout>
-      <Login />
+      <SignIn />
     </RootLayout>
   );
-}
+};
+
+export default Page;

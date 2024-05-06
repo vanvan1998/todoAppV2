@@ -12,7 +12,7 @@ import { useEffect } from 'react';
 //   description: 'Web site created with Next.js.'
 // };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html>
       <body>
@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </body>
     </html>
   );
-}
+};
 
 export const PrivateLayout = ({ children }: any) => {
   const { currentUser } = useAuth();
@@ -46,7 +46,7 @@ export const PrivateLayout = ({ children }: any) => {
 
   useEffect(() => {
     if (!currentUser) {
-      router.push('/login');
+      router.push('/sign-in');
     }
   }, []);
 
@@ -66,3 +66,5 @@ export const PrivateLayout = ({ children }: any) => {
     )
   );
 };
+
+export default RootLayout;

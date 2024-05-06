@@ -15,7 +15,7 @@ export const UpdatePassword = () => {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
-  function handleSubmit(e: { preventDefault: () => void }) {
+  const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     if (password !== passwordConfirm) {
       return setError('Passwords do not match');
@@ -42,7 +42,7 @@ export const UpdatePassword = () => {
       .finally(() => {
         setLoading(false);
       });
-  }
+  };
 
   return (
     <div className='w-100' style={{ maxWidth: '400px' }}>

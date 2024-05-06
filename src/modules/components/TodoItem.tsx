@@ -1,14 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
-import { FaCircleCheck } from 'react-icons/fa6';
-import { ImRadioUnchecked } from 'react-icons/im';
 import { Collapse, Button, Modal } from 'react-bootstrap';
 import { TodoItemType } from '../../types';
-import { MdModeEditOutline, MdDeleteForever, MdOutlineExpandMore, MdOutlineExpandLess } from 'react-icons/md';
 import { isEmpty } from 'lodash';
 import { AddTodo } from './addTodo';
 import { MODE } from '../../constants';
+import { CheckedIcon, DeleteIcon, EditIcon, ExpandLessIcon, ExpandMoreIcon, UnCheckedIcon } from '../icons';
 
 interface TodoItemProps {
   todo: TodoItemType;
@@ -50,11 +48,7 @@ export const TodoItem = ({ todo, handleCompleteTodo, handleDeleteTodo, handleUpd
             onClick={() => handleCompleteTodo(todo)}
             style={{ backgroundColor: 'white', border: 'none', padding: 0 }}
           >
-            {todo.completed ? (
-              <FaCircleCheck size={18} color='#188f10' />
-            ) : (
-              <ImRadioUnchecked size={18} color='#188f10' />
-            )}
+            {todo.completed ? <CheckedIcon color='#188f10' /> : <UnCheckedIcon color='#188f10' />}
           </Button>
           <div>
             <div
@@ -90,11 +84,7 @@ export const TodoItem = ({ todo, handleCompleteTodo, handleDeleteTodo, handleUpd
                 marginRight: 10
               }}
             >
-              {isOpenCollapse ? (
-                <MdOutlineExpandLess size={20} color='black' />
-              ) : (
-                <MdOutlineExpandMore size={20} color='black' />
-              )}
+              {isOpenCollapse ? <ExpandLessIcon color='black' /> : <ExpandMoreIcon color='black' />}
             </Button>
           ) : (
             <></>
@@ -110,14 +100,14 @@ export const TodoItem = ({ todo, handleCompleteTodo, handleDeleteTodo, handleUpd
             }}
             style={{ backgroundColor: 'white', border: 'none', padding: 0 }}
           >
-            <MdModeEditOutline size={22} color='black' />
+            <EditIcon color='black' />
           </Button>
           <Button
             className='button-delete'
             onClick={() => handleDeleteTodo(todo.id)}
             style={{ backgroundColor: 'white', border: 'none', padding: 0 }}
           >
-            <MdDeleteForever size={22} color='black' />
+            <DeleteIcon color='black' />
           </Button>
         </div>
       </div>

@@ -6,29 +6,29 @@ import { useAuth } from '../../contexts/AuthContext';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-export const Login = () => {
+export const SignIn = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const { login } = useAuth();
+  const { signIn, currentUser } = useAuth();
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+  if (currentUser) router.push('/');
 
-  async function handleSubmit(e: any) {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
 
     try {
       setError('');
       setLoading(true);
-      console.log(email, password);
-      await login(email, password);
+      await signIn(email, password);
       router.push('/');
     } catch {
       setError('Failed to log in');
     }
 
     setLoading(false);
-  }
+  };
 
   return (
     <>

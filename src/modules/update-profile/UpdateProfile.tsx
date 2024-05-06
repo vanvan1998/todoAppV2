@@ -55,7 +55,7 @@ export const UpdateProfile = () => {
       });
   };
 
-  function handleSubmit(e: { preventDefault: () => void }) {
+  const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
     const promises = [];
@@ -80,7 +80,7 @@ export const UpdateProfile = () => {
       .finally(() => {
         setLoading(false);
       });
-  }
+  };
 
   return (
     <div className='w-100' style={{ maxWidth: '400px' }}>

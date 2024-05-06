@@ -16,7 +16,7 @@ export const SignUp = () => {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
-  async function handleSubmit(e: { preventDefault: () => void }) {
+  const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
     if (password !== passwordConfirm) {
@@ -33,7 +33,7 @@ export const SignUp = () => {
     }
 
     setLoading(false);
-  }
+  };
 
   return (
     <Layout>
@@ -82,7 +82,7 @@ export const SignUp = () => {
         </Card.Body>
       </Card>
       <div className='w-100 text-center mt-2'>
-        Already have an account? <Link href='/login'>Log In</Link>
+        Already have an account? <Link href='/sign-in'>Log In</Link>
       </div>
     </Layout>
   );
