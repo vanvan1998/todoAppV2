@@ -1,10 +1,11 @@
 import React from 'react';
 
-export const Layout = ({ children }: any) => {
+export const Container = ({ children }: any) => {
   return (
     <div
       className='align-items-center justify-content-center'
-      style={{ width: '100%', display: 'flex', flexDirection: 'column' }}>
+      style={{ width: '100%', display: 'flex', flexDirection: 'column' }}
+    >
       <div
         style={{
           maxWidth: '400px',
@@ -13,7 +14,8 @@ export const Layout = ({ children }: any) => {
           height: '100%',
           justifyContent: 'center'
         }}
-        className='col-md-6 col-sm-10 col-10'>
+        className='col-md-6 col-sm-10 col-10'
+      >
         {children}
       </div>
     </div>

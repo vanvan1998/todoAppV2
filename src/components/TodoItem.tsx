@@ -2,10 +2,10 @@
 
 import React, { useState } from 'react';
 import { Collapse, Button, Modal } from 'react-bootstrap';
-import { TodoItemType } from '../../types';
+import { TodoItemType } from '../types';
 import { isEmpty } from 'lodash';
 import { AddTodo } from './addTodo';
-import { MODE } from '../../constants';
+import { MODE } from '../constants';
 import { CheckedIcon, DeleteIcon, EditIcon, ExpandLessIcon, ExpandMoreIcon, UnCheckedIcon } from '../icons';
 
 interface TodoItemProps {

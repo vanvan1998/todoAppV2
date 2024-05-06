@@ -6,10 +6,10 @@ import dayjs from 'dayjs';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker, TimePicker } from '@mui/x-date-pickers';
-import { DATE_FORMAT, MODE, TIME_FORMAT } from '../../../constants';
-import { TodoItemType } from '../../../types';
+import { DATE_FORMAT, MODE, TIME_FORMAT } from '../../constants';
+import { TodoItemType } from '../../types';
 import { isEmpty } from 'lodash';
-import { CloseIcon } from 'src/modules/icons';
+import { CloseIcon } from 'src/icons';
 
 export const AddTodo = ({
   mode,

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SORT_BY } from '../../constants';
+import { SORT_BY } from '../constants';
 
 export const SortBy = ({ handleSort }: { handleSort: (value: string) => void }) => {
   return (

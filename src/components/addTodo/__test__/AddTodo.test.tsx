@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { AddTodo } from '..';
-import { MODE } from '../../../../constants';
+import { MODE } from '../../../constants';
 
 describe('Test AddTodo component', () => {
   test('should match its snapshot', async () => {

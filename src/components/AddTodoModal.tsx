@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
-import { MODE } from '../../constants';
+import { MODE } from '../constants';
 import { AddTodo } from './addTodo';
 
 export const AddTodoModal = ({ addItem }: { addItem: (arg: any) => void }) => {
