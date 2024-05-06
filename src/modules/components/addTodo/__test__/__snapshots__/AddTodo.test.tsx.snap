@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test AddTodo component should match its snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        style="padding: 8px 30px 30px 30px; height: 420px; overflow: auto;"
+      >
+        <div
+          style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 8px 0px 24px 0px;"
+        >
+          <div
+            style="font-size: 20px; font-weight: bold;"
+          >
+            Add todo
+          </div>
+          <button
+            class="button-complete btn btn-primary"
+            style="background-color: white; padding: 0px;"
+            type="button"
+          >
+            <svg
+              color="black"
+              fill="currentColor"
+              height="24"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: black;"
+              viewBox="0 0 512 512"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                fill="none"
+                stroke-miterlimit="10"
+                stroke-width="32"
+              />
+              <path
+                d="M320 320L192 192m0 128l128-128"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          style="display: flex;"
+        >
+          <div
+            style="position: relative; width: 100%;"
+          >
+            <input
+              placeholder="Enter new todo..."
+              style="width: 100%; height: 40px; padding: 4px 48px 4px 16px; border-radius: 4px; font-size: 16px; border: 1px solid #ced4da; color: rgb(33, 37, 41);"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style="padding-left: 16px; display: flex; align-items: center;"
+          >
+            <button
+              class="btn btn-primary"
+              disabled=""
+              style="width: 100px; height: 40px;"
+              type="button"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          style="height: 150px;"
+        >
+          <textarea
+            placeholder="Enter detail..."
+            style="width: 100%; height: 150px; padding: 8px 16px; border-radius: 4px; font-size: 16px; border: 1px solid #ced4da; color: rgb(33, 37, 41); margin-top: 8px;"
+          />
+        </div>
+        <div
+          style="display: flex; flex-direction: row; margin-top: 24px; gap: 10px; align-items: center;"
+        >
+          <div>
+            Notification: 
+          </div>
+          <div
+            class="form-check form-switch"
+          >
+            <input
+              class="form-check-input"
+              id="flexSwitchCheckDefault"
+              role="switch"
+              style="width: 40px; height: 20px;"
+              type="checkbox"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="padding: 8px 30px 30px 30px; height: 420px; overflow: auto;"
+    >
+      <div
+        style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 8px 0px 24px 0px;"
+      >
+        <div
+          style="font-size: 20px; font-weight: bold;"
+        >
+          Add todo
+        </div>
+        <button
+          class="button-complete btn btn-primary"
+          style="background-color: white; padding: 0px;"
+          type="button"
+        >
+          <svg
+            color="black"
+            fill="currentColor"
+            height="24"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: black;"
+            viewBox="0 0 512 512"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+              fill="none"
+              stroke-miterlimit="10"
+              stroke-width="32"
+            />
+            <path
+              d="M320 320L192 192m0 128l128-128"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        style="display: flex;"
+      >
+        <div
+          style="position: relative; width: 100%;"
+        >
+          <input
+            placeholder="Enter new todo..."
+            style="width: 100%; height: 40px; padding: 4px 48px 4px 16px; border-radius: 4px; font-size: 16px; border: 1px solid #ced4da; color: rgb(33, 37, 41);"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          style="padding-left: 16px; display: flex; align-items: center;"
+        >
+          <button
+            class="btn btn-primary"
+            disabled=""
+            style="width: 100px; height: 40px;"
+            type="button"
+          >
+            Add
+          </button>
+        </div>
+      </div>
+      <div
+        style="height: 150px;"
+      >
+        <textarea
+          placeholder="Enter detail..."
+          style="width: 100%; height: 150px; padding: 8px 16px; border-radius: 4px; font-size: 16px; border: 1px solid #ced4da; color: rgb(33, 37, 41); margin-top: 8px;"
+        />
+      </div>
+      <div
+        style="display: flex; flex-direction: row; margin-top: 24px; gap: 10px; align-items: center;"
+      >
+        <div>
+          Notification: 
+        </div>
+        <div
+          class="form-check form-switch"
+        >
+          <input
+            class="form-check-input"
+            id="flexSwitchCheckDefault"
+            role="switch"
+            style="width: 40px; height: 20px;"
+            type="checkbox"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

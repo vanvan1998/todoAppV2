@@ -19,9 +19,9 @@ export const AddTodo = ({
   todo
 }: {
   mode: string;
-  addItem?: Function;
-  updateItem?: Function;
   todo?: TodoItemType;
+  addItem?: (item: Partial<TodoItemType>) => void;
+  updateItem?: ({ todo, fieldsToUpdate }: { todo: TodoItemType; fieldsToUpdate: Partial<TodoItemType> }) => void;
   onComplete: () => void;
 }) => {
   const isAddItem = mode === MODE.ADD;
@@ -31,32 +31,27 @@ export const AddTodo = ({
   const [title, setTitle] = useState(isAddItem ? '' : todo?.title);
   const [detail, setDetail] = useState(isAddItem ? '' : todo?.detail);
   const [notification, setNotification] = useState(isAddItem ? false : todo?.notification);
-  const [date, setDate] = useState(
-    !isAddItem && todo?.notification ? currentDateTime : newDateTime
-  );
-  const [time, setTime] = useState(
-    !isAddItem && todo?.notification ? currentDateTime : newDateTime
-  );
+  const [date, setDate] = useState(!isAddItem && todo?.notification ? currentDateTime : newDateTime);
+  const [time, setTime] = useState(!isAddItem && todo?.notification ? currentDateTime : newDateTime);
 
   const handleAddOrEdit = async (e: any) => {
     e.preventDefault();
     if (isAddItem) {
-      if (title !== '') {
+      !isEmpty(title) &&
         addItem &&
-          addItem({
-            title,
-            detail,
-            notification,
-            startDate: notification ? date.format(DATE_FORMAT) : '',
-            startTime: notification ? time.format(TIME_FORMAT) : ''
-          });
-        setTitle('');
-        setDetail('');
-      }
+        addItem({
+          title: title!,
+          detail: detail || '',
+          notification,
+          startDate: notification ? date.format(DATE_FORMAT) : '',
+          startTime: notification ? time.format(TIME_FORMAT) : ''
+        });
+      setTitle('');
+      setDetail('');
     } else {
       updateItem &&
         updateItem({
-          todo,
+          todo: todo!,
           fieldsToUpdate: {
             title,
             detail,
@@ -78,14 +73,14 @@ export const AddTodo = ({
           justifyContent: 'space-between',
           alignItems: 'center',
           padding: '8px 0 24px 0'
-        }}>
-        <div style={{ fontSize: 20, fontWeight: 'bold' }}>
-          {isAddItem ? 'Add todo' : 'Update todo'}
-        </div>
+        }}
+      >
+        <div style={{ fontSize: 20, fontWeight: 'bold' }}>{isAddItem ? 'Add todo' : 'Update todo'}</div>
         <Button
           className='button-complete'
           onClick={onComplete}
-          style={{ backgroundColor: 'white', border: 'none', padding: 0 }}>
+          style={{ backgroundColor: 'white', border: 'none', padding: 0 }}
+        >
           <IoCloseCircleOutline size={24} color='black' />
         </Button>
       </div>
@@ -95,7 +90,7 @@ export const AddTodo = ({
             type='text'
             placeholder='Enter new todo...'
             value={title}
-            onChange={(e) => {
+            onChange={e => {
               e.preventDefault();
               setTitle(e.target.value);
             }}
@@ -112,10 +107,7 @@ export const AddTodo = ({
         </div>
 
         <div style={{ paddingLeft: 16, display: 'flex', alignItems: 'center' }}>
-          <Button
-            style={{ width: 100, height: 40 }}
-            onClick={handleAddOrEdit}
-            disabled={isEmpty(title)}>
+          <Button style={{ width: 100, height: 40 }} onClick={handleAddOrEdit} disabled={isEmpty(title)}>
             {isAddItem ? 'Add' : 'Update'}
           </Button>
         </div>
@@ -125,7 +117,7 @@ export const AddTodo = ({
         <textarea
           placeholder='Enter detail...'
           value={detail}
-          onChange={(e) => {
+          onChange={e => {
             e.preventDefault();
             setDetail(e.target.value);
           }}
@@ -148,7 +140,8 @@ export const AddTodo = ({
           marginTop: 24,
           gap: 10,
           alignItems: 'center'
-        }}>
+        }}
+      >
         <div>Notification: </div>
         <div className='form-check form-switch'>
           <input
@@ -172,11 +165,12 @@ export const AddTodo = ({
               flexDirection: 'row',
               marginTop: 10,
               gap: 10
-            }}>
+            }}
+          >
             <TimePicker
               orientation='landscape'
               defaultValue={time}
-              onChange={(value) => {
+              onChange={value => {
                 if (value) {
                   setTime(value);
                 }
@@ -184,7 +178,7 @@ export const AddTodo = ({
             />
             <DatePicker
               defaultValue={date}
-              onChange={(value) => {
+              onChange={value => {
                 if (value) {
                   setDate(value);
                 }

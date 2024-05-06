@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
 'use client';
 
 import React, { useContext, useState, useEffect, createContext } from 'react';
@@ -9,15 +10,14 @@ import {
   onAuthStateChanged,
   updateEmail,
   updateProfile,
-  updatePassword,
-  UserCredential
+  updatePassword
 } from 'firebase/auth';
 import { auth } from '../firebase';
 
 export type AuthContextProps = {
   currentUser: any;
   login: (email: any, password: any) => void;
-  signup: (email: any, password: any) => void;
+  signUp: (email: any, password: any) => void;
   logout: () => void;
   resetPassword: (email: any) => void;
   updateEmail: (email: any) => void;
@@ -27,15 +27,13 @@ export type AuthContextProps = {
 
 const AuthContext = createContext<AuthContextProps>({
   currentUser: {},
-  login: (email, password) => {
-    console.log(333);
-  },
-  signup: (email, password) => {},
+  login: () => {},
+  signUp: () => {},
   logout: () => {},
-  resetPassword: (email) => {},
-  updateEmail: (email) => {},
-  updatePassword: (password) => {},
-  updateProfile: ({ name, photo }) => {}
+  resetPassword: () => {},
+  updateEmail: () => {},
+  updatePassword: () => {},
+  updateProfile: () => {}
 });
 
 export function useAuth() {
@@ -46,7 +44,7 @@ export function AuthProvider({ children }: any) {
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
-  function signup(email: any, password: any) {
+  function signUp(email: any, password: any) {
     return createUserWithEmailAndPassword(auth, email, password);
   }
 
@@ -93,7 +91,7 @@ export function AuthProvider({ children }: any) {
   const value = {
     currentUser,
     login,
-    signup,
+    signUp,
     logout,
     resetPassword,
     updateEmail: updateUserEmail,

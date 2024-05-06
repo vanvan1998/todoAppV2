@@ -1,10 +1,11 @@
+import React from 'react';
 import { DashBoard } from 'src/modules';
-import { PrivateRoute } from './layout';
+import { PrivateLayout } from './layout';
 
 export default function Page() {
   return (
-    <PrivateRoute>
+    <PrivateLayout>
       <DashBoard />
-    </PrivateRoute>
+    </PrivateLayout>
   );
 }

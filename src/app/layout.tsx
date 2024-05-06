@@ -1,10 +1,10 @@
 'use client';
-import type { Metadata } from 'next';
+import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../index.css';
 import { AuthProvider, useAuth } from '../contexts/AuthContext';
-import { Header } from 'src/modules/components';
+import { Header } from '../modules/components';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 // export const metadata: Metadata = {
@@ -19,7 +19,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AuthProvider>
           <div
             className='align-items-center justify-content-center'
-            style={{ width: '100%', display: 'flex', flexDirection: 'column' }}>
+            style={{ width: '100%', display: 'flex', flexDirection: 'column' }}
+          >
             <div
               style={{
                 maxWidth: '400px',
@@ -28,7 +29,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 height: '100%',
                 justifyContent: 'center'
               }}
-              className='col-md-6 col-sm-10 col-10'>
+              className='col-md-6 col-sm-10 col-10'
+            >
               {children}
             </div>
           </div>
@@ -38,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   );
 }
 
-export const PrivateRoute = ({ children }: any) => {
+export const PrivateLayout = ({ children }: any) => {
   const { currentUser } = useAuth();
   const router = useRouter();
 
@@ -55,7 +57,8 @@ export const PrivateRoute = ({ children }: any) => {
           <Header />
           <div
             className='align-items-center justify-content-center'
-            style={{ display: 'flex', height: '100%', backgroundColor: '#f0f0f0' }}>
+            style={{ display: 'flex', height: '100%', backgroundColor: '#f0f0f0' }}
+          >
             {children}
           </div>
         </div>

@@ -3,31 +3,23 @@ import { db } from '../firebase';
 import dayjs from 'dayjs';
 import { useAuth } from '../contexts/AuthContext';
 import { TodoItemType } from '../types';
-import {
-  collection,
-  query,
-  onSnapshot,
-  doc,
-  updateDoc,
-  deleteDoc,
-  addDoc
-} from 'firebase/firestore';
+import { collection, query, onSnapshot, doc, updateDoc, deleteDoc, addDoc } from 'firebase/firestore';
 
 export const useFirebase = () => {
   const { currentUser } = useAuth();
   const dbKey = currentUser.uid;
-  const [todos, setTodos] = useState<TodoItemType[]>([]);
+  const [todoList, setTodoList] = useState<TodoItemType[]>([]);
 
   console.log(db, dbKey, currentUser);
 
   useEffect(() => {
     const q = query(collection(db, dbKey));
-    const unsub = onSnapshot(q, (querySnapshot) => {
-      let todos: TodoItemType[] = [];
+    const unsub = onSnapshot(q, querySnapshot => {
+      const todoList: TodoItemType[] = [];
       querySnapshot.forEach((doc: any) => {
-        todos.push({ ...doc.data(), id: doc.id });
+        todoList.push({ ...doc.data(), id: doc.id });
       });
-      setTodos(todos);
+      setTodoList(todoList);
     });
     return () => unsub();
   }, [dbKey]);
@@ -77,5 +69,5 @@ export const useFirebase = () => {
     await deleteDoc(doc(db, dbKey, id));
   };
 
-  return { todos, handleAddTodoItem, handleUpdateTodo, handleCompleteTodo, handleDeleteTodoItem };
+  return { todoList, handleAddTodoItem, handleUpdateTodo, handleCompleteTodo, handleDeleteTodoItem };
 };

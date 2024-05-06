@@ -3,10 +3,10 @@ import dayjs from 'dayjs';
 import { useFirebase } from './useFirebase';
 
 export const useNotification = () => {
-  const { todos: allTodos, handleUpdateTodo } = useFirebase();
+  const { todoList, handleUpdateTodo } = useFirebase();
 
   useEffect(() => {
-    Notification.requestPermission().then((result) => {
+    Notification.requestPermission().then(result => {
       if (result === 'denied') {
         console.log('please enable notification permission');
       }
@@ -15,14 +15,12 @@ export const useNotification = () => {
 
   useEffect(() => {
     const timer = setInterval(async () => {
-      const todo = allTodos.find(
-        (item) =>
-          item?.notification &&
-          dayjs(`${item?.startDate} ${item?.startTime}`).unix() - dayjs().unix() < 10 * 60
+      const todo = todoList.find(
+        item => item?.notification && dayjs(`${item?.startDate} ${item?.startTime}`).unix() - dayjs().unix() < 10 * 60
       );
 
       if (todo) {
-        Notification.requestPermission().then(async (result) => {
+        Notification.requestPermission().then(async result => {
           if (result === 'denied') {
             console.log('please enable notification permission');
           }
@@ -37,5 +35,5 @@ export const useNotification = () => {
     return () => {
       clearInterval(timer);
     };
-  }, [allTodos, handleUpdateTodo]);
+  }, [todoList, handleUpdateTodo]);
 };

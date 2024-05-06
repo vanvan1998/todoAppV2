@@ -5,7 +5,7 @@ import { Button, Modal } from 'react-bootstrap';
 import { MODE } from '../../constants';
 import { AddTodo } from './addTodo';
 
-export const AddTodoModal = ({ addItem }: { addItem: Function }) => {
+export const AddTodoModal = ({ addItem }: { addItem: (arg: any) => void }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -24,7 +24,8 @@ export const AddTodoModal = ({ addItem }: { addItem: Function }) => {
           paddingTop: 120
         }}
         show={show}
-        onHide={handleClose}>
+        onHide={handleClose}
+      >
         <AddTodo mode={MODE.ADD} addItem={addItem} onComplete={handleClose} />
       </Modal>
     </div>

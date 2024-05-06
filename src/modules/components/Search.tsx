@@ -5,7 +5,7 @@ export const Search = ({
   handleSearch
 }: {
   searchString: string;
-  handleSearch: Function;
+  handleSearch: (value: string) => void;
 }) => {
   return (
     <form>
@@ -14,7 +14,7 @@ export const Search = ({
           type='text'
           placeholder='Search for title'
           value={searchString}
-          onChange={(e) => {
+          onChange={e => {
             e.preventDefault();
             handleSearch(e.target.value);
           }}
