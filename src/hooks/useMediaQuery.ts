@@ -8,6 +8,7 @@ export const useMediaQuery = () => {
       const newWidth = window.innerWidth;
       setIsMobile(newWidth < 520);
     };
+    updateWindowDimensions();
 
     window.addEventListener('resize', updateWindowDimensions);
     return () => window.removeEventListener('resize', updateWindowDimensions);
