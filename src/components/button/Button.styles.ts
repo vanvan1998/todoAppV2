@@ -4,7 +4,6 @@ import { css } from 'styled-components';
 export const styles = {
   button: css`
     min-height: 40px;
-    min-width: 320px;
     border-radius: 6px;
     background-color: ${primaryButton};
     border: none;

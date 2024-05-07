@@ -2,11 +2,13 @@
 
 import React, { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
-import { MODE } from '../constants';
-import { AddTodo } from './addTodo';
+import { MODE } from '../../constants';
+import { AddTodo } from '../addTodo';
+import { useMediaQuery } from 'src/hooks';
 
 export const AddTodoModal = ({ addItem }: { addItem: (arg: any) => void }) => {
   const [show, setShow] = useState(false);
+  const { isMobile } = useMediaQuery();
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -21,7 +23,7 @@ export const AddTodoModal = ({ addItem }: { addItem: (arg: any) => void }) => {
         style={{
           width: '100%',
           height: '100vh',
-          paddingTop: 120
+          paddingTop: isMobile ? 16 : 40
         }}
         show={show}
         onHide={handleClose}

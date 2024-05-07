@@ -1,15 +1,58 @@
 'use client';
 
-import React, { useState } from 'react';
-import { Button } from 'react-bootstrap';
-import dayjs from 'dayjs';
+import React from 'react';
+import { DatePicker, TimePicker } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { DatePicker, TimePicker } from '@mui/x-date-pickers';
+import dayjs from 'dayjs';
+import { isEmpty } from 'lodash';
+import { useState } from 'react';
+import { useMediaQuery } from 'src/hooks';
+import { ImportantIcon, UpcomingIcon, UrgentIcon } from 'src/icons';
+import { Title, disabledButton, primaryButton } from 'src/theme';
+import styled from 'styled-components';
 import { DATE_FORMAT, MODE, TIME_FORMAT } from '../../constants';
 import { TodoItemType } from '../../types';
-import { isEmpty } from 'lodash';
-import { CloseIcon } from 'src/icons';
+import { Button } from '../button';
+import { Input } from '../input';
+import { styles } from './AddTodo.styles';
+
+export enum CategoryType {
+  Upcoming,
+  Important,
+  Urgent
+}
+const Container = styled.div<{ isMobile: boolean }>`
+  ${styles.container}
+`;
+
+const Header = styled.div`
+  ${styles.header}
+`;
+
+const Line = styled.div`
+  ${styles.line}
+`;
+
+const Category = styled.div<{ isMobile: boolean }>`
+  ${styles.category}
+`;
+
+const Notification = styled.div`
+  ${styles.notification}
+`;
+
+const DateTimePicker = styled.div`
+  ${styles.dateTimePicker}
+`;
+
+const Description = styled.textarea`
+  ${styles.description}
+`;
+
+const ButtonWrapper = styled.div`
+  ${styles.buttonWrapper}
+`;
 
 export const AddTodo = ({
   mode,
@@ -31,8 +74,10 @@ export const AddTodo = ({
   const [title, setTitle] = useState(isAddItem ? '' : todo?.title);
   const [detail, setDetail] = useState(isAddItem ? '' : todo?.detail);
   const [notification, setNotification] = useState(isAddItem ? false : todo?.notification);
+  const [category, setCategory] = useState(isAddItem ? CategoryType.Upcoming : todo?.category);
   const [date, setDate] = useState(!isAddItem && todo?.notification ? currentDateTime : newDateTime);
   const [time, setTime] = useState(!isAddItem && todo?.notification ? currentDateTime : newDateTime);
+  const { isMobile } = useMediaQuery();
 
   const handleAddOrEdit = async (e: any) => {
     e.preventDefault();
@@ -65,84 +110,92 @@ export const AddTodo = ({
   };
 
   return (
-    <div style={{ padding: '8px 30px 30px 30px', height: 420, overflow: 'auto' }}>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          padding: '8px 0 24px 0'
-        }}
-      >
-        <div style={{ fontSize: 20, fontWeight: 'bold' }}>{isAddItem ? 'Add todo' : 'Update todo'}</div>
+    <Container isMobile={isMobile}>
+      <Header>
+        <Title styles='font-size: 20px; font-weight: 600;'>{isAddItem ? 'New Task Todo' : 'Update Task Todo'}</Title>
+        <Line />
+      </Header>
+
+      <Input
+        title='Title Task'
+        value={title || ''}
+        onChange={setTitle}
+        styles={{ marginBottom: 16 }}
+        placeholder='Enter new task todo...'
+        inputStyles={isMobile ? { maxWidth: 438, minWidth: 294, width: '100%' } : { minHeight: 40, minWidth: 438 }}
+        titleStyles={{ fontSize: 14, fontWeight: 500 }}
+      />
+
+      <Title styles='font-weight: 500; margin-bottom: 8px;'>Category</Title>
+      <Category isMobile={isMobile}>
         <Button
-          className='button-complete'
-          onClick={onComplete}
-          style={{ backgroundColor: 'white', border: 'none', padding: 0 }}
+          title='Upcoming'
+          handleButton={() => {
+            setCategory(CategoryType.Upcoming);
+          }}
+          styles={{
+            height: 36,
+            minHeight: 36,
+            padding: '0 16px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 8,
+            width: 130,
+            backgroundColor: category === CategoryType.Upcoming ? primaryButton : disabledButton
+          }}
         >
-          <CloseIcon color='black' />
+          <UpcomingIcon width={16} height={16} />
         </Button>
-      </div>
-      <div style={{ display: 'flex' }}>
-        <div style={{ position: 'relative', width: '100%' }}>
-          <input
-            type='text'
-            placeholder='Enter new todo...'
-            value={title}
-            onChange={e => {
-              e.preventDefault();
-              setTitle(e.target.value);
-            }}
-            style={{
-              width: '100%',
-              height: 40,
-              padding: '4px 48px 4px 16px',
-              borderRadius: 4,
-              fontSize: 16,
-              border: '1px solid #ced4da',
-              color: '#212529'
-            }}
-          />
-        </div>
-
-        <div style={{ paddingLeft: 16, display: 'flex', alignItems: 'center' }}>
-          <Button style={{ width: 100, height: 40 }} onClick={handleAddOrEdit} disabled={isEmpty(title)}>
-            {isAddItem ? 'Add' : 'Update'}
-          </Button>
-        </div>
-      </div>
-
-      <div style={{ height: 150 }}>
-        <textarea
-          placeholder='Enter detail...'
-          value={detail}
-          onChange={e => {
-            e.preventDefault();
-            setDetail(e.target.value);
+        <Button
+          title='Important'
+          handleButton={() => {
+            setCategory(CategoryType.Important);
           }}
-          style={{
-            width: '100%',
-            height: 150,
-            padding: '8px 16px',
-            borderRadius: 4,
-            fontSize: 16,
-            border: '1px solid #ced4da',
-            color: '#212529',
-            marginTop: 8
+          styles={{
+            height: 36,
+            minHeight: 36,
+            padding: '0 16px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 8,
+            width: 130,
+            backgroundColor: category === CategoryType.Important ? primaryButton : disabledButton
           }}
-        />
-      </div>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          marginTop: 24,
-          gap: 10,
-          alignItems: 'center'
+        >
+          <ImportantIcon width={16} height={16} color='#ffc775' />
+        </Button>
+        <Button
+          title='Urgent'
+          handleButton={() => {
+            setCategory(CategoryType.Urgent);
+          }}
+          styles={{
+            height: 36,
+            minHeight: 36,
+            padding: '0 16px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 8,
+            width: 130,
+            backgroundColor: category === CategoryType.Urgent ? primaryButton : disabledButton
+          }}
+        >
+          <UrgentIcon width={16} height={16} color='#e75565' style={{ transform: 'rotate(270deg)' }} />
+        </Button>
+      </Category>
+
+      <Title styles='font-weight: 500; margin-bottom: 8px;'>Description</Title>
+      <Description
+        placeholder='Enter description...'
+        value={detail}
+        onChange={e => {
+          e.preventDefault();
+          setDetail(e.target.value);
         }}
-      >
-        <div>Notification: </div>
+      />
+
+      <Notification>
+        <Title styles='font-size: 14px; font-weight: 500;'>Notification</Title>
         <div className='form-check form-switch'>
           <input
             className='form-check-input'
@@ -156,17 +209,10 @@ export const AddTodo = ({
             }}
           />
         </div>
-      </div>
+      </Notification>
       {notification ? (
         <LocalizationProvider dateAdapter={AdapterDayjs}>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              marginTop: 10,
-              gap: 10
-            }}
-          >
+          <DateTimePicker>
             <TimePicker
               orientation='landscape'
               defaultValue={time}
@@ -189,11 +235,31 @@ export const AddTodo = ({
                 }
               }}
             />
-          </div>
+          </DateTimePicker>
         </LocalizationProvider>
       ) : (
         <></>
       )}
-    </div>
+
+      <ButtonWrapper>
+        <Button
+          title='Cancel'
+          handleButton={onComplete}
+          styles={{
+            flex: 1,
+            backgroundColor: 'white',
+            border: '1px solid #6459e3',
+            color: '#6459e3'
+          }}
+        />
+        <Button
+          title={isAddItem ? 'Create' : 'Update'}
+          handleButton={handleAddOrEdit}
+          styles={{
+            flex: 1
+          }}
+        />
+      </ButtonWrapper>
+    </Container>
   );
 };

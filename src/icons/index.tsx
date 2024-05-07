@@ -7,3 +7,8 @@ export * from './DeleteIcon';
 export * from './ExpandLessIcon';
 export * from './ExpandMoreIcon';
 export * from './CloseIcon';
+export * from './PersonIcon';
+export * from './UrgentIcon';
+export * from './ImportantIcon';
+export * from './UpcomingIcon';
+export * from './SignOutIcon';

@@ -1,4 +1,4 @@
-export { AddTodoModal } from './AddTodoModal';
+export { AddTodoModal } from './add-todo-modal';
 export { Search } from './Search';
 export { TodoItem } from './TodoItem';
 export { Container } from './Container';
@@ -7,3 +7,4 @@ export { AddTodo } from './addTodo';
 export { SortBy } from './SortBy';
 export { Input } from './input';
 export { Button } from './button';
+export { Layout, PrivateLayout } from './layout';

@@ -29,13 +29,15 @@ export const useFirebase = () => {
     detail,
     notification,
     startDate,
-    startTime
+    startTime,
+    category
   }: {
     title: string;
     detail: string;
     notification?: boolean;
     startDate?: string;
     startTime?: string;
+    category: number;
   }) => {
     await addDoc(collection(db, dbKey), {
       title,
@@ -44,6 +46,7 @@ export const useFirebase = () => {
       startDate: startDate,
       startTime: startTime,
       notification: notification || false,
+      category: category || 0,
       createdAt: dayjs().format('YYYY-MM-DDTHH:mm:ss')
     });
   };

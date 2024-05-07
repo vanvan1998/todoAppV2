@@ -6,10 +6,10 @@ export const styles = {
     border-radius: 6px;
     padding: 8px 12px;
     border: 1px solid #eeeeee;
-    background-color: #ffffff;
+    background-color: #eff3f4;
     color: ${textColors.textColor};
     letter-spacing: 0.16px;
     font-size: 14px;
-    margin-top: 4px;
+    margin-top: 8px;
   `
 };

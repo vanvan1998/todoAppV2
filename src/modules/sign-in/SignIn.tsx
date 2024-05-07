@@ -4,12 +4,13 @@ import React, { useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Layout } from '../../components/Layout';
+import { Layout } from '../../components';
 import styled from 'styled-components';
 import { styles } from './SignIn.styles';
 import { ErrorText, Header, PlaceholderTitle } from 'src/theme';
 import { Button, Input } from 'src/components';
 import { useMediaQuery } from 'src/hooks';
+import { isEmpty } from 'lodash';
 
 const Container = styled.div<{ isMobile: boolean }>`
   ${styles.container}
@@ -51,7 +52,7 @@ export const SignIn = () => {
   return (
     <Layout>
       <Container isMobile={isMobile}>
-        <Header>Welcome back</Header>
+        <Header>Welcome Back</Header>
         <PlaceholderTitle>Please enter your details to sign in</PlaceholderTitle>
         <Input
           title='Email'
@@ -76,7 +77,7 @@ export const SignIn = () => {
           </ErrorWrapper>
         )}
         <Button
-          disabled={loading}
+          disabled={loading || isEmpty(email) || isEmpty(password)}
           type='submit'
           title='Sign in'
           handleButton={handleSubmit}

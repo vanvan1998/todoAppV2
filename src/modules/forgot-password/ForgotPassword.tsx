@@ -3,12 +3,13 @@
 import React, { useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import Link from 'next/link';
-import { Layout } from '../../components/Layout';
+import { Layout } from '../../components';
 import styled from 'styled-components';
 import { styles } from './ForgotPassword.styles';
 import { SuccessText, ErrorText, Header, PlaceholderTitle } from 'src/theme';
 import { Button, Input } from 'src/components';
 import { useMediaQuery } from 'src/hooks';
+import { isEmpty } from 'lodash';
 
 const Container = styled.div<{ isMobile: boolean }>`
   ${styles.container}
@@ -52,38 +53,6 @@ export const ForgotPassword = () => {
 
   return (
     <Layout>
-      {/* <Container>
-        <Card>
-          <Card.Body>
-            <h2 className='text-center mb-4'>Password Reset</h2>
-            {error && <Alert variant='danger'>{error}</Alert>}
-            {message && <Alert variant='success'>{message}</Alert>}
-            <Form onSubmit={handleSubmit}>
-              <Form.Group id='email'>
-                <Form.Label>Email</Form.Label>
-                <Form.Control
-                  type='email'
-                  value={email}
-                  onChange={e => {
-                    setEmail(e.target.value);
-                  }}
-                  required
-                />
-              </Form.Group>
-              <Button disabled={loading} className='w-100 mt-4' type='submit'>
-                Reset Password
-              </Button>
-            </Form>
-            <div className='w-100 text-center mt-3'>
-              <Link href='/sign-in'>Sign In</Link>
-            </div>
-          </Card.Body>
-        </Card>
-        <div className='w-100 text-center mt-4'>
-          Need an account? <Link href='/sign-up'>Sign Up</Link>
-        </div>
-      </Container> */}
-
       <Container isMobile={isMobile}>
         <Header>Password Reset</Header>
         <SubHeader>
@@ -95,7 +64,7 @@ export const ForgotPassword = () => {
           title='Email'
           value={email}
           onChange={setEmail}
-          styles={{ marginBottom: 16, marginTop: 32 }}
+          styles={{ marginBottom: 16, marginTop: 60 }}
           placeholder='Enter your email...'
           inputStyles={isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { minHeight: 48, minWidth: 320 }}
         />
@@ -111,12 +80,12 @@ export const ForgotPassword = () => {
         )}
 
         <Button
-          disabled={loading}
+          disabled={loading || isEmpty(email)}
           type='submit'
-          title='Reset Password'
+          title='Reset password'
           handleButton={handleSubmit}
           styles={{
-            marginTop: 32,
+            marginTop: 24,
             marginBottom: 16,
             ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { width: 320 })
           }}

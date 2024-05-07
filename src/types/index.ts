@@ -1,4 +1,3 @@
-
 export interface TodoItemType {
   id: string;
   title: string;
@@ -8,4 +7,5 @@ export interface TodoItemType {
   startTime?: string;
   notification?: boolean;
   createdAt: string;
+  category: number;
 }
