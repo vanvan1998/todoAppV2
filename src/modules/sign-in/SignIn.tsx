@@ -90,7 +90,7 @@ export const SignIn = () => {
           <Link href='/forgot-password'>Forgot Password?</Link>
         </LinkWrapper>
         <LinkWrapper>
-          Don&apos;t have a GoFan account? <Link href='/sign-up'>Sign Up</Link>
+          Don&apos;t have an account? <Link href='/sign-up'>Sign Up</Link>
         </LinkWrapper>
       </Container>
     </Layout>

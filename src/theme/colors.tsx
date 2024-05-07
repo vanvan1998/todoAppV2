@@ -6,6 +6,7 @@ export const primaryButton = '#6459e3';
 export const textColor = '#323232';
 export const textPrimary = '#5a69ea';
 export const error = '#ed2f3a';
+export const success = '#49ba5d';
 export const placeholder = '#858585';
 
 export const transparent = '#ffffffff';
@@ -61,4 +62,11 @@ export const ErrorText = styled.div`
   font-size: 12px;
   line-height: 14px;
   color: ${error};
+`;
+
+export const SuccessText = styled.div`
+  ${textStyle}
+  font-size: 12px;
+  line-height: 14px;
+  color: ${success};
 `;
