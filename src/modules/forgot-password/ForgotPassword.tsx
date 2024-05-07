@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Form, Card, Alert } from 'react-bootstrap';
 import { useAuth } from '../../contexts/AuthContext';
 import Link from 'next/link';
 import { Layout } from '../../components/Layout';
@@ -21,6 +20,10 @@ const LinkWrapper = styled.div`
 
 const ErrorWrapper = styled.div<{ isMobile: boolean }>`
   ${styles.errorWrapper}
+`;
+
+const SubHeader = styled.div`
+  ${styles.subHeader}
 `;
 
 export const ForgotPassword = () => {
@@ -82,8 +85,12 @@ export const ForgotPassword = () => {
       </Container> */}
 
       <Container isMobile={isMobile}>
-        <Header>Welcome back</Header>
-        <PlaceholderTitle>Please enter your details to sign in</PlaceholderTitle>
+        <Header>Password Reset</Header>
+        <SubHeader>
+          <PlaceholderTitle>
+            Enter your email and we will send you information on how to reset your password
+          </PlaceholderTitle>
+        </SubHeader>
         <Input
           title='Email'
           value={email}

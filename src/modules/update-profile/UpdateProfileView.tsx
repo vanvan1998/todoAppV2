@@ -6,7 +6,6 @@ import { useAuth } from '../../contexts/AuthContext';
 import Link from 'next/link';
 import { storage } from '../../firebase';
 import { ref, getDownloadURL, uploadBytesResumable } from 'firebase/storage';
-import { PrivateLayout } from '../../components/PrivateLayout';
 
 export const UpdateProfileView = () => {
   const { currentUser, updateProfile } = useAuth();
@@ -68,7 +67,7 @@ export const UpdateProfileView = () => {
     //   promises.push(updateEmail(email));
     // }
     if (name) {
-      promises.push(updateProfile({ name }));
+      promises.push(updateProfile({ name }) as never);
     }
 
     Promise.all(promises)

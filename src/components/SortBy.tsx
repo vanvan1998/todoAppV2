@@ -16,7 +16,6 @@ export const SortBy = ({ handleSort }: { handleSort: (value: string) => void }) 
       </div>
       <select
         className='form-select form-select-md'
-        placeholder='Sort by'
         id='sort-by'
         onChange={e => {
           handleSort(e.target.value);

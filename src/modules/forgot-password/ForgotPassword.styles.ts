@@ -23,5 +23,8 @@ export const styles = {
     display: flex;
     justify-content: flex-start;
     ${({ isMobile }) => (isMobile ? `max-width: 320px; min-width: 200px; width: 80vw` : `min-width: 320px`)};
+  `,
+  subHeader: css`
+    max-width: 290px;
   `
 };

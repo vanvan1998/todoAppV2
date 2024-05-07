@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { styles } from './Input.styles';
-import { Title, SubTitle, Header, PlaceholderTitle } from 'src/theme';
+import { Title } from 'src/theme';
 
 const InputStyled = styled.input`
   ${styles.input}

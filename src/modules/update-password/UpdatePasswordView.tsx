@@ -26,10 +26,10 @@ export const UpdatePasswordView = () => {
     setError('');
 
     if (email !== currentUser.email) {
-      promises.push(updateEmail(email));
+      promises.push(updateEmail(email) as never);
     }
     if (password) {
-      promises.push(updatePassword(password));
+      promises.push(updatePassword(password) as never);
     }
 
     Promise.all(promises)

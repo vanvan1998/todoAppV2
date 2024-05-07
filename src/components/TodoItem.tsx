@@ -12,7 +12,7 @@ interface TodoItemProps {
   todo: TodoItemType;
   handleCompleteTodo: (todo: TodoItemType) => void;
   handleDeleteTodo: (id: string) => void;
-  handleUpdateTodo: (todo: TodoItemType) => void;
+  handleUpdateTodo: ({ todo, fieldsToUpdate }: { todo: TodoItemType; fieldsToUpdate: Partial<TodoItemType> }) => void;
 }
 
 export const TodoItem = ({ todo, handleCompleteTodo, handleDeleteTodo, handleUpdateTodo }: TodoItemProps) => {
