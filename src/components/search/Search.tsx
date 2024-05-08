@@ -1,4 +1,15 @@
 import React from 'react';
+import { SearchIcon } from 'src/icons';
+import styled from 'styled-components';
+import { styles } from './Search.styles';
+
+const Container = styled.div`
+  ${styles.Container}
+`;
+
+const InputStyled = styled.input`
+  ${styles.input}
+`;
 
 export const Search = ({
   searchString,
@@ -9,26 +20,18 @@ export const Search = ({
 }) => {
   return (
     <form>
-      <div className='input_container'>
-        <input
+      <Container>
+        <SearchIcon width={18} height={18} />
+        <InputStyled
           type='text'
-          placeholder='Search for title'
+          placeholder='Search...'
           value={searchString}
           onChange={e => {
             e.preventDefault();
             handleSearch(e.target.value);
           }}
-          style={{
-            width: '100%',
-            height: 40,
-            padding: '4px 16px',
-            borderRadius: 4,
-            fontSize: 14,
-            border: '1px solid #ced4da',
-            color: '#212529'
-          }}
         />
-      </div>
+      </Container>
     </form>
   );
 };

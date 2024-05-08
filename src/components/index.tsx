@@ -1,10 +1,11 @@
 export { AddTodoModal } from './add-todo-modal';
-export { Search } from './Search';
-export { TodoItem } from './TodoItem';
-export { Container } from './Container';
-export { Header } from './Header';
+export { Search } from './search';
+export { TodoItem } from './todo-item';
+export { Header } from './header';
 export { AddTodo } from './addTodo';
-export { SortBy } from './SortBy';
+export { SortBy } from './sort-by';
 export { Input } from './input';
 export { Button } from './button';
+export { TitleItem } from './title-item';
+export { TodoList } from './todo-list';
 export { Layout, PrivateLayout } from './layout';

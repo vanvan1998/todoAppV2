@@ -12,3 +12,7 @@ export * from './UrgentIcon';
 export * from './ImportantIcon';
 export * from './UpcomingIcon';
 export * from './SignOutIcon';
+export * from './AddIcon';
+export * from './SearchIcon';
+export * from './SortIcon';
+export * from './SortClockIcon';

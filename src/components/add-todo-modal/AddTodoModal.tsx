@@ -1,10 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Button, Modal } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 import { MODE } from '../../constants';
 import { AddTodo } from '../addTodo';
 import { useMediaQuery } from 'src/hooks';
+import { Button } from '../button';
+import { AddIcon } from 'src/icons';
 
 export const AddTodoModal = ({ addItem }: { addItem: (arg: any) => void }) => {
   const [show, setShow] = useState(false);
@@ -15,8 +17,19 @@ export const AddTodoModal = ({ addItem }: { addItem: (arg: any) => void }) => {
 
   return (
     <div>
-      <Button variant='primary' onClick={handleShow}>
-        Add
+      <Button
+        handleButton={handleShow}
+        styles={{
+          height: 36,
+          minHeight: 36,
+          padding: '0 16px',
+          display: 'flex',
+          alignItems: 'center',
+          gap: 8
+        }}
+      >
+        Add new task
+        <AddIcon width={16} height={16} />
       </Button>
 
       <Modal

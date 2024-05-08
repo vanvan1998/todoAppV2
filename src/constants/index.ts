@@ -1,7 +1,7 @@
 export const SORT_BY = {
-  NEWEST: 'NEWEST',
-  OLDEST: 'OLDEST',
-  NONE: 'NONE'
+  NEWEST: 'Newest',
+  OLDEST: 'Oldest',
+  NONE: 'None'
 };
 
 export const MODE = {

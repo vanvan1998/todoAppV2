@@ -1,10 +1,10 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import Link from 'next/link';
 import { HomeIcon, AccountIcon, SignOutIcon } from '../../icons';
 import styled from 'styled-components';
 import { styles } from './Header.styles';
-import { Title, backgroundColor, placeholder, secondary, transparent } from 'src/theme';
+import { Title, placeholder, secondary, transparent } from 'src/theme';
 import { Button } from '../button';
 import { useRouter } from 'next/navigation';
 
@@ -25,7 +25,7 @@ const AccountTitle = styled.div`
 `;
 
 export const Header = () => {
-  const [showLeftMenu, setShowLeftMenu] = React.useState(false);
+  const [showLeftMenu, setShowLeftMenu] = useState(false);
   const { currentUser, logout } = useAuth();
   const router = useRouter();
   const ref = useRef(null);

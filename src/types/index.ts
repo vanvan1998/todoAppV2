@@ -9,3 +9,9 @@ export interface TodoItemType {
   createdAt: string;
   category: number;
 }
+
+export enum CategoryType {
+  Upcoming,
+  Important,
+  Urgent
+}

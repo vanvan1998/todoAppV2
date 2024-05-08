@@ -5,32 +5,36 @@ export const styles = {
     display: flex;
     flex-direction: column;
     height: 100%;
-    padding-bottom: 16;
-    padding-top: 16;
+    padding: 16px;
+    width: 100%;
+    max-width: 1000px;
   `,
-  sponsorWrapper: css`
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 4px;
+  headerWrapper: css<{ isMobile: boolean }>`
+    display: flex;
+    flex-direction: ${({ isMobile }) => (isMobile ? 'column' : 'row')};
+    justify-content: space-between;
+    align-items: ${({ isMobile }) => (isMobile ? 'flex-start' : 'center')};
+    gap: 20px;
+    padding-bottom: 16px;
   `,
-  sponsor: css`
+  actionWrapper: css`
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
     align-items: center;
-    padding: 8px;
-    position: absolute;
   `,
-  taglineWrapper: css`
-    color: #323232;
-    font-family: Roboto-Regular;
-    font-size: 14px;
-    letter-spacing: 0.16px;
-    line-height: 25px;
+  searchWrapper: css`
+    padding-left: 16px;
   `,
-  title: css`
-    color: #323232;
-    font-family: Rubik-Regular;
-    font-size: 12px;
-    letter-spacing: 0.16px;
-    line-height: 16px;
-    padding-bottom: 4px;
+  itemWrapper: css`
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  `,
+  contentWrapper: css<{ isMobile: boolean }>`
+    display: flex;
+    flex-direction: ${({ isMobile }) => (isMobile ? 'column' : 'row')};
+    gap: 16px;
   `
 };

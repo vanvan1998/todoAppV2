@@ -10,8 +10,6 @@ export const useFirebase = () => {
   const dbKey = currentUser.uid;
   const [todoList, setTodoList] = useState<TodoItemType[]>([]);
 
-  console.log(db, dbKey, currentUser);
-
   useEffect(() => {
     const q = query(collection(db, dbKey));
     const unsub = onSnapshot(q, querySnapshot => {

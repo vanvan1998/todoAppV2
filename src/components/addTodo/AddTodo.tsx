@@ -12,16 +12,11 @@ import { ImportantIcon, UpcomingIcon, UrgentIcon } from 'src/icons';
 import { Title, disabledButton, primaryButton } from 'src/theme';
 import styled from 'styled-components';
 import { DATE_FORMAT, MODE, TIME_FORMAT } from '../../constants';
-import { TodoItemType } from '../../types';
+import { CategoryType, TodoItemType } from '../../types';
 import { Button } from '../button';
 import { Input } from '../input';
 import { styles } from './AddTodo.styles';
 
-export enum CategoryType {
-  Upcoming,
-  Important,
-  Urgent
-}
 const Container = styled.div<{ isMobile: boolean }>`
   ${styles.container}
 `;
@@ -88,6 +83,7 @@ export const AddTodo = ({
           title: title!,
           detail: detail || '',
           notification,
+          category,
           startDate: notification ? date.format(DATE_FORMAT) : '',
           startTime: notification ? time.format(TIME_FORMAT) : ''
         });

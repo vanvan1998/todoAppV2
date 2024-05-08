@@ -7,14 +7,12 @@ export const EditIcon = (props: React.JSX.IntrinsicAttributes & React.SVGProps<S
       fill='currentColor'
       strokeWidth='0'
       viewBox='0 0 24 24'
-      color='black'
-      height='22'
-      width='22'
+      height='1em'
+      width='1em'
       xmlns='http://www.w3.org/2000/svg'
       {...props}
     >
-      <path fill='none' d='M0 0h24v24H0z'></path>
-      <path d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75zM20.71 5.63l-2.34-2.34a.996.996 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83a.996.996 0 000-1.41z'></path>
+      <path d='M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z'></path>
     </svg>
   );
 };

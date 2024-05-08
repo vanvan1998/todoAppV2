@@ -2,15 +2,32 @@
 import React, { useEffect, useState } from 'react';
 import dayjs from 'dayjs';
 import { isEmpty } from 'lodash';
-import { Search, TodoItem, AddTodoModal, SortBy } from '../../components';
+import { Search, AddTodoModal, SortBy, TitleItem, TodoList } from '../../components';
 import { SORT_BY } from '../../constants';
-import { TodoItemType } from '../../types';
+import { CategoryType, TodoItemType } from '../../types';
 import { useFirebase, useNotification, useMediaQuery } from '../../hooks';
 import styled from 'styled-components';
 import { styles } from './DashBoard.styles';
+import { Header } from 'src/theme';
 
 const Container = styled.div`
   ${styles.Container}
+`;
+
+const HeaderWrapper = styled.div<{ isMobile: boolean }>`
+  ${styles.headerWrapper}
+`;
+
+const ActionWrapper = styled.div`
+  ${styles.actionWrapper}
+`;
+
+const ContentWrapper = styled.div<{ isMobile: boolean }>`
+  ${styles.contentWrapper}
+`;
+
+const ItemWrapper = styled.div`
+  ${styles.itemWrapper}
 `;
 
 export const DashBoardView = () => {
@@ -62,59 +79,57 @@ export const DashBoardView = () => {
     setTodoList(handleSort(sortBy, allTodoList));
   }, [allTodoList, sortBy]);
 
-  return (
-    <Container className='col-lg-8 col-md-10 col-10'>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          padding: '8px 0 16px 0'
-        }}
-      >
-        <div style={{ fontSize: 30, fontWeight: 'bold' }}>Todo List</div>
-        <AddTodoModal addItem={handleAddTodoItem} />
-      </div>
-      <div
-        style={{
-          display: 'flex',
-          ...(isMobile ? { flexDirection: 'column', gap: 8 } : {})
-        }}
-      >
-        <div style={{ flex: 1, paddingRight: isMobile ? 0 : 16 }}>
-          <Search searchString={searchString} handleSearch={handleSearch} />
-        </div>
-        <SortBy
-          handleSort={(value: string) => {
-            setSortBy(value);
-            setTodoList(handleSort(value, todoList));
-          }}
-        />
-      </div>
+  const groupTodoList = {
+    urgent: todoList.filter(todo => todo.category === CategoryType.Urgent),
+    important: todoList.filter(todo => todo.category === CategoryType.Important),
+    upcoming: todoList.filter(todo => todo.category === CategoryType.Upcoming)
+  };
 
-      <div
-        style={{
-          border: '1px solid #ced4da',
-          backgroundColor: 'white',
-          marginTop: 16,
-          paddingTop: 16,
-          borderRadius: 4,
-          height: `calc(100vh - ${isMobile ? 280 : 240}px)`,
-          minHeight: 400,
-          overflow: 'auto'
-        }}
-      >
-        {todoList.map(todo => (
-          <TodoItem
-            key={todo.id}
-            todo={todo}
-            handleCompleteTodo={handleCompleteTodo}
-            handleDeleteTodo={handleDeleteTodoItem}
-            handleUpdateTodo={handleUpdateTodo}
+  return (
+    <Container>
+      <HeaderWrapper isMobile={isMobile}>
+        <Header style={{ fontWeight: '600' }}>My Tasks</Header>
+        <ActionWrapper>
+          <SortBy
+            sortType={sortBy}
+            handleSort={(value: string) => {
+              setSortBy(value);
+              setTodoList(handleSort(value, todoList));
+            }}
           />
-        ))}
-      </div>
+          <AddTodoModal addItem={handleAddTodoItem} />
+        </ActionWrapper>
+      </HeaderWrapper>
+      <Search searchString={searchString} handleSearch={handleSearch} />
+      <ContentWrapper isMobile={isMobile}>
+        <ItemWrapper>
+          <TitleItem title='URGENT' color='#e75565' count={groupTodoList.urgent.length} />
+          <TodoList
+            todoList={groupTodoList.urgent}
+            handleCompleteTodo={handleCompleteTodo}
+            handleUpdateTodo={handleUpdateTodo}
+            handleDeleteTodo={handleDeleteTodoItem}
+          />
+        </ItemWrapper>
+        <ItemWrapper>
+          <TitleItem title='IMPORTANT' color='#6459e3' count={groupTodoList.important.length} />
+          <TodoList
+            todoList={groupTodoList.important}
+            handleCompleteTodo={handleCompleteTodo}
+            handleUpdateTodo={handleUpdateTodo}
+            handleDeleteTodo={handleDeleteTodoItem}
+          />
+        </ItemWrapper>
+        <ItemWrapper>
+          <TitleItem title='UPCOMING' color='#24c5f5' count={groupTodoList.upcoming.length} />
+          <TodoList
+            todoList={groupTodoList.upcoming}
+            handleCompleteTodo={handleCompleteTodo}
+            handleUpdateTodo={handleUpdateTodo}
+            handleDeleteTodo={handleDeleteTodoItem}
+          />
+        </ItemWrapper>
+      </ContentWrapper>
     </Container>
   );
 };

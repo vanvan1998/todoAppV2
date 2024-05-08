@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import { Header } from '../Header';
+import { Header } from '../header';
 import { Layout } from './Layout';
 import styled from 'styled-components';
 import { styles } from './Layout.styles';
@@ -26,7 +26,7 @@ export const PrivateLayout = ({ children }: any) => {
   return currentUser ? (
     <Layout>
       <Header />
-      <Container className='align-items-center justify-content-center'>{children}</Container>
+      <Container className='justify-content-center'>{children}</Container>
     </Layout>
   ) : (
     <></>
