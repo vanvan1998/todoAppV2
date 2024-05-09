@@ -69,7 +69,10 @@ export const ChangePasswordView = () => {
             <PlaceholderTitle>Please enter your new password to change</PlaceholderTitle>
           </TitleWrapper>
           <Title>
-            You are login as <Title style={{ fontWeight: 'bold' }}>{currentUser.email}</Title>
+            You are login as{' '}
+            <Title style={{ fontWeight: 'bold', whiteSpace: 'pre-wrap', overflowWrap: 'break-word' }}>
+              {currentUser.email}
+            </Title>
           </Title>
         </HeaderWrapper>
         <Input

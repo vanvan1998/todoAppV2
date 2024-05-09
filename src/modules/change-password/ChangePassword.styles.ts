@@ -17,12 +17,12 @@ export const styles = {
   `,
   headerWrapper: css<{ isMobile: boolean }>`
     display: flex;
-    flex-direction: ${({ isMobile }) => (isMobile ? 'column' : 'row')};
+    flex-direction: column;
     justify-content: space-between;
-    align-items: ${({ isMobile }) => (isMobile ? 'flex-start' : 'center')};
+    align-items: flex-start;
     gap: 20px;
     padding-bottom: 16px;
-    width: 100%;
+    width: 320px;
   `,
   titleWrapper: css`
     display: flex;
