@@ -97,6 +97,7 @@ export const AddTodo = ({
             title,
             detail,
             notification,
+            category,
             startDate: notification ? date.format(DATE_FORMAT) : '',
             startTime: notification ? time.format(TIME_FORMAT) : ''
           }
@@ -158,7 +159,7 @@ export const AddTodo = ({
             backgroundColor: category === CategoryType.Important ? primaryButton : disabledButton
           }}
         >
-          <ImportantIcon width={16} height={16} color='#ffc775' />
+          <ImportantIcon width={16} height={16} color='#d28312' />
         </Button>
         <Button
           title='Urgent'
@@ -176,7 +177,7 @@ export const AddTodo = ({
             backgroundColor: category === CategoryType.Urgent ? primaryButton : disabledButton
           }}
         >
-          <UrgentIcon width={16} height={16} color='#e75565' style={{ transform: 'rotate(270deg)' }} />
+          <UrgentIcon width={16} height={16} color='#db0f25' style={{ transform: 'rotate(270deg)' }} />
         </Button>
       </Category>
 

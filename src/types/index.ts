@@ -7,7 +7,9 @@ export interface TodoItemType {
   startTime?: string;
   notification?: boolean;
   createdAt: string;
+  email: string;
   category: number;
+  userId: any;
 }
 
 export enum CategoryType {

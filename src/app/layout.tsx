@@ -10,9 +10,6 @@ import { AuthProvider } from '../contexts/AuthContext';
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html>
-      <head>
-        <title>Todo app</title>
-      </head>
       <body>
         <AuthProvider>{children}</AuthProvider>
       </body>

@@ -3,15 +3,18 @@ import { db } from '../firebase';
 import dayjs from 'dayjs';
 import { useAuth } from '../contexts/AuthContext';
 import { TodoItemType } from '../types';
-import { collection, query, onSnapshot, doc, updateDoc, deleteDoc, addDoc } from 'firebase/firestore';
+import { collection, query, onSnapshot, doc, updateDoc, deleteDoc, addDoc, where, getDoc } from 'firebase/firestore';
+import { COLLECTION_TASKS } from 'src/constants';
 
 export const useFirebase = () => {
   const { currentUser } = useAuth();
-  const dbKey = currentUser.uid;
+  const userId = currentUser?.uid;
   const [todoList, setTodoList] = useState<TodoItemType[]>([]);
+  const [todo, setTodo] = useState<TodoItemType | undefined>(undefined);
 
   useEffect(() => {
-    const q = query(collection(db, dbKey));
+    if (!userId) return;
+    const q = query(collection(db, COLLECTION_TASKS), where('userId', '==', userId));
     const unsub = onSnapshot(q, querySnapshot => {
       const todoList: TodoItemType[] = [];
       querySnapshot.forEach((doc: any) => {
@@ -20,7 +23,14 @@ export const useFirebase = () => {
       setTodoList(todoList);
     });
     return () => unsub();
-  }, [dbKey]);
+  }, [userId]);
+
+  const findTodoItem = async (taskId: string): Promise<TodoItemType | undefined> => {
+    const docRef = doc(db, COLLECTION_TASKS, taskId);
+    const task = await getDoc(docRef);
+    setTodo(task.data() as TodoItemType);
+    return task.data() as TodoItemType;
+  };
 
   const handleAddTodoItem = async ({
     title,
@@ -37,7 +47,8 @@ export const useFirebase = () => {
     startTime?: string;
     category: number;
   }) => {
-    await addDoc(collection(db, dbKey), {
+    await addDoc(collection(db, COLLECTION_TASKS), {
+      userId,
       title,
       completed: false,
       detail,
@@ -45,7 +56,8 @@ export const useFirebase = () => {
       startTime: startTime,
       notification: notification || false,
       category: category || 0,
-      createdAt: dayjs().format('YYYY-MM-DDTHH:mm:ss')
+      createdAt: dayjs().format('YYYY-MM-DDTHH:mm:ss'),
+      email: currentUser?.email
     });
   };
 
@@ -56,19 +68,29 @@ export const useFirebase = () => {
     todo: TodoItemType;
     fieldsToUpdate: Partial<TodoItemType>;
   }) => {
-    await updateDoc(doc(db, dbKey, todo.id), {
+    console.log('res', fieldsToUpdate);
+    const res = await updateDoc(doc(db, COLLECTION_TASKS, todo.id), {
       ...todo,
       ...fieldsToUpdate
     });
+    console.log('res', res);
   };
 
   const handleCompleteTodo = async (todo: TodoItemType) => {
-    await updateDoc(doc(db, dbKey, todo.id), { completed: !todo.completed });
+    await updateDoc(doc(db, COLLECTION_TASKS, todo.id), { completed: !todo.completed });
   };
 
   const handleDeleteTodoItem = async (id: string) => {
-    await deleteDoc(doc(db, dbKey, id));
+    await deleteDoc(doc(db, COLLECTION_TASKS, id));
   };
 
-  return { todoList, handleAddTodoItem, handleUpdateTodo, handleCompleteTodo, handleDeleteTodoItem };
+  return {
+    todo,
+    todoList,
+    handleAddTodoItem,
+    handleUpdateTodo,
+    handleCompleteTodo,
+    handleDeleteTodoItem,
+    findTodoItem
+  };
 };

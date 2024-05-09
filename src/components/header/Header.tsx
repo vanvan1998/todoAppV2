@@ -69,16 +69,20 @@ export const Header = () => {
           <HomeIcon fill={secondary} />
         </Link>
         <LeftHeader>
-          <Title style={{ color: secondary }}>Hi {currentUser.displayName}</Title>
+          <Title style={{ color: secondary }}>Hi {currentUser?.displayName}</Title>
 
           <div ref={ref}>
             <Button
               handleButton={() => {
-                setShowLeftMenu(!showLeftMenu);
+                currentUser ? setShowLeftMenu(!showLeftMenu) : router.push('/sign-in');
               }}
               styles={{ backgroundColor: 'transparent' }}
             >
-              <AccountIcon fill={secondary} />
+              {currentUser ? (
+                <AccountIcon width={24} fill={secondary} />
+              ) : (
+                <SignOutIcon width={24} fill={secondary} style={{ transform: 'rotate(180deg)' }} />
+              )}
             </Button>
             {showLeftMenu ? (
               <LeftMenu>
@@ -114,7 +118,7 @@ export const Header = () => {
                   }}
                 >
                   <AccountTitle>
-                    <ChangePassIcon width={18} fill={secondary} />
+                    <ChangePassIcon width={20} fill={secondary} />
                     <Title style={{ textDecoration: 'none' }}>Change password</Title>
                   </AccountTitle>
                 </Button>

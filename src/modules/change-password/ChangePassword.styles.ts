@@ -1,5 +1,4 @@
 import { css } from 'styled-components';
-import { textColors, white } from 'src/theme';
 
 export const styles = {
   container: css<{ isMobile: boolean }>`

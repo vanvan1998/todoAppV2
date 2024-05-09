@@ -2,7 +2,7 @@ import { css } from 'styled-components';
 
 export const styles = {
   container: css`
-    border-bottom: 2px solid #eaeaea;
+    border-bottom: 3px solid #ced4da;
     width: 100%;
     display: flex;
     flex-direction: row;

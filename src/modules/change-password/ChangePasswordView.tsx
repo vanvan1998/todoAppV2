@@ -2,11 +2,10 @@
 
 import React, { useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import styled from 'styled-components';
 import { styles } from './ChangePassword.styles';
-import { ErrorText, Header, PlaceholderTitle, Title, backgroundColor, placeholder } from 'src/theme';
+import { ErrorText, Header, PlaceholderTitle, Title, placeholder } from 'src/theme';
 import { Button, Input } from 'src/components';
 import { useMediaQuery } from 'src/hooks';
 import { isEmpty } from 'lodash';

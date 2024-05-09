@@ -7,7 +7,6 @@ import { AddTodo } from '../addTodo';
 import { useMediaQuery } from 'src/hooks';
 import { Button } from '../button';
 import { AddIcon } from 'src/icons';
-import { backgroundColor } from 'src/theme';
 
 export const AddTodoModal = ({ addItem, isButton = true }: { addItem: (arg: any) => void; isButton?: boolean }) => {
   const [show, setShow] = useState(false);

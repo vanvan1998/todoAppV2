@@ -1,19 +1,26 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { styles } from './TodoItem.styles';
-import { SubTitle, Title, primaryButton } from 'src/theme';
+import { styles } from './TodoDetailItem.styles';
+import { SubTitle, Title, placeholder, primaryButton } from 'src/theme';
 import { Modal } from 'react-bootstrap';
-import { TodoItemType } from '../../types';
-import { CheckedIcon, DeleteIcon, EditIcon, UnCheckedIcon } from '../../icons';
-import { isEmpty } from 'lodash';
+import { CategoryType, TodoItemType } from '../../types';
+import { DeleteIcon, EditIcon, ImportantIcon, UpcomingIcon, UrgentIcon } from '../../icons';
 import { AddTodo } from '../addTodo';
 import { MODE } from 'src/constants';
 import { Button } from '../button';
 import dayjs from 'dayjs';
-import { useRouter } from 'next/navigation';
+import { isEmpty } from 'lodash';
 
 const Container = styled.div`
   ${styles.container}
+`;
+
+const CategoryWrapper = styled.div<{ color: string }>`
+  ${styles.category}
+`;
+
+const TitleWrapper = styled.div`
+  ${styles.titleWrapper}
 `;
 
 const ActionWrapper = styled.div`
@@ -27,41 +34,67 @@ const RightAction = styled.div`
 const NotificationWrapper = styled.div`
   ${styles.notificationWrapper}
 `;
-interface TodoItemProps {
+
+interface TodoDetailItemProps {
   todo: TodoItemType;
   handleCompleteTodo: (todo: TodoItemType) => void;
   handleDeleteTodo: (id: string) => void;
   handleUpdateTodo: ({ todo, fieldsToUpdate }: { todo: TodoItemType; fieldsToUpdate: Partial<TodoItemType> }) => void;
 }
 
-export const TodoItem = ({ todo, handleCompleteTodo, handleDeleteTodo, handleUpdateTodo }: TodoItemProps) => {
+export const categoryData = {
+  [CategoryType.Urgent]: {
+    color: '#db0f25',
+    text: 'Urgent',
+    icon: <UrgentIcon width={16} height={16} color='#db0f25' style={{ transform: 'rotate(270deg)' }} />
+  },
+  [CategoryType.Important]: {
+    color: '#d28312',
+    text: 'Important',
+    icon: <ImportantIcon width={16} height={16} color='#d28312' />
+  },
+  [CategoryType.Upcoming]: {
+    color: '#475071',
+    text: 'Upcoming',
+    icon: <UpcomingIcon width={16} height={16} color='#475071' />
+  }
+};
+
+export const TodoDetailItem = ({
+  todo,
+  handleCompleteTodo,
+  handleDeleteTodo,
+  handleUpdateTodo
+}: TodoDetailItemProps) => {
   const [isEdit, setIsEdit] = useState(false);
-  const router = useRouter();
 
   const handleCloseEdit = () => {
     setIsEdit(false);
   };
-  const newDetail = !isEmpty(todo.detail) && todo.detail.length > 160 ? `${todo.detail.slice(0, 160)}...` : todo.detail;
 
   return (
     <Container>
-      <Title style={{ fontWeight: 500, paddingBottom: 6 }}>{todo.title}</Title>
+      <TitleWrapper>
+        <Title style={{ fontWeight: 'bold', fontSize: 16, paddingBottom: 6 }}>{todo.title}</Title>
+        <CategoryWrapper color={categoryData[todo.category as CategoryType].color}>
+          {categoryData[todo.category as CategoryType].icon}
+          {categoryData[todo.category as CategoryType].text}
+        </CategoryWrapper>
+      </TitleWrapper>
       {!isEmpty(todo.startDate) ? (
         <NotificationWrapper>
           <Title
-            style={{
-              fontSize: 12,
-              ...(dayjs(`${todo?.startDate} ${todo?.startTime}`).unix() < dayjs().unix()
+            style={
+              dayjs(`${todo?.startDate} ${todo?.startTime}`).unix() < dayjs().unix()
                 ? { color: 'red' }
-                : { color: 'green' })
-            }}
+                : { color: 'green' }
+            }
           >
             Expired time:&nbsp;
           </Title>
           <Title
             style={{
               fontWeight: 'bold',
-              fontSize: 12,
               ...(dayjs(`${todo?.startDate} ${todo?.startTime}`).unix() < dayjs().unix()
                 ? { color: 'red' }
                 : { color: 'green' })
@@ -72,38 +105,27 @@ export const TodoItem = ({ todo, handleCompleteTodo, handleDeleteTodo, handleUpd
           </Title>
         </NotificationWrapper>
       ) : null}
-      <SubTitle style={{ height: 70, width: '100%' }}>{newDetail}</SubTitle>
+      <SubTitle style={{ width: '100%' }}>{todo.detail}</SubTitle>
       <ActionWrapper>
         <Button
-          handleButton={() => {
-            router.push(`/task-detail/${todo.id}`);
-          }}
+          handleButton={() => handleCompleteTodo(todo)}
           styles={{
             minHeight: 26,
             height: 26,
-            padding: 0,
-            backgroundColor: 'transparent',
-            color: primaryButton
+            padding: '0 16px',
+            ...(todo.completed
+              ? {
+                  backgroundColor: 'transparent',
+                  borderRadius: 4,
+                  border: `1px solid ${placeholder}`,
+                  color: primaryButton
+                }
+              : {})
           }}
         >
-          Task details
+          {todo.completed ? 'Reopen' : 'Done'}
         </Button>
         <RightAction>
-          <Button
-            handleButton={() => handleCompleteTodo(todo)}
-            styles={{
-              minHeight: 26,
-              height: 26,
-              padding: 0,
-              backgroundColor: 'transparent'
-            }}
-          >
-            {todo.completed ? (
-              <CheckedIcon color={primaryButton} width={24} height={24} />
-            ) : (
-              <UnCheckedIcon color={primaryButton} width={24} height={24} />
-            )}
-          </Button>
           <Button
             handleButton={() => {
               if (isEdit) {

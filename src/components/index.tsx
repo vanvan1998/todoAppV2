@@ -8,4 +8,5 @@ export { Input } from './input';
 export { Button } from './button';
 export { TitleItem } from './title-item';
 export { TodoList } from './todo-list';
+export { TodoDetailItem } from './todo-detail-item';
 export { Layout, PrivateLayout } from './layout';

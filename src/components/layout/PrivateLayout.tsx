@@ -13,22 +13,20 @@ const Container = styled.div`
   ${styles.container}
 `;
 
-export const PrivateLayout = ({ children }: any) => {
+export const PrivateLayout = ({ children, isPrivate = true }: { children: React.ReactNode; isPrivate?: boolean }) => {
   const { currentUser } = useAuth();
   const router = useRouter();
 
   useEffect(() => {
-    if (!currentUser) {
+    if (isPrivate && !currentUser) {
       router.push('/sign-in');
     }
   }, []);
 
-  return currentUser ? (
+  return (
     <Layout>
       <Header />
       <Container className='justify-content-center'>{children}</Container>
     </Layout>
-  ) : (
-    <></>
   );
 };

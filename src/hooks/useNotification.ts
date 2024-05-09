@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import { useFirebase } from './useFirebase';
 
 export const useNotification = () => {
-  const { todoList, handleUpdateTodo } = useFirebase();
+  const { todoList, todo: todoDetail, handleUpdateTodo } = useFirebase();
 
   useEffect(() => {
     Notification.requestPermission().then(result => {
@@ -15,7 +15,7 @@ export const useNotification = () => {
 
   useEffect(() => {
     const timer = setInterval(async () => {
-      const todo = todoList.find(
+      const todo = (todoDetail ? [...todoList, todoDetail] : todoList).find(
         item => item?.notification && dayjs(`${item?.startDate} ${item?.startTime}`).unix() - dayjs().unix() < 10 * 60
       );
 
@@ -35,5 +35,5 @@ export const useNotification = () => {
     return () => {
       clearInterval(timer);
     };
-  }, [todoList, handleUpdateTodo]);
+  }, [todoList, todoDetail, handleUpdateTodo]);
 };

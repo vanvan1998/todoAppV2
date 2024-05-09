@@ -1,4 +1,3 @@
-import { textColors } from 'src/theme';
 import { css } from 'styled-components';
 
 export const styles = {
@@ -23,5 +22,11 @@ export const styles = {
     display: flex;
     flex-direction: row;
     gap: 8px;
+  `,
+  notificationWrapper: css<{ color: string }>`
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    padding-bottom: 4px;
   `
 };

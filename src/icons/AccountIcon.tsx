@@ -7,8 +7,6 @@ export const AccountIcon = (props: React.JSX.IntrinsicAttributes & React.SVGProp
       fill='white'
       strokeWidth='0'
       viewBox='0 0 24 24'
-      height='30'
-      width='30'
       xmlns='http://www.w3.org/2000/svg'
       {...props}
     >
