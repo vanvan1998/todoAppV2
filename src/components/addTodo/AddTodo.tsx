@@ -241,11 +241,9 @@ export const AddTodo = ({
         <Button
           title='Cancel'
           handleButton={onComplete}
+          buttonType='secondary'
           styles={{
-            flex: 1,
-            backgroundColor: 'white',
-            border: '1px solid #6459e3',
-            color: '#6459e3'
+            flex: 1
           }}
         />
         <Button

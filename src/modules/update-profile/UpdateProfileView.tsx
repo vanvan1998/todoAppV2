@@ -134,7 +134,7 @@ export const UpdateProfileView = () => {
         </Card.Body>
       </Card>
       <div className='w-100 text-center mt-2'>
-        <Link href='/left-menu'>Cancel</Link>
+        <Link href='/'>Cancel</Link>
       </div>
     </div>
   );

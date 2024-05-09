@@ -16,3 +16,4 @@ export * from './AddIcon';
 export * from './SearchIcon';
 export * from './SortIcon';
 export * from './SortClockIcon';
+export * from './ChangePassIcon';

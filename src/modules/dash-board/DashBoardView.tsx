@@ -109,6 +109,7 @@ export const DashBoardView = () => {
             handleCompleteTodo={handleCompleteTodo}
             handleUpdateTodo={handleUpdateTodo}
             handleDeleteTodo={handleDeleteTodoItem}
+            handleAddTodoItem={handleAddTodoItem}
           />
         </ItemWrapper>
         <ItemWrapper>
@@ -118,6 +119,7 @@ export const DashBoardView = () => {
             handleCompleteTodo={handleCompleteTodo}
             handleUpdateTodo={handleUpdateTodo}
             handleDeleteTodo={handleDeleteTodoItem}
+            handleAddTodoItem={handleAddTodoItem}
           />
         </ItemWrapper>
         <ItemWrapper>
@@ -127,6 +129,7 @@ export const DashBoardView = () => {
             handleCompleteTodo={handleCompleteTodo}
             handleUpdateTodo={handleUpdateTodo}
             handleDeleteTodo={handleDeleteTodoItem}
+            handleAddTodoItem={handleAddTodoItem}
           />
         </ItemWrapper>
       </ContentWrapper>

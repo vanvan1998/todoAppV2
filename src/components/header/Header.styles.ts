@@ -23,7 +23,7 @@ export const styles = {
     border-radius: 4px;
     padding: 8px;
     background-color: white;
-    width: 150px;
+    width: 190px;
   `,
   accountTitle: css`
     display: flex;

@@ -18,8 +18,11 @@ export const backgroundColor = '#eff1f9';
 
 export const textColors = {
   textPrimary,
+  secondary,
   textColor,
-  placeholder
+  placeholder,
+  error,
+  success
 };
 
 export const buttonColors = {

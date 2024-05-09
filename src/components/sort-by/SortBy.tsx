@@ -50,10 +50,9 @@ export const SortBy = ({ handleSort, sortType }: { handleSort: (value: string) =
           handleButton={() => {
             setShowLeftMenu(!showLeftMenu);
           }}
+          buttonType='secondary'
           styles={{
-            backgroundColor: 'transparent',
             borderRadius: 4,
-            border: `1px solid ${placeholder}`,
             padding: '0px 12px',
             minHeight: 36
           }}

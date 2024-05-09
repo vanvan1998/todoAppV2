@@ -1,12 +1,12 @@
 'use client';
 import React from 'react';
 import { PrivateLayout } from '../../components';
-import { UpdatePasswordView } from './UpdatePasswordView';
+import { ChangePasswordView } from './ChangePasswordView';
 
-export const UpdatePassword = () => {
+export const ChangePassword = () => {
   return (
     <PrivateLayout>
-      <UpdatePasswordView />
+      <ChangePasswordView />
     </PrivateLayout>
   );
 };

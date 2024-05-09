@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import Link from 'next/link';
-import { HomeIcon, AccountIcon, SignOutIcon } from '../../icons';
+import { HomeIcon, AccountIcon, SignOutIcon, ChangePassIcon } from '../../icons';
 import styled from 'styled-components';
 import { styles } from './Header.styles';
 import { Title, placeholder, secondary, transparent } from 'src/theme';
@@ -32,7 +32,12 @@ export const Header = () => {
 
   const handleToProfile = () => {
     setShowLeftMenu(false);
-    router.push('/left-menu');
+    router.push('/update-profile');
+  };
+
+  const handleToChangePassword = () => {
+    setShowLeftMenu(false);
+    router.push('/change-password');
   };
 
   const handleLogout = async () => {
@@ -93,6 +98,24 @@ export const Header = () => {
                   <AccountTitle>
                     <AccountIcon width={20} fill={secondary} />
                     <Title style={{ textDecoration: 'none' }}>Profile</Title>
+                  </AccountTitle>
+                </Button>
+                <Button
+                  handleButton={handleToChangePassword}
+                  styles={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    gap: 16,
+                    backgroundColor: transparent,
+                    borderBottom: `1px solid ${placeholder}`,
+                    borderRadius: 0,
+                    width: '100%'
+                  }}
+                >
+                  <AccountTitle>
+                    <ChangePassIcon width={18} fill={secondary} />
+                    <Title style={{ textDecoration: 'none' }}>Change password</Title>
                   </AccountTitle>
                 </Button>
                 <Button
