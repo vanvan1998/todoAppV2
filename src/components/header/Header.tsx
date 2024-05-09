@@ -69,8 +69,7 @@ export const Header = () => {
           <HomeIcon fill={secondary} />
         </Link>
         <LeftHeader>
-          <Title style={{ color: secondary }}>Hi {currentUser?.displayName}</Title>
-
+          <Title style={{ color: secondary }}>Hi {currentUser?.displayName || currentUser?.email}</Title>
           <div ref={ref}>
             <Button
               handleButton={() => {

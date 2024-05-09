@@ -1,19 +1,39 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Form, Button, Card, Alert, Image } from 'react-bootstrap';
+import { Form, Image } from 'react-bootstrap';
 import { useAuth } from '../../contexts/AuthContext';
-import Link from 'next/link';
 import { storage } from '../../firebase';
 import { ref, getDownloadURL, uploadBytesResumable } from 'firebase/storage';
+import styled from 'styled-components';
+import { styles } from './UpdateProfileView.styles';
+import { ErrorText, Header, SuccessText, Title, placeholder } from 'src/theme';
+import { useMediaQuery } from 'src/hooks';
+import { Button, Input } from 'src/components';
+import { isEmpty } from 'lodash';
+
+const Container = styled.div`
+  ${styles.Container}
+`;
+
+const HeaderWrapper = styled.div<{ isMobile: boolean }>`
+  ${styles.headerWrapper}
+`;
+
+const ErrorWrapper = styled.div<{ isMobile: boolean }>`
+  ${styles.errorWrapper}
+`;
 
 export const UpdateProfileView = () => {
   const { currentUser, updateProfile } = useAuth();
   const [name, setName] = useState(currentUser.displayName);
   const [imgUrl, setImgUrl] = useState(currentUser.photoURL);
   const [error, setError] = useState('');
+  const [errorName, setErrorName] = useState('');
   const [success, setSuccess] = useState('');
+  const [successName, setSuccessName] = useState('');
   const [loading, setLoading] = useState(false);
+  const { isMobile } = useMediaQuery();
 
   const handleSubmitImage = (e: any) => {
     e.preventDefault();
@@ -32,12 +52,11 @@ export const UpdateProfileView = () => {
         // );
       },
       error => {
-        alert(error);
+        console.log(error);
       },
       () => {
         getDownloadURL(uploadTask.snapshot.ref).then(downloadURL => {
           setImgUrl(downloadURL);
-
           promises.push(updateProfile({ photoURL: downloadURL }));
         });
       }
@@ -45,7 +64,7 @@ export const UpdateProfileView = () => {
 
     Promise.all(promises)
       .then(() => {
-        setSuccess('Update Avatar successfull');
+        setSuccess('Update Avatar successfully');
       })
       .catch(() => {
         setError('Failed to update account');
@@ -60,8 +79,8 @@ export const UpdateProfileView = () => {
 
     const promises = [];
     setLoading(true);
-    setError('');
-    setSuccess('');
+    setErrorName('');
+    setSuccessName('');
 
     // if (email !== currentUser.email) {
     //   promises.push(updateEmail(email));
@@ -72,10 +91,10 @@ export const UpdateProfileView = () => {
 
     Promise.all(promises)
       .then(() => {
-        setSuccess('Update account successfull');
+        setSuccessName('Full name updated successfully');
       })
       .catch(() => {
-        setError('Failed to update account');
+        setErrorName('Failed to update account');
       })
       .finally(() => {
         setLoading(false);
@@ -83,59 +102,74 @@ export const UpdateProfileView = () => {
   };
 
   return (
-    <div className='w-100' style={{ maxWidth: '400px' }}>
-      <Card>
-        <Card.Body>
-          <h2 className='text-center mb-4'>Update Profile</h2>
-          {error && <Alert variant='danger'>{error}</Alert>}
-          {success && <Alert variant='success'>{success}</Alert>}
-          <Form onSubmit={handleSubmitImage}>
-            <Form.Group id='file'>
-              <div className='mb-4 text-center'>
-                {imgUrl && <Image src={imgUrl} alt='uploaded file' height={300} />}
-              </div>
-              <Form.Label>Avatar</Form.Label>
-              <Form.Control type='file' />
-            </Form.Group>
-            <Button className='w-100 mt-4' type='submit'>
-              Update Avatar
-            </Button>
-          </Form>
+    <Container>
+      <HeaderWrapper isMobile={isMobile}>
+        <Header style={{ fontWeight: '600' }}>Profile</Header>
+        <Title>
+          You&apos;re logged in as <Title style={{ fontWeight: 'bold' }}>{currentUser.email}</Title>
+        </Title>
+      </HeaderWrapper>
 
-          <Form onSubmit={handleSubmit}>
-            <Form.Group id='name'>
-              <Form.Label>Full Name</Form.Label>
-              <Form.Control
-                type='text'
-                value={name}
-                onChange={e => {
-                  setName(e.target.value);
-                }}
-                defaultValue={currentUser.email}
-              />
-            </Form.Group>
-            <Form.Group id='email' className='mt-2'>
-              <Form.Label>Email</Form.Label>
-              <Form.Control
-                type='email'
-                value={currentUser.email}
-                disabled
-                // onChange={(e) => {
-                //   setEmail(e.target.value);
-                // }}
-                // required
-                defaultValue={currentUser.email}
-              />
-            </Form.Group>
-            <Button disabled={loading} className='w-100 mt-4' type='submit'>
-              Update
-            </Button>
-          </Form>
-        </Card.Body>
-      </Card>
-      <div className='w-100 text-center mt-2'>
-        <Link href='/'>Cancel</Link>
-      </div>
-    </div>
+      <Form onSubmit={handleSubmitImage} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Form.Group id='file'>
+          <div className='mb-4 text-center'>{imgUrl && <Image src={imgUrl} alt='uploaded file' height={300} />}</div>
+          <Title style={{ padding: '8px 0' }}>Avatar</Title>
+          <Form.Control type='file' />
+        </Form.Group>
+
+        {error && (
+          <ErrorWrapper isMobile={isMobile}>
+            <ErrorText>{error}</ErrorText>
+          </ErrorWrapper>
+        )}
+        {success && (
+          <ErrorWrapper isMobile={isMobile}>
+            <SuccessText>{success}</SuccessText>
+          </ErrorWrapper>
+        )}
+        <Button
+          disabled={loading || isEmpty(name)}
+          title='Update Avatar'
+          handleButton={handleSubmitImage}
+          styles={{
+            marginTop: 8,
+            marginBottom: 16,
+            ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { width: 320 })
+          }}
+        />
+      </Form>
+      <Input
+        title='Full name'
+        value={name}
+        onChange={setName}
+        styles={{ marginBottom: 8, marginTop: 32 }}
+        placeholder='Enter your full name...'
+        inputStyles={{
+          ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { minHeight: 48, minWidth: 320 }),
+          border: `1px solid ${placeholder}`,
+          backgroundColor: '#fefeff'
+        }}
+      />
+      {errorName && (
+        <ErrorWrapper isMobile={isMobile}>
+          <ErrorText>{errorName}</ErrorText>
+        </ErrorWrapper>
+      )}
+      {successName && (
+        <ErrorWrapper isMobile={isMobile}>
+          <SuccessText>{successName}</SuccessText>
+        </ErrorWrapper>
+      )}
+      <Button
+        disabled={loading || isEmpty(name)}
+        title='Update'
+        handleButton={handleSubmit}
+        styles={{
+          marginTop: 8,
+          marginBottom: 16,
+          ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { width: 320 })
+        }}
+      />
+    </Container>
   );
 };

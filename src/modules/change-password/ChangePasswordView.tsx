@@ -2,10 +2,9 @@
 
 import React, { useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import { useRouter } from 'next/navigation';
 import styled from 'styled-components';
 import { styles } from './ChangePassword.styles';
-import { ErrorText, Header, PlaceholderTitle, Title, placeholder } from 'src/theme';
+import { ErrorText, Header, PlaceholderTitle, SuccessText, Title, placeholder } from 'src/theme';
 import { Button, Input } from 'src/components';
 import { useMediaQuery } from 'src/hooks';
 import { isEmpty } from 'lodash';
@@ -31,8 +30,8 @@ export const ChangePasswordView = () => {
   const [passwordConfirm, setPasswordConfirm] = useState('');
   const { currentUser, updatePassword } = useAuth();
   const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
   const [loading, setLoading] = useState(false);
-  const router = useRouter();
   const { isMobile } = useMediaQuery();
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
@@ -44,13 +43,14 @@ export const ChangePasswordView = () => {
     const promises = [];
     setLoading(true);
     setError('');
+    setSuccess('');
     if (password) {
       promises.push(updatePassword(password) as never);
     }
 
     Promise.all(promises)
       .then(() => {
-        router.push('/');
+        setSuccess('Password updated successfully');
       })
       .catch(() => {
         setError('Failed to update account');
@@ -98,6 +98,11 @@ export const ChangePasswordView = () => {
             backgroundColor: '#fefeff'
           }}
         />
+        {success && (
+          <ErrorWrapper isMobile={isMobile}>
+            <SuccessText>{success}</SuccessText>
+          </ErrorWrapper>
+        )}
         {error && (
           <ErrorWrapper isMobile={isMobile}>
             <ErrorText>{error}</ErrorText>

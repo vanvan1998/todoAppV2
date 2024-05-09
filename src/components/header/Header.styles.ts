@@ -14,7 +14,7 @@ export const styles = {
     position: relative;
     flex-direction: row;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
   `,
   leftMenu: css`
     position: absolute;
