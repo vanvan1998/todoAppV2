@@ -32,9 +32,18 @@ interface TodoItemProps {
   handleCompleteTodo: (todo: TodoItemType) => void;
   handleDeleteTodo: (id: string) => void;
   handleUpdateTodo: ({ todo, fieldsToUpdate }: { todo: TodoItemType; fieldsToUpdate: Partial<TodoItemType> }) => void;
+  onDragStart: (e, todo) => void;
+  onDragEnd: () => void;
 }
 
-export const TodoItem = ({ todo, handleCompleteTodo, handleDeleteTodo, handleUpdateTodo }: TodoItemProps) => {
+export const TodoItem = ({
+  todo,
+  handleCompleteTodo,
+  handleDeleteTodo,
+  handleUpdateTodo,
+  onDragStart,
+  onDragEnd
+}: TodoItemProps) => {
   const [isEdit, setIsEdit] = useState(false);
   const router = useRouter();
 
@@ -44,7 +53,7 @@ export const TodoItem = ({ todo, handleCompleteTodo, handleDeleteTodo, handleUpd
   const newDetail = !isEmpty(todo.detail) && todo.detail.length > 160 ? `${todo.detail.slice(0, 160)}...` : todo.detail;
 
   return (
-    <Container>
+    <Container id={todo.id} draggable onDragStart={e => onDragStart(e, todo)} onDragEnd={onDragEnd}>
       <Title style={{ fontWeight: 500, paddingBottom: 6 }}>{todo.title}</Title>
       {!isEmpty(todo.startDate) ? (
         <NotificationWrapper>

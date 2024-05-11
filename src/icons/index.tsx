@@ -17,3 +17,4 @@ export * from './SearchIcon';
 export * from './SortIcon';
 export * from './SortClockIcon';
 export * from './ChangePassIcon';
+export * from './GoogleIcon';

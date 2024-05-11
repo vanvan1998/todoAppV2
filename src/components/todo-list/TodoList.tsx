@@ -9,22 +9,30 @@ const Container = styled.div`
   ${styles.container}
 `;
 interface TodoListProps {
+  todoListCategoryType: number;
   todoList: TodoItemType[];
   handleCompleteTodo: (todo: TodoItemType) => void;
   handleDeleteTodo: (id: string) => void;
   handleAddTodoItem: (arg: any) => void;
   handleUpdateTodo: ({ todo, fieldsToUpdate }: { todo: TodoItemType; fieldsToUpdate: Partial<TodoItemType> }) => void;
+  onDragStart: (e, todo) => void;
+  onDragOver: (todoListCategoryType) => void;
+  onDragEnd: () => void;
 }
 
 export const TodoList = ({
+  todoListCategoryType,
   todoList,
   handleCompleteTodo,
   handleDeleteTodo,
   handleUpdateTodo,
-  handleAddTodoItem
+  handleAddTodoItem,
+  onDragStart,
+  onDragOver,
+  onDragEnd
 }: TodoListProps) => {
   return (
-    <Container>
+    <Container onDragOver={() => onDragOver(todoListCategoryType)}>
       {todoList.map(todo => (
         <TodoItem
           key={todo.id}
@@ -32,6 +40,8 @@ export const TodoList = ({
           handleCompleteTodo={handleCompleteTodo}
           handleDeleteTodo={handleDeleteTodo}
           handleUpdateTodo={handleUpdateTodo}
+          onDragStart={onDragStart}
+          onDragEnd={onDragEnd}
         />
       ))}
       <AddTodoModal isButton={false} addItem={handleAddTodoItem} />

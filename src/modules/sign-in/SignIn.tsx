@@ -11,6 +11,8 @@ import { ErrorText, Header, PlaceholderTitle } from 'src/theme';
 import { Button, Input } from 'src/components';
 import { useMediaQuery } from 'src/hooks';
 import { isEmpty } from 'lodash';
+import { signInWithGoogle } from 'src/firebase';
+import { GoogleIcon } from 'src/icons';
 
 const Container = styled.div<{ isMobile: boolean }>`
   ${styles.container}
@@ -87,6 +89,22 @@ export const SignIn = () => {
             ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { width: 320 })
           }}
         />
+        <Button
+          buttonType='secondary'
+          title='Sign in with google'
+          handleButton={signInWithGoogle}
+          styles={{
+            marginTop: 32,
+            marginBottom: 16,
+            alignItems: 'center',
+            justifyContent: 'center',
+            display: 'flex',
+            gap: 8,
+            ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { width: 320 })
+          }}
+        >
+          <GoogleIcon width={18} />
+        </Button>
         <LinkWrapper>
           <Link href='/forgot-password'>Forgot Password?</Link>
         </LinkWrapper>

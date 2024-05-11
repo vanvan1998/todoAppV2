@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import dayjs from 'dayjs';
 import { isEmpty } from 'lodash';
 import { Search, AddTodoModal, SortBy, TitleItem, TodoList } from '../../components';
@@ -85,6 +85,33 @@ export const DashBoardView = () => {
     upcoming: todoList.filter(todo => todo.category === CategoryType.Upcoming)
   };
 
+  const draggedItemRef = useRef<TodoItemType>();
+  const todoListCategoryTypeRef = useRef();
+
+  const onDragStart = (e, todo) => {
+    draggedItemRef.current = todo;
+    e.dataTransfer.effectAllowed = 'move';
+  };
+
+  const onDragOver = todoListCategoryType => {
+    todoListCategoryTypeRef.current = todoListCategoryType;
+  };
+
+  const onDragEnd = async () => {
+    if (!draggedItemRef.current || draggedItemRef.current.category === todoListCategoryTypeRef.current) {
+      return;
+    }
+
+    await handleUpdateTodo({
+      todo: draggedItemRef.current,
+      fieldsToUpdate: {
+        category: todoListCategoryTypeRef.current
+      }
+    });
+
+    draggedItemRef.current = undefined;
+  };
+
   return (
     <Container>
       <HeaderWrapper isMobile={isMobile}>
@@ -105,31 +132,43 @@ export const DashBoardView = () => {
         <ItemWrapper>
           <TitleItem title='URGENT' color='#e75565' count={groupTodoList.urgent.length} />
           <TodoList
+            todoListCategoryType={CategoryType.Urgent}
             todoList={groupTodoList.urgent}
             handleCompleteTodo={handleCompleteTodo}
             handleUpdateTodo={handleUpdateTodo}
             handleDeleteTodo={handleDeleteTodoItem}
             handleAddTodoItem={handleAddTodoItem}
+            onDragStart={onDragStart}
+            onDragOver={onDragOver}
+            onDragEnd={onDragEnd}
           />
         </ItemWrapper>
         <ItemWrapper>
           <TitleItem title='IMPORTANT' color='#6459e3' count={groupTodoList.important.length} />
           <TodoList
+            todoListCategoryType={CategoryType.Important}
             todoList={groupTodoList.important}
             handleCompleteTodo={handleCompleteTodo}
             handleUpdateTodo={handleUpdateTodo}
             handleDeleteTodo={handleDeleteTodoItem}
             handleAddTodoItem={handleAddTodoItem}
+            onDragStart={onDragStart}
+            onDragOver={onDragOver}
+            onDragEnd={onDragEnd}
           />
         </ItemWrapper>
         <ItemWrapper>
           <TitleItem title='UPCOMING' color='#24c5f5' count={groupTodoList.upcoming.length} />
           <TodoList
+            todoListCategoryType={CategoryType.Upcoming}
             todoList={groupTodoList.upcoming}
             handleCompleteTodo={handleCompleteTodo}
             handleUpdateTodo={handleUpdateTodo}
             handleDeleteTodo={handleDeleteTodoItem}
             handleAddTodoItem={handleAddTodoItem}
+            onDragStart={onDragStart}
+            onDragOver={onDragOver}
+            onDragEnd={onDragEnd}
           />
         </ItemWrapper>
       </ContentWrapper>
