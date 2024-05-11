@@ -30,7 +30,7 @@ export const Input = ({
 }: InputProps) => {
   return (
     <div style={styles}>
-      {title ? <Title style={titleStyles}>{title}</Title> : <></>}
+      <Title style={titleStyles}>{title}</Title>
       <InputStyled
         type={inputType}
         value={value}

@@ -50,6 +50,7 @@ export const SortBy = ({ handleSort, sortType }: { handleSort: (value: string) =
           handleButton={() => {
             setShowLeftMenu(!showLeftMenu);
           }}
+          testId='sort-by-button'
           buttonType='secondary'
           styles={{
             borderRadius: 4,

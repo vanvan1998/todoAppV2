@@ -3,7 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from 'src/contexts/AuthContext';
 import { Header } from '../header';
 import { Layout } from './Layout';
 import styled from 'styled-components';

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from 'src/contexts/AuthContext';
 import Link from 'next/link';
 import { HomeIcon, AccountIcon, SignOutIcon, ChangePassIcon } from '../../icons';
 import styled from 'styled-components';
@@ -76,6 +76,7 @@ export const Header = () => {
                 currentUser ? setShowLeftMenu(!showLeftMenu) : router.push('/sign-in');
               }}
               styles={{ backgroundColor: 'transparent' }}
+              testId='account-button'
             >
               {currentUser ? (
                 <AccountIcon width={24} fill={secondary} />

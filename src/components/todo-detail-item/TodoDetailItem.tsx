@@ -122,6 +122,7 @@ export const TodoDetailItem = ({
                 }
               : {})
           }}
+          testId='complete-todo-button'
         >
           {todo.completed ? 'Reopen' : 'Done'}
         </Button>
@@ -143,6 +144,7 @@ export const TodoDetailItem = ({
               display: 'flex',
               alignItems: 'center'
             }}
+            testId='edit-todo-button'
           >
             <EditIcon color={primaryButton} width={16} height={16} />
           </Button>
@@ -157,6 +159,7 @@ export const TodoDetailItem = ({
               display: 'flex',
               alignItems: 'center'
             }}
+            testId='delete-todo-button'
           >
             <DeleteIcon color={primaryButton} width={16} height={16} />
           </Button>

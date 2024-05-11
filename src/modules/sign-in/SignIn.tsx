@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from 'src/contexts/AuthContext';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { Layout } from '../../components';
@@ -11,7 +11,6 @@ import { ErrorText, Header, PlaceholderTitle } from 'src/theme';
 import { Button, Input } from 'src/components';
 import { useMediaQuery } from 'src/hooks';
 import { isEmpty } from 'lodash';
-import { signInWithGoogle } from 'src/firebase';
 import { GoogleIcon } from 'src/icons';
 
 const Container = styled.div<{ isMobile: boolean }>`
@@ -29,7 +28,7 @@ const ErrorWrapper = styled.div<{ isMobile: boolean }>`
 export const SignIn = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const { signIn, currentUser } = useAuth();
+  const { signIn, currentUser, signInWithGoogle } = useAuth();
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const router = useRouter();

@@ -1,0 +1,757 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body
+    class="modal-open"
+    data-rr-ui-modal-open=""
+    style="padding-right: 1024px;"
+  >
+    <div>
+      <div
+        class="sc-gXSDep gJDjCe"
+      >
+        <div
+          class="sc-cCYzbQ eCWQQc"
+        >
+          <div
+            class="sc-beqWNU hnIjJd"
+            style="font-weight: 600;"
+          >
+            Task Details
+          </div>
+          <div
+            class="sc-gueXAH gRHGwY"
+          >
+            This task belongs to 
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="font-weight: bold;"
+            >
+              nguyensivan1998+102@gmail.com
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-gjTHFV cTcOTr"
+        >
+          <div
+            class="sc-bZPOSD fvQZo"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
+            >
+              333333
+            </div>
+            <div
+              class="sc-eACxAu fMaGsu"
+              color="#d28312"
+            >
+              <svg
+                color="#d28312"
+                fill="currentColor"
+                height="16"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.01 21.01c0 1.1.89 1.99 1.99 1.99s1.99-.89 1.99-1.99h-3.98zM12 6c2.76 0 5 2.24 5 5v7H7v-7c0-2.76 2.24-5 5-5zm0-4.5c-.83 0-1.5.67-1.5 1.5v1.17C7.36 4.85 5 7.65 5 11v6l-2 2v1h18v-1l-2-2v-6c0-3.35-2.36-6.15-5.5-6.83V3c0-.83-.67-1.5-1.5-1.5zM11 8h2v4h-2zm0 6h2v2h-2z"
+                />
+              </svg>
+              Important
+            </div>
+          </div>
+          <div
+            class="sc-jItppe eaoklu"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: red;"
+            >
+              Expired time: 
+            </div>
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="font-weight: bold; color: red;"
+            >
+              05/10/2024
+               
+              01:00:21
+            </div>
+          </div>
+          <div
+            class="sc-hLseSp fDeqZQ"
+            style="width: 100%;"
+          >
+            3333333
+          </div>
+          <div
+            class="sc-kMrIKE cJOEGp"
+          >
+            <button
+              buttontype="primary"
+              class="sc-gLDymS dItXMH"
+              data-testid="complete-todo-button"
+              style="min-height: 26px; height: 26px; padding: 0px 16px;"
+              type="button"
+            >
+              Done
+            </button>
+            <div
+              class="sc-ilFacN buTuHI"
+            >
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                data-testid="edit-todo-button"
+                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                type="button"
+              >
+                <svg
+                  color="#6459e3"
+                  fill="currentColor"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z"
+                  />
+                </svg>
+              </button>
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                data-testid="delete-todo-button"
+                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                type="button"
+              >
+                <svg
+                  color="#6459e3"
+                  fill="currentColor"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM13.4142 13.9997L15.182 15.7675L13.7678 17.1817L12 15.4139L10.2322 17.1817L8.81802 15.7675L10.5858 13.9997L8.81802 12.232L10.2322 10.8178L12 12.5855L13.7678 10.8178L15.182 12.232L13.4142 13.9997ZM9 4V6H15V4H9Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="fade modal-backdrop show"
+    />
+    <div
+      aria-modal="true"
+      class="fade modal show"
+      role="dialog"
+      style="width: 100%; height: 100vh; padding-top: 20px; display: block; padding-right: 0px;"
+      tabindex="-1"
+    >
+      <div
+        class="modal-dialog"
+      >
+        <div
+          class="modal-content"
+        >
+          <div
+            class="sc-fsQjcA jVeHvD"
+          >
+            <div
+              class="sc-qRuZU lcwWSj"
+            >
+              <div
+                class="sc-gueXAH hWXdbp"
+                styles="font-size: 20px; font-weight: 600;"
+              >
+                Update Task Todo
+              </div>
+              <div
+                class="sc-jsMaUZ kfzPNd"
+              />
+            </div>
+            <div
+              style="margin-bottom: 16px;"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="font-size: 14px; font-weight: 500;"
+              >
+                Title Task
+              </div>
+              <input
+                class="sc-iAEzLF gTKcTi"
+                placeholder="Enter new task todo..."
+                style="max-width: 438px; min-width: 294px; width: 100%;"
+                type="text"
+                value="333333"
+              />
+            </div>
+            <div
+              class="sc-gueXAH bAvcGT"
+              styles="font-weight: 500; margin-bottom: 8px;"
+            >
+              Category
+            </div>
+            <div
+              class="sc-kFuvnu dtTRrU"
+            >
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h96c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-96zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                  />
+                </svg>
+                Upcoming
+              </button>
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
+                type="button"
+              >
+                <svg
+                  color="#d28312"
+                  fill="currentColor"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.01 21.01c0 1.1.89 1.99 1.99 1.99s1.99-.89 1.99-1.99h-3.98zM12 6c2.76 0 5 2.24 5 5v7H7v-7c0-2.76 2.24-5 5-5zm0-4.5c-.83 0-1.5.67-1.5 1.5v1.17C7.36 4.85 5 7.65 5 11v6l-2 2v1h18v-1l-2-2v-6c0-3.35-2.36-6.15-5.5-6.83V3c0-.83-.67-1.5-1.5-1.5zM11 8h2v4h-2zm0 6h2v2h-2z"
+                  />
+                </svg>
+                Important
+              </button>
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
+                type="button"
+              >
+                <svg
+                  color="#db0f25"
+                  fill="currentColor"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="transform: rotate(270deg);"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0h24v24H0V0z"
+                    fill="none"
+                  />
+                  <path
+                    d="m3.5 18.99 11 .01c.67 0 1.27-.33 1.63-.84L20.5 12l-4.37-6.16c-.36-.51-.96-.84-1.63-.84l-11 .01L8.34 12 3.5 18.99z"
+                  />
+                </svg>
+                Urgent
+              </button>
+            </div>
+            <div
+              class="sc-gueXAH bAvcGT"
+              styles="font-weight: 500; margin-bottom: 8px;"
+            >
+              Description
+            </div>
+            <textarea
+              class="sc-fbJSV liFuaL"
+              placeholder="Enter description..."
+            >
+              3333333
+            </textarea>
+            <div
+              class="sc-irTrJD dQTfHZ"
+            >
+              <div
+                class="sc-gueXAH hmBKDZ"
+                styles="font-size: 14px; font-weight: 500;"
+              >
+                Notification
+              </div>
+              <div
+                class="form-check form-switch"
+              >
+                <input
+                  checked=""
+                  class="form-check-input"
+                  id="flexSwitchCheckDefault"
+                  role="switch"
+                  style="width: 40px; height: 20px;"
+                  type="checkbox"
+                />
+              </div>
+            </div>
+            <div
+              class="sc-csCNwM gNPNHg"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root css-z3c6am-MuiFormControl-root-MuiTextField-root"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    autocomplete="off"
+                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
+                    id=":r0:"
+                    inputmode="text"
+                    placeholder="hh:mm aa"
+                    type="text"
+                    value="01:00 AM"
+                  />
+                  <div
+                    class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1laqsz7-MuiInputAdornment-root"
+                  >
+                    <button
+                      aria-label="Choose time, selected time is 1:00 AM"
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ClockIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                        <path
+                          d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                        />
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-ihdtdm"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <div
+                class="MuiFormControl-root MuiTextField-root css-z3c6am-MuiFormControl-root-MuiTextField-root"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    autocomplete="off"
+                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
+                    id=":r2:"
+                    inputmode="text"
+                    placeholder="MM/DD/YYYY"
+                    type="text"
+                    value="05/10/2024"
+                  />
+                  <div
+                    class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1laqsz7-MuiInputAdornment-root"
+                  >
+                    <button
+                      aria-label="Choose date, selected date is May 10, 2024"
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="CalendarIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"
+                        />
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-ihdtdm"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-brKelq eBpLhd"
+            >
+              <button
+                buttontype="secondary"
+                class="sc-gLDymS jcdnJc"
+                style="flex: 1;"
+                type="button"
+              >
+                Cancel
+              </button>
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                style="flex: 1;"
+                type="button"
+              >
+                Update
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gXSDep gJDjCe"
+    >
+      <div
+        class="sc-cCYzbQ eCWQQc"
+      >
+        <div
+          class="sc-beqWNU hnIjJd"
+          style="font-weight: 600;"
+        >
+          Task Details
+        </div>
+        <div
+          class="sc-gueXAH gRHGwY"
+        >
+          This task belongs to 
+          <div
+            class="sc-gueXAH gRHGwY"
+            style="font-weight: bold;"
+          >
+            nguyensivan1998+102@gmail.com
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-gjTHFV cTcOTr"
+      >
+        <div
+          class="sc-bZPOSD fvQZo"
+        >
+          <div
+            class="sc-gueXAH gRHGwY"
+            style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
+          >
+            333333
+          </div>
+          <div
+            class="sc-eACxAu fMaGsu"
+            color="#d28312"
+          >
+            <svg
+              color="#d28312"
+              fill="currentColor"
+              height="16"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.01 21.01c0 1.1.89 1.99 1.99 1.99s1.99-.89 1.99-1.99h-3.98zM12 6c2.76 0 5 2.24 5 5v7H7v-7c0-2.76 2.24-5 5-5zm0-4.5c-.83 0-1.5.67-1.5 1.5v1.17C7.36 4.85 5 7.65 5 11v6l-2 2v1h18v-1l-2-2v-6c0-3.35-2.36-6.15-5.5-6.83V3c0-.83-.67-1.5-1.5-1.5zM11 8h2v4h-2zm0 6h2v2h-2z"
+              />
+            </svg>
+            Important
+          </div>
+        </div>
+        <div
+          class="sc-jItppe eaoklu"
+        >
+          <div
+            class="sc-gueXAH gRHGwY"
+            style="color: red;"
+          >
+            Expired time: 
+          </div>
+          <div
+            class="sc-gueXAH gRHGwY"
+            style="font-weight: bold; color: red;"
+          >
+            05/10/2024
+             
+            01:00:21
+          </div>
+        </div>
+        <div
+          class="sc-hLseSp fDeqZQ"
+          style="width: 100%;"
+        >
+          3333333
+        </div>
+        <div
+          class="sc-kMrIKE cJOEGp"
+        >
+          <button
+            buttontype="primary"
+            class="sc-gLDymS dItXMH"
+            data-testid="complete-todo-button"
+            style="min-height: 26px; height: 26px; padding: 0px 16px;"
+            type="button"
+          >
+            Done
+          </button>
+          <div
+            class="sc-ilFacN buTuHI"
+          >
+            <button
+              buttontype="primary"
+              class="sc-gLDymS dItXMH"
+              data-testid="edit-todo-button"
+              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+              type="button"
+            >
+              <svg
+                color="#6459e3"
+                fill="currentColor"
+                height="16"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z"
+                />
+              </svg>
+            </button>
+            <button
+              buttontype="primary"
+              class="sc-gLDymS dItXMH"
+              data-testid="delete-todo-button"
+              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+              type="button"
+            >
+              <svg
+                color="#6459e3"
+                fill="currentColor"
+                height="16"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM13.4142 13.9997L15.182 15.7675L13.7678 17.1817L12 15.4139L10.2322 17.1817L8.81802 15.7675L10.5858 13.9997L8.81802 12.232L10.2322 10.8178L12 12.5855L13.7678 10.8178L15.182 12.232L13.4142 13.9997ZM9 4V6H15V4H9Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`TaskDetailView renders TaskDetailView with mobile view 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-jegwpa gPhanV"
+      >
+        <img
+          alt="No task found"
+          class="sc-cjEQSD jLfEeV"
+          src="/img.jpg"
+        />
+        <div
+          class="sc-gueXAH gRHGwY"
+          style="font-size: 24px; color: rgb(159, 160, 174);"
+        >
+          Task is not found
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-jegwpa gPhanV"
+    >
+      <img
+        alt="No task found"
+        class="sc-cjEQSD jLfEeV"
+        src="/img.jpg"
+      />
+      <div
+        class="sc-gueXAH gRHGwY"
+        style="font-size: 24px; color: rgb(159, 160, 174);"
+      >
+        Task is not found
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

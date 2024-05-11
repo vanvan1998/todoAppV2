@@ -1,0 +1,1075 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gXSDep gJDjCe"
+      >
+        <div
+          class="sc-cCYzbQ dQVKuB"
+        >
+          <div
+            class="sc-beqWNU hnIjJd"
+            style="font-weight: 600;"
+          >
+            My Tasks
+          </div>
+          <div
+            class="sc-cjEQSD iRIWpE"
+          >
+            <div
+              class="sc-fLQSqU jgBzhc"
+            >
+              <div>
+                <button
+                  buttontype="secondary"
+                  class="sc-gLDymS jcdnJc"
+                  data-testid="sort-by-button"
+                  style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.293 4.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1-1.414 1.414L8 7.414V19a1 1 0 1 1-2 0V7.414L3.707 9.707a1 1 0 0 1-1.414-1.414l4-4zM16 16.586V5a1 1 0 1 1 2 0v11.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 1.414-1.414L16 16.586z"
+                      fill="#6459e3"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div>
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
+                type="button"
+              >
+                Add new task
+                <svg
+                  fill="currentColor"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <form>
+          <div
+            class="sc-ktEKgv lofJrt"
+          >
+            <svg
+              fill="currentColor"
+              height="18"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M456.69 421.39 362.6 327.3a173.81 173.81 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3zM97.92 222.72a124.8 124.8 0 1 1 124.8 124.8 124.95 124.95 0 0 1-124.8-124.8z"
+              />
+            </svg>
+            <input
+              class="sc-hAtFlw ixaysd"
+              placeholder="Search..."
+              type="text"
+              value=""
+            />
+          </div>
+        </form>
+        <div
+          class="sc-jegwpa fgYUGg"
+        >
+          <div
+            class="sc-cbemKB eaxZdw"
+          >
+            <div
+              class="sc-cyRfdC hzOmwF"
+              color="#e75565"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="color: rgb(231, 85, 101); font-weight: 500;"
+              >
+                URGENT
+              </div>
+              <div
+                class="sc-lnAfUH YXUzc"
+                color="#e75565"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="sc-iKGqnM bAjscv"
+            >
+              <div>
+                <button
+                  buttontype="secondary"
+                  class="sc-gLDymS jcdnJc"
+                  style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                  type="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="32"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-cbemKB eaxZdw"
+          >
+            <div
+              class="sc-cyRfdC kdJjyo"
+              color="#6459e3"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="color: rgb(100, 89, 227); font-weight: 500;"
+              >
+                IMPORTANT
+              </div>
+              <div
+                class="sc-lnAfUH fOEoeM"
+                color="#6459e3"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="sc-iKGqnM bAjscv"
+            >
+              <div>
+                <button
+                  buttontype="secondary"
+                  class="sc-gLDymS jcdnJc"
+                  style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                  type="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="32"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-cbemKB eaxZdw"
+          >
+            <div
+              class="sc-cyRfdC ixKcwn"
+              color="#24c5f5"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="color: rgb(36, 197, 245); font-weight: 500;"
+              >
+                UPCOMING
+              </div>
+              <div
+                class="sc-lnAfUH gQOOSg"
+                color="#24c5f5"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="sc-iKGqnM bAjscv"
+            >
+              <div>
+                <button
+                  buttontype="secondary"
+                  class="sc-gLDymS jcdnJc"
+                  style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                  type="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="32"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gXSDep gJDjCe"
+    >
+      <div
+        class="sc-cCYzbQ dQVKuB"
+      >
+        <div
+          class="sc-beqWNU hnIjJd"
+          style="font-weight: 600;"
+        >
+          My Tasks
+        </div>
+        <div
+          class="sc-cjEQSD iRIWpE"
+        >
+          <div
+            class="sc-fLQSqU jgBzhc"
+          >
+            <div>
+              <button
+                buttontype="secondary"
+                class="sc-gLDymS jcdnJc"
+                data-testid="sort-by-button"
+                style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.293 4.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1-1.414 1.414L8 7.414V19a1 1 0 1 1-2 0V7.414L3.707 9.707a1 1 0 0 1-1.414-1.414l4-4zM16 16.586V5a1 1 0 1 1 2 0v11.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 1.414-1.414L16 16.586z"
+                    fill="#6459e3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div>
+            <button
+              buttontype="primary"
+              class="sc-gLDymS dItXMH"
+              style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
+              type="button"
+            >
+              Add new task
+              <svg
+                fill="currentColor"
+                height="16"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <form>
+        <div
+          class="sc-ktEKgv lofJrt"
+        >
+          <svg
+            fill="currentColor"
+            height="18"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M456.69 421.39 362.6 327.3a173.81 173.81 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3zM97.92 222.72a124.8 124.8 0 1 1 124.8 124.8 124.95 124.95 0 0 1-124.8-124.8z"
+            />
+          </svg>
+          <input
+            class="sc-hAtFlw ixaysd"
+            placeholder="Search..."
+            type="text"
+            value=""
+          />
+        </div>
+      </form>
+      <div
+        class="sc-jegwpa fgYUGg"
+      >
+        <div
+          class="sc-cbemKB eaxZdw"
+        >
+          <div
+            class="sc-cyRfdC hzOmwF"
+            color="#e75565"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: rgb(231, 85, 101); font-weight: 500;"
+            >
+              URGENT
+            </div>
+            <div
+              class="sc-lnAfUH YXUzc"
+              color="#e75565"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="sc-iKGqnM bAjscv"
+          >
+            <div>
+              <button
+                buttontype="secondary"
+                class="sc-gLDymS jcdnJc"
+                style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="32"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-cbemKB eaxZdw"
+        >
+          <div
+            class="sc-cyRfdC kdJjyo"
+            color="#6459e3"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: rgb(100, 89, 227); font-weight: 500;"
+            >
+              IMPORTANT
+            </div>
+            <div
+              class="sc-lnAfUH fOEoeM"
+              color="#6459e3"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="sc-iKGqnM bAjscv"
+          >
+            <div>
+              <button
+                buttontype="secondary"
+                class="sc-gLDymS jcdnJc"
+                style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="32"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-cbemKB eaxZdw"
+        >
+          <div
+            class="sc-cyRfdC ixKcwn"
+            color="#24c5f5"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: rgb(36, 197, 245); font-weight: 500;"
+            >
+              UPCOMING
+            </div>
+            <div
+              class="sc-lnAfUH gQOOSg"
+              color="#24c5f5"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="sc-iKGqnM bAjscv"
+          >
+            <div>
+              <button
+                buttontype="secondary"
+                class="sc-gLDymS jcdnJc"
+                style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="32"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gXSDep gJDjCe"
+      >
+        <div
+          class="sc-cCYzbQ dQVKuB"
+        >
+          <div
+            class="sc-beqWNU hnIjJd"
+            style="font-weight: 600;"
+          >
+            My Tasks
+          </div>
+          <div
+            class="sc-cjEQSD iRIWpE"
+          >
+            <div
+              class="sc-fLQSqU jgBzhc"
+            >
+              <div>
+                <button
+                  buttontype="secondary"
+                  class="sc-gLDymS jcdnJc"
+                  data-testid="sort-by-button"
+                  style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
+                  type="button"
+                >
+                  <svg
+                    fill="none"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.293 4.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1-1.414 1.414L8 7.414V19a1 1 0 1 1-2 0V7.414L3.707 9.707a1 1 0 0 1-1.414-1.414l4-4zM16 16.586V5a1 1 0 1 1 2 0v11.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 1.414-1.414L16 16.586z"
+                      fill="#6459e3"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div>
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
+                type="button"
+              >
+                Add new task
+                <svg
+                  fill="currentColor"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <form>
+          <div
+            class="sc-ktEKgv lofJrt"
+          >
+            <svg
+              fill="currentColor"
+              height="18"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M456.69 421.39 362.6 327.3a173.81 173.81 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3zM97.92 222.72a124.8 124.8 0 1 1 124.8 124.8 124.95 124.95 0 0 1-124.8-124.8z"
+              />
+            </svg>
+            <input
+              class="sc-hAtFlw ixaysd"
+              placeholder="Search..."
+              type="text"
+              value=""
+            />
+          </div>
+        </form>
+        <div
+          class="sc-jegwpa fgYUGg"
+        >
+          <div
+            class="sc-cbemKB eaxZdw"
+          >
+            <div
+              class="sc-cyRfdC hzOmwF"
+              color="#e75565"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="color: rgb(231, 85, 101); font-weight: 500;"
+              >
+                URGENT
+              </div>
+              <div
+                class="sc-lnAfUH YXUzc"
+                color="#e75565"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="sc-iKGqnM bAjscv"
+            >
+              <div>
+                <button
+                  buttontype="secondary"
+                  class="sc-gLDymS jcdnJc"
+                  style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                  type="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="32"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-cbemKB eaxZdw"
+          >
+            <div
+              class="sc-cyRfdC kdJjyo"
+              color="#6459e3"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="color: rgb(100, 89, 227); font-weight: 500;"
+              >
+                IMPORTANT
+              </div>
+              <div
+                class="sc-lnAfUH fOEoeM"
+                color="#6459e3"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="sc-iKGqnM bAjscv"
+            >
+              <div>
+                <button
+                  buttontype="secondary"
+                  class="sc-gLDymS jcdnJc"
+                  style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                  type="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="32"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-cbemKB eaxZdw"
+          >
+            <div
+              class="sc-cyRfdC ixKcwn"
+              color="#24c5f5"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="color: rgb(36, 197, 245); font-weight: 500;"
+              >
+                UPCOMING
+              </div>
+              <div
+                class="sc-lnAfUH gQOOSg"
+                color="#24c5f5"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="sc-iKGqnM bAjscv"
+            >
+              <div>
+                <button
+                  buttontype="secondary"
+                  class="sc-gLDymS jcdnJc"
+                  style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                  type="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="32"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gXSDep gJDjCe"
+    >
+      <div
+        class="sc-cCYzbQ dQVKuB"
+      >
+        <div
+          class="sc-beqWNU hnIjJd"
+          style="font-weight: 600;"
+        >
+          My Tasks
+        </div>
+        <div
+          class="sc-cjEQSD iRIWpE"
+        >
+          <div
+            class="sc-fLQSqU jgBzhc"
+          >
+            <div>
+              <button
+                buttontype="secondary"
+                class="sc-gLDymS jcdnJc"
+                data-testid="sort-by-button"
+                style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.293 4.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1-1.414 1.414L8 7.414V19a1 1 0 1 1-2 0V7.414L3.707 9.707a1 1 0 0 1-1.414-1.414l4-4zM16 16.586V5a1 1 0 1 1 2 0v11.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 1.414-1.414L16 16.586z"
+                    fill="#6459e3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div>
+            <button
+              buttontype="primary"
+              class="sc-gLDymS dItXMH"
+              style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
+              type="button"
+            >
+              Add new task
+              <svg
+                fill="currentColor"
+                height="16"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <form>
+        <div
+          class="sc-ktEKgv lofJrt"
+        >
+          <svg
+            fill="currentColor"
+            height="18"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M456.69 421.39 362.6 327.3a173.81 173.81 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3zM97.92 222.72a124.8 124.8 0 1 1 124.8 124.8 124.95 124.95 0 0 1-124.8-124.8z"
+            />
+          </svg>
+          <input
+            class="sc-hAtFlw ixaysd"
+            placeholder="Search..."
+            type="text"
+            value=""
+          />
+        </div>
+      </form>
+      <div
+        class="sc-jegwpa fgYUGg"
+      >
+        <div
+          class="sc-cbemKB eaxZdw"
+        >
+          <div
+            class="sc-cyRfdC hzOmwF"
+            color="#e75565"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: rgb(231, 85, 101); font-weight: 500;"
+            >
+              URGENT
+            </div>
+            <div
+              class="sc-lnAfUH YXUzc"
+              color="#e75565"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="sc-iKGqnM bAjscv"
+          >
+            <div>
+              <button
+                buttontype="secondary"
+                class="sc-gLDymS jcdnJc"
+                style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="32"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-cbemKB eaxZdw"
+        >
+          <div
+            class="sc-cyRfdC kdJjyo"
+            color="#6459e3"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: rgb(100, 89, 227); font-weight: 500;"
+            >
+              IMPORTANT
+            </div>
+            <div
+              class="sc-lnAfUH fOEoeM"
+              color="#6459e3"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="sc-iKGqnM bAjscv"
+          >
+            <div>
+              <button
+                buttontype="secondary"
+                class="sc-gLDymS jcdnJc"
+                style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="32"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-cbemKB eaxZdw"
+        >
+          <div
+            class="sc-cyRfdC ixKcwn"
+            color="#24c5f5"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: rgb(36, 197, 245); font-weight: 500;"
+            >
+              UPCOMING
+            </div>
+            <div
+              class="sc-lnAfUH gQOOSg"
+              color="#24c5f5"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="sc-iKGqnM bAjscv"
+          >
+            <div>
+              <button
+                buttontype="secondary"
+                class="sc-gLDymS jcdnJc"
+                style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="32"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

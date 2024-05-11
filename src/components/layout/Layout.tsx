@@ -2,10 +2,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { backgroundColor } from 'src/theme';
-// export const metadata: Metadata = {
-//   title: 'React App',
-//   description: 'Web site created with Next.js.'
-// };
 
 export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (

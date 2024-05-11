@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Form, Image } from 'react-bootstrap';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from 'src/contexts/AuthContext';
 import { storage } from '../../firebase';
 import { ref, getDownloadURL, uploadBytesResumable } from 'firebase/storage';
 import styled from 'styled-components';
@@ -82,9 +82,6 @@ export const UpdateProfileView = () => {
     setErrorName('');
     setSuccessName('');
 
-    // if (email !== currentUser.email) {
-    //   promises.push(updateEmail(email));
-    // }
     if (name) {
       promises.push(updateProfile({ name }) as never);
     }
@@ -128,7 +125,7 @@ export const UpdateProfileView = () => {
           </ErrorWrapper>
         )}
         <Button
-          disabled={loading || isEmpty(name)}
+          disabled={loading}
           title='Update Avatar'
           handleButton={handleSubmitImage}
           styles={{
@@ -136,6 +133,7 @@ export const UpdateProfileView = () => {
             marginBottom: 16,
             ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { width: 320 })
           }}
+          testId='update-avatar-button'
         />
       </Form>
       <Input
@@ -169,6 +167,7 @@ export const UpdateProfileView = () => {
           marginBottom: 16,
           ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { width: 320 })
         }}
+        testId='update-button'
       />
     </Container>
   );

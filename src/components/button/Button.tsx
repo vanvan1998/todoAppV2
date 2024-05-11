@@ -15,6 +15,7 @@ interface InputProps {
   type?: 'submit' | 'button' | 'reset';
   children?: React.ReactNode;
   buttonType?: 'primary' | 'secondary';
+  testId?: string;
 }
 
 export const Button = ({
@@ -24,7 +25,8 @@ export const Button = ({
   styles,
   disabled,
   type = 'button',
-  buttonType = 'primary'
+  buttonType = 'primary',
+  testId
 }: InputProps) => {
   return (
     <ButtonStyled
@@ -33,6 +35,7 @@ export const Button = ({
       style={{ ...styles, ...(disabled ? { backgroundColor: disabledButton } : {}) }}
       onClick={handleButton}
       type={type}
+      data-testid={testId}
     >
       {children}
       {title}

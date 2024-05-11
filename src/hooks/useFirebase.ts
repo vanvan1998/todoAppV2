@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { db } from '../firebase';
 import dayjs from 'dayjs';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from 'src/contexts/AuthContext';
 import { TodoItemType } from '../types';
 import { collection, query, onSnapshot, doc, updateDoc, deleteDoc, addDoc, where, getDoc } from 'firebase/firestore';
 import { COLLECTION_TASKS } from 'src/constants';
@@ -55,7 +55,7 @@ export const useFirebase = () => {
       startDate: startDate,
       startTime: startTime,
       notification: notification || false,
-      category: category || 0,
+      category: category,
       createdAt: dayjs().format('YYYY-MM-DDTHH:mm:ss'),
       email: currentUser?.email
     });
@@ -68,7 +68,6 @@ export const useFirebase = () => {
     todo: TodoItemType;
     fieldsToUpdate: Partial<TodoItemType>;
   }) => {
-    console.log('res', fieldsToUpdate);
     const res = await updateDoc(doc(db, COLLECTION_TASKS, todo.id), {
       ...todo,
       ...fieldsToUpdate

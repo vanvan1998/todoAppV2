@@ -10,15 +10,17 @@ import {
   onAuthStateChanged,
   updateEmail,
   updateProfile,
-  updatePassword
+  updatePassword,
+  signInWithPopup
 } from 'firebase/auth';
-import { auth } from '../firebase';
+import { auth, provider } from '../firebase';
 
 export type AuthContextProps = {
   currentUser: any;
   signIn: (email: any, password: any) => void;
   signUp: (email: any, password: any) => void;
   logout: () => void;
+  signInWithGoogle: () => void;
   resetPassword: (email: any) => void;
   updateEmail: (email: any) => void;
   updatePassword: (password: any) => void;
@@ -33,6 +35,7 @@ const AuthContext = createContext<AuthContextProps>({
   resetPassword: () => {},
   updateEmail: () => {},
   updatePassword: () => {},
+  signInWithGoogle: () => {},
   updateProfile: () => {}
 });
 
@@ -43,6 +46,8 @@ export const useAuth = () => {
 export const AuthProvider = ({ children }: any) => {
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [loading, setLoading] = useState(true);
+
+  const signInWithGoogle = () => signInWithPopup(auth, provider);
 
   const signUp = (email: any, password: any) => {
     return createUserWithEmailAndPassword(auth, email, password);
@@ -92,7 +97,8 @@ export const AuthProvider = ({ children }: any) => {
     resetPassword,
     updateEmail: updateUserEmail,
     updatePassword: updateUserPassword,
-    updateProfile: updateUserProfile
+    updateProfile: updateUserProfile,
+    signInWithGoogle: signInWithGoogle
   };
 
   return <AuthContext.Provider value={value}>{!loading && children}</AuthContext.Provider>;
