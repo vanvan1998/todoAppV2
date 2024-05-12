@@ -63,7 +63,7 @@ export const DashBoardView = () => {
       const searchResult = allTodoList.filter(todo => {
         let isInclude = true;
         searchStringArray.forEach(item => {
-          if (!todo.title.includes(item)) {
+          if (!todo.title.toLowerCase().includes(item.toLowerCase())) {
             isInclude = false;
             return;
           }
