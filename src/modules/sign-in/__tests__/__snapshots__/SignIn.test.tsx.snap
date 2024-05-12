@@ -30,6 +30,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
               Email
             </div>
             <input
+              aria-label="Email"
               class="sc-iAEzLF gTKcTi"
               placeholder="Enter your email..."
               style="max-width: 320px; min-width: 200px; width: 80vw;"
@@ -46,6 +47,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
               Password
             </div>
             <input
+              aria-label="Password"
               class="sc-iAEzLF gTKcTi"
               placeholder="Enter your password..."
               style="max-width: 320px; min-width: 200px; width: 80vw;"
@@ -145,6 +147,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
             Email
           </div>
           <input
+            aria-label="Email"
             class="sc-iAEzLF gTKcTi"
             placeholder="Enter your email..."
             style="max-width: 320px; min-width: 200px; width: 80vw;"
@@ -161,6 +164,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
             Password
           </div>
           <input
+            aria-label="Password"
             class="sc-iAEzLF gTKcTi"
             placeholder="Enter your password..."
             style="max-width: 320px; min-width: 200px; width: 80vw;"
@@ -317,6 +321,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
               Email
             </div>
             <input
+              aria-label="Email"
               class="sc-iAEzLF gTKcTi"
               placeholder="Enter your email..."
               style="min-height: 48px; min-width: 320px;"
@@ -333,6 +338,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
               Password
             </div>
             <input
+              aria-label="Password"
               class="sc-iAEzLF gTKcTi"
               placeholder="Enter your password..."
               style="min-height: 48px; min-width: 320px;"
@@ -432,6 +438,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
             Email
           </div>
           <input
+            aria-label="Email"
             class="sc-iAEzLF gTKcTi"
             placeholder="Enter your email..."
             style="min-height: 48px; min-width: 320px;"
@@ -448,6 +455,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
             Password
           </div>
           <input
+            aria-label="Password"
             class="sc-iAEzLF gTKcTi"
             placeholder="Enter your password..."
             style="min-height: 48px; min-width: 320px;"

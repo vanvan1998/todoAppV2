@@ -116,6 +116,7 @@ export const ChangePasswordView = () => {
           type='submit'
           title='Change Password'
           handleButton={handleSubmit}
+          testId='change-password-button'
           styles={{
             marginTop: 32,
             marginBottom: 16,

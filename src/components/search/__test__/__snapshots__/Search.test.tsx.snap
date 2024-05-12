@@ -23,6 +23,7 @@ exports[`Test Search component should match its snapshot 1`] = `
             />
           </svg>
           <input
+            aria-label="Search"
             class="sc-iAEzLF gjdHlk"
             placeholder="Search..."
             type="text"
@@ -51,6 +52,7 @@ exports[`Test Search component should match its snapshot 1`] = `
           />
         </svg>
         <input
+          aria-label="Search"
           class="sc-iAEzLF gjdHlk"
           placeholder="Search..."
           type="text"

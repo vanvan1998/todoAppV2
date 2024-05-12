@@ -35,7 +35,6 @@
     "start": "next start",
     "test": "jest test -u",
     "test:cover": "jest test -u --coverage",
-    "test:single": "jest -u TaskDetailView.test.tsx",
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",

@@ -36,8 +36,8 @@ export const styles = {
     display: flex;
     flex-direction: row;
     gap: 8px;
-    color: ${({ color }) => (color ? color : textColors.textColor)};
-    background-color: ${({ color }) => (color ? color : textColors.textColor)}33;
+    color: ${({ color }) => color};
+    background-color: ${({ color }) => color}33;
     font-family: inherit;
     letter-spacing: 0.16px;
     font-size: 14px;

@@ -10,6 +10,17 @@ describe('Test SortBy component', () => {
 
     const button = component.getByTestId('sort-by-button');
     fireEvent.click(button);
+
+    const sortByOldestButton = component.getByTestId('sort-by-oldest-button');
+    fireEvent.click(sortByOldestButton);
+
+    fireEvent.click(button);
+    const sortByNewestButton = component.getByTestId('sort-by-newest-button');
+    fireEvent.click(sortByNewestButton);
+
+    fireEvent.click(button);
+    const sortByNoneButton = component.getByTestId('sort-by-none-button');
+    fireEvent.click(sortByNoneButton);
     expect(component).toMatchSnapshot();
   });
 });

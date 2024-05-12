@@ -28,6 +28,7 @@ export const AddTodoModal = ({ addItem, isButton = true }: { addItem: (arg: any)
             alignItems: 'center',
             gap: 8
           }}
+          testId='show-modal-button'
         >
           Add new task
           <AddIcon width={16} height={16} />

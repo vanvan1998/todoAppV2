@@ -140,6 +140,7 @@ export const AddTodo = ({
             width: 130,
             backgroundColor: category === CategoryType.Upcoming ? primaryButton : disabledButton
           }}
+          testId='upcoming-button'
         >
           <UpcomingIcon width={16} height={16} />
         </Button>
@@ -158,6 +159,7 @@ export const AddTodo = ({
             width: 130,
             backgroundColor: category === CategoryType.Important ? primaryButton : disabledButton
           }}
+          testId='important-button'
         >
           <ImportantIcon width={16} height={16} color='#d28312' />
         </Button>
@@ -176,6 +178,7 @@ export const AddTodo = ({
             width: 130,
             backgroundColor: category === CategoryType.Urgent ? primaryButton : disabledButton
           }}
+          testId='urgent-button'
         >
           <UrgentIcon width={16} height={16} color='#db0f25' style={{ transform: 'rotate(270deg)' }} />
         </Button>
@@ -246,6 +249,7 @@ export const AddTodo = ({
           styles={{
             flex: 1
           }}
+          testId='cancel-todo-button'
         />
         <Button
           title={isAddItem ? 'Create' : 'Update'}
@@ -253,6 +257,7 @@ export const AddTodo = ({
           styles={{
             flex: 1
           }}
+          testId='add-todo-button'
         />
       </ButtonWrapper>
     </Container>

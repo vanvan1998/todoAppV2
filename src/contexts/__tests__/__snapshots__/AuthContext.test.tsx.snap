@@ -4,9 +4,23 @@ exports[`AuthContext renders AuthProvider with desktop view 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
-    <div />
+    <div>
+      <div>
+        <div>
+          User: 
+          No user
+        </div>
+      </div>
+    </div>
   </body>,
-  "container": <div />,
+  "container": <div>
+    <div>
+      <div>
+        User: 
+        No user
+      </div>
+    </div>
+  </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],

@@ -1,6 +1,7 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { screen, render, fireEvent } from '@testing-library/react';
 import { ChangePasswordView } from '../ChangePasswordView';
+import { useAuth } from 'src/contexts/AuthContext';
 
 jest.mock('@next/third-parties/google', () => {
   return {
@@ -18,6 +19,7 @@ jest.mock('src/hooks', () => {
         isMobile: true
       })
       .mockReturnValueOnce({ isMobile: false })
+      .mockReturnValueOnce({ isMobile: false })
   };
 });
 
@@ -25,7 +27,7 @@ jest.mock('src/contexts/AuthContext', () => {
   return {
     useAuth: jest
       .fn()
-      .mockReturnValue({ currentUser: { displayName: 'displayName', email: 'email' }, logout: jest.fn() })
+      .mockReturnValue({ currentUser: { displayName: 'displayName', email: 'email' }, updatePassword: jest.fn() })
   };
 });
 
@@ -45,6 +47,45 @@ describe('ChangePasswordView', () => {
 
   it('renders ChangePasswordView with desktop view', () => {
     const component = render(<ChangePasswordView />);
+    const input2 = screen.getByLabelText('New password');
+    fireEvent.change(input2, { target: { value: '123' } });
+    const input3 = screen.getByLabelText('Confirm new password');
+    fireEvent.change(input3, { target: { value: '123' } });
+
+    const button = component.getByTestId('change-password-button');
+    fireEvent.click(button);
+    expect(component).toMatchSnapshot();
+  });
+
+  it('renders ChangePasswordView with desktop view', () => {
+    const component = render(<ChangePasswordView />);
+    const input2 = screen.getByLabelText('New password');
+    fireEvent.change(input2, { target: { value: '123' } });
+    const input3 = screen.getByLabelText('Confirm new password');
+    fireEvent.change(input3, { target: { value: '12345' } });
+
+    const button = component.getByTestId('change-password-button');
+    fireEvent.click(button);
+    expect(component).toMatchSnapshot();
+  });
+
+  it('renders ChangePasswordView with mobile view', () => {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    useAuth.mockImplementation(
+      jest.fn(() => ({
+        currentUser: { displayName: 'displayName', email: 'email' },
+        updatePassword: jest.fn().mockRejectedValue('error')
+      }))
+    );
+    const component = render(<ChangePasswordView />);
+    const input2 = screen.getByLabelText('New password');
+    fireEvent.change(input2, { target: { value: '123' } });
+    const input3 = screen.getByLabelText('Confirm new password');
+    fireEvent.change(input3, { target: { value: '123' } });
+
+    const button = component.getByTestId('change-password-button');
+    fireEvent.click(button);
     expect(component).toMatchSnapshot();
   });
 });

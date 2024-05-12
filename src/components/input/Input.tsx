@@ -37,6 +37,7 @@ export const Input = ({
         onChange={e => onChange(e.target.value)}
         style={inputStyles}
         placeholder={placeholder}
+        aria-label={title}
       />
     </div>
   );

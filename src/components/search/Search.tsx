@@ -30,6 +30,7 @@ export const Search = ({
             e.preventDefault();
             handleSearch(e.target.value);
           }}
+          aria-label='Search'
         />
       </Container>
     </form>

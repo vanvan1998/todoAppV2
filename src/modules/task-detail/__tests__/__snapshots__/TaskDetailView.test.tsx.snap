@@ -196,6 +196,7 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
                 Title Task
               </div>
               <input
+                aria-label="Title Task"
                 class="sc-iAEzLF gTKcTi"
                 placeholder="Enter new task todo..."
                 style="max-width: 438px; min-width: 294px; width: 100%;"
@@ -215,6 +216,7 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="upcoming-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
                 type="button"
               >
@@ -236,6 +238,7 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="important-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
                 type="button"
               >
@@ -258,6 +261,7 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="urgent-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
                 type="button"
               >
@@ -444,6 +448,7 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               <button
                 buttontype="secondary"
                 class="sc-gLDymS jcdnJc"
+                data-testid="cancel-todo-button"
                 style="flex: 1;"
                 type="button"
               >
@@ -452,6 +457,7 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="add-todo-button"
                 style="flex: 1;"
                 type="button"
               >

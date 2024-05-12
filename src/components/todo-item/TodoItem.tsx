@@ -94,6 +94,7 @@ export const TodoItem = ({
             backgroundColor: 'transparent',
             color: primaryButton
           }}
+          testId='task-details-button'
         >
           Task details
         </Button>
@@ -106,6 +107,7 @@ export const TodoItem = ({
               padding: 0,
               backgroundColor: 'transparent'
             }}
+            testId='complete-button'
           >
             {todo.completed ? (
               <CheckedIcon color={primaryButton} width={24} height={24} />
@@ -130,6 +132,7 @@ export const TodoItem = ({
               display: 'flex',
               alignItems: 'center'
             }}
+            testId='edit-button'
           >
             <EditIcon color={primaryButton} width={16} height={16} />
           </Button>
@@ -144,6 +147,7 @@ export const TodoItem = ({
               display: 'flex',
               alignItems: 'center'
             }}
+            testId='delete-button'
           >
             <DeleteIcon color={primaryButton} width={16} height={16} />
           </Button>

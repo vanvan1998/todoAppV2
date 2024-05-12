@@ -31,9 +31,10 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
             Title Task
           </div>
           <input
+            aria-label="Title Task"
             class="sc-iAEzLF gTKcTi"
             placeholder="Enter new task todo..."
-            style="max-width: 438px; min-width: 294px; width: 100%;"
+            style="min-width: 294px; max-width: 438px; width: 100%;"
             type="text"
             value=""
           />
@@ -50,7 +51,8 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           <button
             buttontype="primary"
             class="sc-gLDymS dItXMH"
-            style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
+            data-testid="upcoming-button"
+            style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
             type="button"
           >
             <svg
@@ -71,6 +73,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           <button
             buttontype="primary"
             class="sc-gLDymS dItXMH"
+            data-testid="important-button"
             style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
             type="button"
           >
@@ -93,7 +96,8 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           <button
             buttontype="primary"
             class="sc-gLDymS dItXMH"
-            style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
+            data-testid="urgent-button"
+            style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
             type="button"
           >
             <svg
@@ -155,6 +159,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           <button
             buttontype="secondary"
             class="sc-gLDymS jcdnJc"
+            data-testid="cancel-todo-button"
             style="flex: 1;"
             type="button"
           >
@@ -163,6 +168,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           <button
             buttontype="primary"
             class="sc-gLDymS dItXMH"
+            data-testid="add-todo-button"
             style="flex: 1;"
             type="button"
           >
@@ -199,9 +205,10 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           Title Task
         </div>
         <input
+          aria-label="Title Task"
           class="sc-iAEzLF gTKcTi"
           placeholder="Enter new task todo..."
-          style="max-width: 438px; min-width: 294px; width: 100%;"
+          style="min-width: 294px; max-width: 438px; width: 100%;"
           type="text"
           value=""
         />
@@ -218,7 +225,8 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         <button
           buttontype="primary"
           class="sc-gLDymS dItXMH"
-          style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
+          data-testid="upcoming-button"
+          style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
           type="button"
         >
           <svg
@@ -239,6 +247,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         <button
           buttontype="primary"
           class="sc-gLDymS dItXMH"
+          data-testid="important-button"
           style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
           type="button"
         >
@@ -261,7 +270,8 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         <button
           buttontype="primary"
           class="sc-gLDymS dItXMH"
-          style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
+          data-testid="urgent-button"
+          style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
           type="button"
         >
           <svg
@@ -323,6 +333,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         <button
           buttontype="secondary"
           class="sc-gLDymS jcdnJc"
+          data-testid="cancel-todo-button"
           style="flex: 1;"
           type="button"
         >
@@ -331,6 +342,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         <button
           buttontype="primary"
           class="sc-gLDymS dItXMH"
+          data-testid="add-todo-button"
           style="flex: 1;"
           type="button"
         >
@@ -393,7 +405,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
 }
 `;
 
-exports[`Test AddTodo component should match update todo snapshot 1`] = `
+exports[`Test AddTodo component should match update todo snapshot with desktop view 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -424,6 +436,7 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
             Title Task
           </div>
           <input
+            aria-label="Title Task"
             class="sc-iAEzLF gTKcTi"
             placeholder="Enter new task todo..."
             style="max-width: 438px; min-width: 294px; width: 100%;"
@@ -443,6 +456,7 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
           <button
             buttontype="primary"
             class="sc-gLDymS dItXMH"
+            data-testid="upcoming-button"
             style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
             type="button"
           >
@@ -464,7 +478,8 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
           <button
             buttontype="primary"
             class="sc-gLDymS dItXMH"
-            style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
+            data-testid="important-button"
+            style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
             type="button"
           >
             <svg
@@ -486,7 +501,8 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
           <button
             buttontype="primary"
             class="sc-gLDymS dItXMH"
-            style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
+            data-testid="urgent-button"
+            style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
             type="button"
           >
             <svg
@@ -672,6 +688,7 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
           <button
             buttontype="secondary"
             class="sc-gLDymS jcdnJc"
+            data-testid="cancel-todo-button"
             style="flex: 1;"
             type="button"
           >
@@ -680,6 +697,7 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
           <button
             buttontype="primary"
             class="sc-gLDymS dItXMH"
+            data-testid="add-todo-button"
             style="flex: 1;"
             type="button"
           >
@@ -716,6 +734,7 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
           Title Task
         </div>
         <input
+          aria-label="Title Task"
           class="sc-iAEzLF gTKcTi"
           placeholder="Enter new task todo..."
           style="max-width: 438px; min-width: 294px; width: 100%;"
@@ -735,6 +754,7 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
         <button
           buttontype="primary"
           class="sc-gLDymS dItXMH"
+          data-testid="upcoming-button"
           style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
           type="button"
         >
@@ -756,7 +776,8 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
         <button
           buttontype="primary"
           class="sc-gLDymS dItXMH"
-          style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
+          data-testid="important-button"
+          style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
           type="button"
         >
           <svg
@@ -778,7 +799,8 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
         <button
           buttontype="primary"
           class="sc-gLDymS dItXMH"
-          style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
+          data-testid="urgent-button"
+          style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
           type="button"
         >
           <svg
@@ -964,6 +986,7 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
         <button
           buttontype="secondary"
           class="sc-gLDymS jcdnJc"
+          data-testid="cancel-todo-button"
           style="flex: 1;"
           type="button"
         >
@@ -972,6 +995,7 @@ exports[`Test AddTodo component should match update todo snapshot 1`] = `
         <button
           buttontype="primary"
           class="sc-gLDymS dItXMH"
+          data-testid="add-todo-button"
           style="flex: 1;"
           type="button"
         >

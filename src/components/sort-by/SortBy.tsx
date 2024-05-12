@@ -77,6 +77,7 @@ export const SortBy = ({ handleSort, sortType }: { handleSort: (value: string) =
                 borderRadius: 0,
                 width: '100%'
               }}
+              testId='sort-by-none-button'
             >
               <SortTitle>
                 <SortIcon width={20} fill={primaryButton} />
@@ -98,6 +99,7 @@ export const SortBy = ({ handleSort, sortType }: { handleSort: (value: string) =
                 borderRadius: 0,
                 width: '100%'
               }}
+              testId='sort-by-newest-button'
             >
               <SortTitle>
                 <SortClockIcon width={20} fill={primaryButton} />
@@ -118,6 +120,7 @@ export const SortBy = ({ handleSort, sortType }: { handleSort: (value: string) =
                 borderRadius: 0,
                 width: '100%'
               }}
+              testId='sort-by-oldest-button'
             >
               <SortTitle>
                 <SortClockIcon width={20} fill={primaryButton} style={{ transform: 'rotate(180deg)' }} />

@@ -35,6 +35,19 @@ describe('Test Header component', () => {
 
     const button = component.getByTestId('account-button');
     fireEvent.click(button);
+
+    const profileButton = component.getByTestId('profile-button');
+    fireEvent.click(profileButton);
+
+    fireEvent.click(button);
+
+    const changePassButton = component.getByTestId('change-password-button');
+    fireEvent.click(changePassButton);
+
+    fireEvent.click(button);
+
+    const signOutButton = component.getByTestId('sign-out-button');
+    fireEvent.click(signOutButton);
     expect(component).toMatchSnapshot();
   });
 });

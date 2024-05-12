@@ -70,6 +70,7 @@ exports[`Test Header component should match its snapshot 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="profile-button"
                 style="display: flex; flex-direction: row; align-items: center; gap: 16px; background-color: rgba(255, 255, 255, 1); border-bottom: 1px solid #858585; border-radius: 0; width: 100%;"
                 type="button"
               >
@@ -103,6 +104,7 @@ exports[`Test Header component should match its snapshot 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="change-password-button"
                 style="display: flex; flex-direction: row; align-items: center; gap: 16px; background-color: rgba(255, 255, 255, 1); border-bottom: 1px solid #858585; border-radius: 0; width: 100%;"
                 type="button"
               >
@@ -135,6 +137,7 @@ exports[`Test Header component should match its snapshot 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="sign-out-button"
                 style="display: flex; flex-direction: row; align-items: center; gap: 16px; background-color: rgba(255, 255, 255, 1); border-radius: 0; width: 100%;"
                 type="button"
               >
@@ -233,6 +236,7 @@ exports[`Test Header component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="profile-button"
               style="display: flex; flex-direction: row; align-items: center; gap: 16px; background-color: rgba(255, 255, 255, 1); border-bottom: 1px solid #858585; border-radius: 0; width: 100%;"
               type="button"
             >
@@ -266,6 +270,7 @@ exports[`Test Header component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="change-password-button"
               style="display: flex; flex-direction: row; align-items: center; gap: 16px; background-color: rgba(255, 255, 255, 1); border-bottom: 1px solid #858585; border-radius: 0; width: 100%;"
               type="button"
             >
@@ -298,6 +303,7 @@ exports[`Test Header component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="sign-out-button"
               style="display: flex; flex-direction: row; align-items: center; gap: 16px; background-color: rgba(255, 255, 255, 1); border-radius: 0; width: 100%;"
               type="button"
             >

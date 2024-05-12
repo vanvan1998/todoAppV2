@@ -49,6 +49,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="task-details-button"
               style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; color: rgb(100, 89, 227);"
               type="button"
             >
@@ -60,6 +61,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="complete-button"
                 style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent;"
                 type="button"
               >
@@ -82,6 +84,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="edit-button"
                 style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
                 type="button"
               >
@@ -103,6 +106,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="delete-button"
                 style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
                 type="button"
               >
@@ -165,6 +169,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="task-details-button"
               style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; color: rgb(100, 89, 227);"
               type="button"
             >
@@ -176,6 +181,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="complete-button"
                 style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent;"
                 type="button"
               >
@@ -197,6 +203,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="edit-button"
                 style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
                 type="button"
               >
@@ -218,6 +225,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               <button
                 buttontype="primary"
                 class="sc-gLDymS dItXMH"
+                data-testid="delete-button"
                 style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
                 type="button"
               >
@@ -309,6 +317,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           <button
             buttontype="primary"
             class="sc-gLDymS dItXMH"
+            data-testid="task-details-button"
             style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; color: rgb(100, 89, 227);"
             type="button"
           >
@@ -320,6 +329,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="complete-button"
               style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent;"
               type="button"
             >
@@ -342,6 +352,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="edit-button"
               style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
@@ -363,6 +374,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="delete-button"
               style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
@@ -425,6 +437,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           <button
             buttontype="primary"
             class="sc-gLDymS dItXMH"
+            data-testid="task-details-button"
             style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; color: rgb(100, 89, 227);"
             type="button"
           >
@@ -436,6 +449,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="complete-button"
               style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent;"
               type="button"
             >
@@ -457,6 +471,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="edit-button"
               style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
@@ -478,6 +493,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             <button
               buttontype="primary"
               class="sc-gLDymS dItXMH"
+              data-testid="delete-button"
               style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >

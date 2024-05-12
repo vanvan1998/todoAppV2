@@ -70,6 +70,7 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
             Full name
           </div>
           <input
+            aria-label="Full name"
             class="sc-iAEzLF gTKcTi"
             placeholder="Enter your full name..."
             style="max-width: 320px; min-width: 200px; width: 80vw; border: 1px solid #858585; background-color: rgb(254, 254, 255);"
@@ -156,6 +157,7 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
           Full name
         </div>
         <input
+          aria-label="Full name"
           class="sc-iAEzLF gTKcTi"
           placeholder="Enter your full name..."
           style="max-width: 320px; min-width: 200px; width: 80vw; border: 1px solid #858585; background-color: rgb(254, 254, 255);"
@@ -298,6 +300,7 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
             Full name
           </div>
           <input
+            aria-label="Full name"
             class="sc-iAEzLF gTKcTi"
             placeholder="Enter your full name..."
             style="min-height: 48px; min-width: 320px; border: 1px solid #858585; background-color: rgb(254, 254, 255);"
@@ -382,6 +385,7 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
           Full name
         </div>
         <input
+          aria-label="Full name"
           class="sc-iAEzLF gTKcTi"
           placeholder="Enter your full name..."
           style="min-height: 48px; min-width: 320px; border: 1px solid #858585; background-color: rgb(254, 254, 255);"

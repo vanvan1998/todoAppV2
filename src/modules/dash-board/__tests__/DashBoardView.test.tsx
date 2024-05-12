@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent, screen } from '@testing-library/react';
 import { DashBoardView } from '../DashBoardView';
 
 jest.mock('@next/third-parties/google', () => {
@@ -44,6 +44,26 @@ describe('DashBoardView', () => {
 
   it('renders DashBoardView with desktop view', () => {
     const component = render(<DashBoardView />);
+
+    const button = component.getByTestId('sort-by-button');
+    fireEvent.click(button);
+
+    const sortByOldestButton = component.getByTestId('sort-by-oldest-button');
+    fireEvent.click(sortByOldestButton);
+
+    fireEvent.click(button);
+    const sortByNewestButton = component.getByTestId('sort-by-newest-button');
+    fireEvent.click(sortByNewestButton);
+
+    expect(component).toMatchSnapshot();
+  });
+
+  it('renders DashBoardView with search', () => {
+    const component = render(<DashBoardView />);
+
+    const input = screen.getByLabelText('Search');
+    fireEvent.change(input, { target: { value: '123' } });
+    fireEvent.change(input, { target: { value: '' } });
     expect(component).toMatchSnapshot();
   });
 });

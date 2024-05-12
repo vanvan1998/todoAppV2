@@ -98,6 +98,7 @@ export const Header = () => {
                     borderRadius: 0,
                     width: '100%'
                   }}
+                  testId='profile-button'
                 >
                   <AccountTitle>
                     <AccountIcon width={20} fill={secondary} />
@@ -116,6 +117,7 @@ export const Header = () => {
                     borderRadius: 0,
                     width: '100%'
                   }}
+                  testId='change-password-button'
                 >
                   <AccountTitle>
                     <ChangePassIcon width={20} fill={secondary} />
@@ -133,6 +135,7 @@ export const Header = () => {
                     borderRadius: 0,
                     width: '100%'
                   }}
+                  testId='sign-out-button'
                 >
                   <AccountTitle>
                     <SignOutIcon width={20} fill={secondary} />

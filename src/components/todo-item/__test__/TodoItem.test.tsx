@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { TodoItem } from '..';
 import { todo } from 'src/__mocks__';
@@ -49,6 +49,18 @@ describe('Test TodoItem component', () => {
       />
     );
 
+    const button = component.getByTestId('task-details-button');
+    fireEvent.click(button);
+
+    const completeButton = component.getByTestId('complete-button');
+    fireEvent.click(completeButton);
+
+    const editButton = component.getByTestId('edit-button');
+    fireEvent.click(editButton);
+    fireEvent.click(editButton);
+
+    const deleteButton = component.getByTestId('delete-button');
+    fireEvent.click(deleteButton);
     expect(component).toMatchSnapshot();
   });
 });

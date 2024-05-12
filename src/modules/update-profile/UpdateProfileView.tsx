@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { Form, Image } from 'react-bootstrap';
 import { useAuth } from 'src/contexts/AuthContext';
 import { storage } from '../../firebase';
@@ -34,15 +34,20 @@ export const UpdateProfileView = () => {
   const [successName, setSuccessName] = useState('');
   const [loading, setLoading] = useState(false);
   const { isMobile } = useMediaQuery();
+  const selectedFileRef = useRef();
+
+  const onFileChange = e => {
+    selectedFileRef.current = e.target.files[0];
+  };
 
   const handleSubmitImage = (e: any) => {
     e.preventDefault();
-    const file = e.target[0]?.files[0];
-    const promises: any[] = [];
-    if (!file) return;
 
-    const storageRef = ref(storage, `files/${file.name}`);
-    const uploadTask = uploadBytesResumable(storageRef, file);
+    if (!selectedFileRef.current) return;
+
+    const promises: any[] = [];
+    const storageRef = ref(storage, `files/${(selectedFileRef.current as any).name}`);
+    const uploadTask = uploadBytesResumable(storageRef, selectedFileRef.current);
 
     uploadTask.on(
       'state_changed',
@@ -107,11 +112,11 @@ export const UpdateProfileView = () => {
         </Title>
       </HeaderWrapper>
 
-      <Form onSubmit={handleSubmitImage} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <Form style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <Form.Group id='file'>
           <div className='mb-4 text-center'>{imgUrl && <Image src={imgUrl} alt='uploaded file' height={300} />}</div>
           <Title style={{ padding: '8px 0' }}>Avatar</Title>
-          <Form.Control type='file' />
+          <Form.Control type='file' onChange={onFileChange} />
         </Form.Group>
 
         {error && (
