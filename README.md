@@ -1,5 +1,11 @@
+### Website
+Link website: https://todo-app-v2-lyart.vercel.app/sign-in
+
 ### Demo
-https://todo-app-v2-lyart.vercel.app/sign-in
+
+- Link video demo: https://youtu.be/06j2fPJRfHY
+<img width="1438" alt="image" src="https://github.com/vanvan1998/todoAppV2/src/assets/analytics">
+<img width="1438" alt="image" src="https://github.com/vanvan1998/todoAppV2/src/assets/firebase">
 
 ### Project structure
 ```shell
@@ -53,6 +59,3 @@ Cover all file with unit test
 - Branches: 92.65% 290/313
 - Functions: 76.59% 108/141
 - Lines: 95.05% 3265/3435
-
-### Demo
-<img width="1438" alt="image" src="https://github.com/nguyencnguyen-playon/nguyen-nextjs-project/assets/131789853/5d6a9ebd-ef07-426d-8bcd-69b2586d1f18">
