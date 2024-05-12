@@ -26,6 +26,7 @@ const ErrorWrapper = styled.div<{ isMobile: boolean }>`
 
 export const UpdateProfileView = () => {
   const { currentUser, updateProfile } = useAuth();
+  if (!currentUser) return null;
   const [name, setName] = useState(currentUser.displayName);
   const [imgUrl, setImgUrl] = useState(currentUser.photoURL);
   const [error, setError] = useState('');

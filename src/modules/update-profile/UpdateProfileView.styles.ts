@@ -53,6 +53,7 @@ export const styles = {
   errorWrapper: css<{ isMobile: boolean }>`
     display: flex;
     justify-content: flex-start;
+    margin-top: 8px;
     ${({ isMobile }) => (isMobile ? `max-width: 320px; min-width: 200px; width: 80vw` : `min-width: 320px`)};
   `
 };

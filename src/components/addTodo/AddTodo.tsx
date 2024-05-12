@@ -54,13 +54,15 @@ export const AddTodo = ({
   addItem,
   updateItem,
   onComplete,
-  todo
+  todo,
+  categoryType = CategoryType.Upcoming
 }: {
   mode: string;
   todo?: TodoItemType;
   addItem?: (item: Partial<TodoItemType>) => void;
   updateItem?: ({ todo, fieldsToUpdate }: { todo: TodoItemType; fieldsToUpdate: Partial<TodoItemType> }) => void;
   onComplete: () => void;
+  categoryType?: CategoryType;
 }) => {
   const isAddItem = mode === MODE.ADD;
   const newDateTime = dayjs().add(1, 'hours');
@@ -69,7 +71,7 @@ export const AddTodo = ({
   const [title, setTitle] = useState(isAddItem ? '' : todo?.title);
   const [detail, setDetail] = useState(isAddItem ? '' : todo?.detail);
   const [notification, setNotification] = useState(isAddItem ? false : todo?.notification);
-  const [category, setCategory] = useState(isAddItem ? CategoryType.Upcoming : todo?.category);
+  const [category, setCategory] = useState(isAddItem ? categoryType : todo?.category);
   const [date, setDate] = useState(!isAddItem && todo?.notification ? currentDateTime : newDateTime);
   const [time, setTime] = useState(!isAddItem && todo?.notification ? currentDateTime : newDateTime);
   const { isMobile } = useMediaQuery();

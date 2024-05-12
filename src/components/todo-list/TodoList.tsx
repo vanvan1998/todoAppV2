@@ -44,7 +44,7 @@ export const TodoList = ({
           onDragEnd={onDragEnd}
         />
       ))}
-      <AddTodoModal isButton={false} addItem={handleAddTodoItem} />
+      <AddTodoModal categoryType={todoListCategoryType} isButton={false} addItem={handleAddTodoItem} />
     </Container>
   );
 };

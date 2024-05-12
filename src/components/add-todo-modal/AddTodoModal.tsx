@@ -7,8 +7,17 @@ import { AddTodo } from '../addTodo';
 import { useMediaQuery } from 'src/hooks';
 import { Button } from '../button';
 import { AddIcon } from 'src/icons';
+import { CategoryType } from 'src/types';
 
-export const AddTodoModal = ({ addItem, isButton = true }: { addItem: (arg: any) => void; isButton?: boolean }) => {
+export const AddTodoModal = ({
+  addItem,
+  isButton = true,
+  categoryType
+}: {
+  addItem: (arg: any) => void;
+  isButton?: boolean;
+  categoryType?: CategoryType;
+}) => {
   const [show, setShow] = useState(false);
   const { isMobile } = useMediaQuery();
 
@@ -61,7 +70,7 @@ export const AddTodoModal = ({ addItem, isButton = true }: { addItem: (arg: any)
         show={show}
         onHide={handleClose}
       >
-        <AddTodo mode={MODE.ADD} addItem={addItem} onComplete={handleClose} />
+        <AddTodo categoryType={categoryType} mode={MODE.ADD} addItem={addItem} onComplete={handleClose} />
       </Modal>
     </div>
   );
