@@ -26,9 +26,8 @@ const ErrorWrapper = styled.div<{ isMobile: boolean }>`
 
 export const UpdateProfileView = () => {
   const { currentUser, updateProfile } = useAuth();
-  if (!currentUser) return null;
-  const [name, setName] = useState(currentUser.displayName);
-  const [imgUrl, setImgUrl] = useState(currentUser.photoURL);
+  const [name, setName] = useState(currentUser?.displayName);
+  const [imgUrl, setImgUrl] = useState(currentUser?.photoURL);
   const [error, setError] = useState('');
   const [errorName, setErrorName] = useState('');
   const [success, setSuccess] = useState('');
@@ -36,6 +35,7 @@ export const UpdateProfileView = () => {
   const [loading, setLoading] = useState(false);
   const { isMobile } = useMediaQuery();
   const selectedFileRef = useRef();
+  if (!currentUser) return <></>;
 
   const onFileChange = e => {
     selectedFileRef.current = e.target.files[0];

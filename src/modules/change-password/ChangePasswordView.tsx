@@ -33,7 +33,9 @@ export const ChangePasswordView = () => {
   const [success, setSuccess] = useState('');
   const [loading, setLoading] = useState(false);
   const { isMobile } = useMediaQuery();
-
+  if (!currentUser) {
+    return <></>;
+  }
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     if (password !== passwordConfirm) {
