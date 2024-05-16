@@ -14,3 +14,6 @@ export * from './SortIcon';
 export * from './SortClockIcon';
 export * from './ChangePassIcon';
 export * from './GoogleIcon';
+export * from './DoneIcon';
+export * from './PendingIcon';
+export * from './ClosedIcon';

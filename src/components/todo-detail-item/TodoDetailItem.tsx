@@ -11,7 +11,7 @@ import { Button } from '../button';
 import dayjs from 'dayjs';
 import { isEmpty } from 'lodash';
 
-const Container = styled.div`
+const Container = styled.div<{ isMobile: boolean }>`
   ${styles.container}
 `;
 
@@ -40,6 +40,7 @@ interface TodoDetailItemProps {
   handleCompleteTodo: (todo: TodoItemType) => void;
   handleDeleteTodo: (id: string) => void;
   handleUpdateTodo: ({ todo, fieldsToUpdate }: { todo: TodoItemType; fieldsToUpdate: Partial<TodoItemType> }) => void;
+  isMobile: boolean;
 }
 
 export const categoryData = {
@@ -64,7 +65,8 @@ export const TodoDetailItem = ({
   todo,
   handleCompleteTodo,
   handleDeleteTodo,
-  handleUpdateTodo
+  handleUpdateTodo,
+  isMobile
 }: TodoDetailItemProps) => {
   const [isEdit, setIsEdit] = useState(false);
 
@@ -73,7 +75,7 @@ export const TodoDetailItem = ({
   };
 
   return (
-    <Container>
+    <Container isMobile={isMobile}>
       <TitleWrapper>
         <Title style={{ fontWeight: 'bold', fontSize: 16, paddingBottom: 6 }}>{todo.title}</Title>
         <CategoryWrapper color={categoryData[todo.category as CategoryType].color}>

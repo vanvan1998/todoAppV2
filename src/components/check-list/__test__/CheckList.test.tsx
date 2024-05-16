@@ -1,18 +1,17 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import { TodoDetailItem } from '..';
+import { CheckList } from '..';
 import { todo } from 'src/__mocks__';
 
 describe('Test TodoDetailItem component', () => {
   test.only('should match its snapshot', async () => {
     const component = render(
-      <TodoDetailItem
+      <CheckList
         todo={todo}
         handleCompleteTodo={jest.fn()}
         handleDeleteTodo={jest.fn()}
         handleUpdateTodo={jest.fn()}
-        isMobile
       />
     );
 
@@ -21,7 +20,7 @@ describe('Test TodoDetailItem component', () => {
 
   test.only('should render completed todo snapshot', async () => {
     const component = render(
-      <TodoDetailItem
+      <CheckList
         todo={{
           ...todo,
           notification: false,
@@ -35,7 +34,6 @@ describe('Test TodoDetailItem component', () => {
         handleCompleteTodo={jest.fn()}
         handleDeleteTodo={jest.fn()}
         handleUpdateTodo={jest.fn()}
-        isMobile={false}
       />
     );
 

@@ -1,3 +1,8 @@
+export interface CheckListType {
+  title: string;
+  completed: boolean;
+}
+
 export interface TodoItemType {
   id: string;
   title: string;
@@ -10,6 +15,7 @@ export interface TodoItemType {
   email: string;
   category: number;
   userId: any;
+  checkList: CheckListType[];
 }
 
 export enum CategoryType {

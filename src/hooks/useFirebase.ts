@@ -68,6 +68,7 @@ export const useFirebase = () => {
     todo: TodoItemType;
     fieldsToUpdate: Partial<TodoItemType>;
   }) => {
+    console.log('res', todo, fieldsToUpdate);
     const res = await updateDoc(doc(db, COLLECTION_TASKS, todo.id), {
       ...todo,
       ...fieldsToUpdate

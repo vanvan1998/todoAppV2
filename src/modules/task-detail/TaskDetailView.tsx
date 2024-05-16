@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import { TodoDetailItem } from '../../components';
+import { CheckList, TodoDetailItem } from '../../components';
 import { TodoItemType } from '../../types';
 import { useFirebase, useNotification, useMediaQuery } from '../../hooks';
 import styled from 'styled-components';
@@ -23,6 +23,10 @@ const NoTaskIcon = styled.img`
 
 const NotFoundWrapper = styled.div`
   ${styles.notFoundWrapper}
+`;
+
+const TodoDetailWrapper = styled.div<{ isMobile: boolean }>`
+  ${styles.todoDetailWrapper}
 `;
 
 export const TaskDetailView = (props: any) => {
@@ -69,12 +73,22 @@ export const TaskDetailView = (props: any) => {
           This task belongs to <Title style={{ fontWeight: 'bold' }}>{todo.email}</Title>
         </Title>
       </HeaderWrapper>
+      <TodoDetailWrapper isMobile={isMobile}>
       <TodoDetailItem
         todo={todo}
         handleCompleteTodo={completeTodo}
         handleUpdateTodo={updateTodo}
         handleDeleteTodo={deleteTodo}
+        isMobile={isMobile}
       />
+      <CheckList
+        todo={todo}
+        handleCompleteTodo={completeTodo}
+        handleUpdateTodo={updateTodo}
+        handleDeleteTodo={deleteTodo}
+        isMobile={isMobile}
+      />
+      </TodoDetailWrapper>
     </Container>
   ) : (
     <NotFoundWrapper>

@@ -47,5 +47,13 @@ export const styles = {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  `,
+  todoDetailWrapper: css<{ isMobile: boolean }>`
+    display: flex;
+    flex-direction: ${({ isMobile }) => (isMobile ? 'column' : 'row')};
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 16px;
   `
 };
