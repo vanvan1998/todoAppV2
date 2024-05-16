@@ -6,7 +6,7 @@ export const styles = {
     flex-direction: row;
     padding: 10px 0 0 16px;
     width: 100%;
-    align-items: flex-end;
+    align-items: flex-start;
     min-height: 34px;
     gap: 8px;
   `,
@@ -14,7 +14,7 @@ export const styles = {
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-between;
     padding-right: 16px;
   `

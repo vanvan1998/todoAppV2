@@ -6,10 +6,10 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gXSDep hdCWaI"
+        class="sc-dQemvk eeThTR"
       >
         <div
-          class="sc-cCYzbQ fWKdpr"
+          class="sc-bCDiRt hSyFex"
         >
           <div
             class="sc-beqWNU hnIjJd"
@@ -93,10 +93,10 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gXSDep hdCWaI"
+      class="sc-dQemvk eeThTR"
     >
       <div
-        class="sc-cCYzbQ fWKdpr"
+        class="sc-bCDiRt hSyFex"
       >
         <div
           class="sc-beqWNU hnIjJd"
@@ -237,10 +237,10 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gXSDep hdCWaI"
+        class="sc-dQemvk eeThTR"
       >
         <div
-          class="sc-cCYzbQ eXSxkW"
+          class="sc-bCDiRt QpqjE"
         >
           <div
             class="sc-beqWNU hnIjJd"
@@ -322,10 +322,10 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gXSDep hdCWaI"
+      class="sc-dQemvk eeThTR"
     >
       <div
-        class="sc-cCYzbQ eXSxkW"
+        class="sc-bCDiRt QpqjE"
       >
         <div
           class="sc-beqWNU hnIjJd"

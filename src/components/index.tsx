@@ -11,4 +11,5 @@ export { TodoList } from './todo-list';
 export { TodoDetailItem } from './todo-detail-item';
 export { CheckList } from './check-list';
 export { CheckListItem } from './check-list-item';
+export { ProgressBar } from './progress-bar';
 export { Layout, PrivateLayout } from './layout';

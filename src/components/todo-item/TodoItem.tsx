@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { styles } from './TodoItem.styles';
 import { SubTitle, Title, primaryButton } from 'src/theme';
 import { Modal } from 'react-bootstrap';
-import { TodoItemType } from '../../types';
+import { CategoryType, TodoItemType } from '../../types';
 import { CheckedIcon, DeleteIcon, EditIcon, UnCheckedIcon } from '../../icons';
 import { isEmpty } from 'lodash';
 import { AddTodo } from '../addTodo';
@@ -11,6 +11,8 @@ import { MODE } from 'src/constants';
 import { Button } from '../button';
 import dayjs from 'dayjs';
 import { useRouter } from 'next/navigation';
+import { ProgressBar } from '../progress-bar';
+import { categoryData } from '../todo-detail-item';
 
 const Container = styled.div`
   ${styles.container}
@@ -51,6 +53,11 @@ export const TodoItem = ({
     setIsEdit(false);
   };
   const newDetail = !isEmpty(todo.detail) && todo.detail.length > 160 ? `${todo.detail.slice(0, 160)}...` : todo.detail;
+  const progress = todo.completed
+    ? 100
+    : todo.checkList?.length
+      ? (todo.checkList.filter(item => item.completed).length / todo.checkList.length) * 100
+      : 0;
 
   return (
     <Container id={todo.id} draggable onDragStart={e => onDragStart(e, todo)} onDragEnd={onDragEnd}>
@@ -81,7 +88,8 @@ export const TodoItem = ({
           </Title>
         </NotificationWrapper>
       ) : null}
-      <SubTitle style={{ height: 70, width: '100%' }}>{newDetail}</SubTitle>
+      <SubTitle style={{ height: 60, width: '100%', marginBottom: 8 }}>{newDetail}</SubTitle>
+      <ProgressBar count={progress} color={categoryData[todo.category as CategoryType].color} />
       <ActionWrapper>
         <Button
           handleButton={() => {

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { styles } from './CheckListItem.styles';
-import { Title, placeholder } from 'src/theme';
-import { ClosedIcon, DeleteIcon, DoneIcon, PendingIcon } from 'src/icons';
+import { Title } from 'src/theme';
+import { ClosedIcon, DoneIcon, PendingIcon } from 'src/icons';
 
 const Container = styled.div`
   ${styles.container}
@@ -24,13 +24,13 @@ export const CheckListItem = ({ title, isChecked, color, handleCompleted, handle
   return (
     <Container color={color}>
       {isChecked ? (
-        <DoneIcon fill={color} width={18} onClick={handleCompleted} />
+        <DoneIcon fill={color} width={18} onClick={handleCompleted} data-testid='check-button' />
       ) : (
-        <PendingIcon color={color} height={18} onClick={handleCompleted} />
+        <PendingIcon color={color} height={18} onClick={handleCompleted} data-testid='uncheck-button' />
       )}
       <Wrapper>
-        <Title>{title}</Title>
-        <ClosedIcon fill={`${color}99`} width={18} onClick={handleDelete} />
+        <Title style={{ flex: 1 }}>{title}</Title>
+        <ClosedIcon fill={`${color}99`} width={18} onClick={handleDelete} data-testid='delete-check-button' />
       </Wrapper>
     </Container>
   );

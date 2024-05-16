@@ -5,13 +5,13 @@ import { CheckListItem } from '..';
 
 describe('Test CheckListItem component', () => {
   test.only('should match its snapshot', async () => {
-    const component = render(<CheckListItem title='title' count={2} color='blue' />);
+    const component = render(<CheckListItem title='title' isChecked color={'blue'} handleCompleted={jest.fn()} handleDelete={jest.fn()} />);
 
     expect(component).toMatchSnapshot();
   });
 
-  test.only('should match its snapshot without color', async () => {
-    const component = render(<CheckListItem title='title' count={2} color='' />);
+  test.only('should match its snapshot without check', async () => {
+    const component = render(<CheckListItem title='title' isChecked={false} color={'blue'} handleCompleted={jest.fn()} handleDelete={jest.fn()} />);
 
     expect(component).toMatchSnapshot();
   });

@@ -39,6 +39,7 @@ export const TaskDetailView = (props: any) => {
   useEffect(() => {
     if (taskId) {
       findTodoItem(taskId).then(todo => {
+        todo && (todo.id = taskId);
         setTodo(todo);
       });
     }
@@ -74,20 +75,20 @@ export const TaskDetailView = (props: any) => {
         </Title>
       </HeaderWrapper>
       <TodoDetailWrapper isMobile={isMobile}>
-      <TodoDetailItem
-        todo={todo}
-        handleCompleteTodo={completeTodo}
-        handleUpdateTodo={updateTodo}
-        handleDeleteTodo={deleteTodo}
-        isMobile={isMobile}
-      />
-      <CheckList
-        todo={todo}
-        handleCompleteTodo={completeTodo}
-        handleUpdateTodo={updateTodo}
-        handleDeleteTodo={deleteTodo}
-        isMobile={isMobile}
-      />
+        <TodoDetailItem
+          todo={todo}
+          handleCompleteTodo={completeTodo}
+          handleUpdateTodo={updateTodo}
+          handleDeleteTodo={deleteTodo}
+          isMobile={isMobile}
+        />
+        <CheckList
+          todo={todo}
+          handleCompleteTodo={completeTodo}
+          handleUpdateTodo={updateTodo}
+          handleDeleteTodo={deleteTodo}
+          isMobile={isMobile}
+        />
       </TodoDetailWrapper>
     </Container>
   ) : (

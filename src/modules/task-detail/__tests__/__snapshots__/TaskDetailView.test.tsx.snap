@@ -10,10 +10,10 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
   >
     <div>
       <div
-        class="sc-gXSDep gJDjCe"
+        class="sc-dQemvk wOclD"
       >
         <div
-          class="sc-cCYzbQ eCWQQc"
+          class="sc-bCDiRt eARhqa"
         >
           <div
             class="sc-beqWNU hnIjJd"
@@ -34,121 +34,191 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
           </div>
         </div>
         <div
-          class="sc-gjTHFV cTcOTr"
+          class="sc-kiLFAs evgFUU"
         >
           <div
-            class="sc-bZPOSD fvQZo"
+            class="sc-hIqOjz fPDDfK"
+          >
+            <div
+              class="sc-kgKWtt fzsik"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
+              >
+                333333
+              </div>
+              <div
+                class="sc-dnwKha fNMlSi"
+                color="#d28312"
+              >
+                <svg
+                  color="#d28312"
+                  fill="currentColor"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.01 21.01c0 1.1.89 1.99 1.99 1.99s1.99-.89 1.99-1.99h-3.98zM12 6c2.76 0 5 2.24 5 5v7H7v-7c0-2.76 2.24-5 5-5zm0-4.5c-.83 0-1.5.67-1.5 1.5v1.17C7.36 4.85 5 7.65 5 11v6l-2 2v1h18v-1l-2-2v-6c0-3.35-2.36-6.15-5.5-6.83V3c0-.83-.67-1.5-1.5-1.5zM11 8h2v4h-2zm0 6h2v2h-2z"
+                  />
+                </svg>
+                Important
+              </div>
+            </div>
+            <div
+              class="sc-ivnBVK jAqqam"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="color: red;"
+              >
+                Expired time: 
+              </div>
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="font-weight: bold; color: red;"
+              >
+                05/10/2024
+                 
+                01:00:21
+              </div>
+            </div>
+            <div
+              class="sc-hLseSp fDeqZQ"
+              style="width: 100%; padding-bottom: 20px;"
+            >
+              3333333
+            </div>
+            <div
+              class="sc-fmSBHF eBNMxx"
+            >
+              <div
+                class="sc-fGFvMH fvjPgr"
+              >
+                <div
+                  class="sc-gueXAH gRHGwY"
+                  style="color: rgb(210, 131, 18);"
+                >
+                  Progress
+                </div>
+                <div
+                  class="sc-blLrKi hGZLFn"
+                  color="#d28312"
+                >
+                  0
+                  %
+                </div>
+              </div>
+              <div
+                class="sc-ieZDWB bUnyJt"
+                color="#d28312"
+              >
+                <div
+                  class="sc-dKfzUc phyfu"
+                  color="#d28312"
+                  count="0"
+                />
+              </div>
+            </div>
+            <div
+              class="sc-fLQSqU hxCtCW"
+            >
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                data-testid="complete-todo-button"
+                style="min-height: 26px; height: 26px; padding: 0px 16px;"
+                type="button"
+              >
+                Done
+              </button>
+              <div
+                class="sc-bALWzn jWTQiv"
+              >
+                <button
+                  buttontype="primary"
+                  class="sc-gLDymS dItXMH"
+                  data-testid="edit-todo-button"
+                  style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <svg
+                    color="#6459e3"
+                    fill="currentColor"
+                    height="16"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z"
+                    />
+                  </svg>
+                </button>
+                <button
+                  buttontype="primary"
+                  class="sc-gLDymS dItXMH"
+                  data-testid="delete-todo-button"
+                  style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <svg
+                    color="#6459e3"
+                    fill="currentColor"
+                    height="16"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM13.4142 13.9997L15.182 15.7675L13.7678 17.1817L12 15.4139L10.2322 17.1817L8.81802 15.7675L10.5858 13.9997L8.81802 12.232L10.2322 10.8178L12 12.5855L13.7678 10.8178L15.182 12.232L13.4142 13.9997ZM9 4V6H15V4H9Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-iCmjXL gnybjk"
           >
             <div
               class="sc-gueXAH gRHGwY"
               style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
             >
-              333333
+              Check List
             </div>
             <div
-              class="sc-eACxAu fMaGsu"
-              color="#d28312"
+              class="sc-ehsfVm hGElCJ"
             >
+              <input
+                class="sc-cRZdQV erCITr"
+                placeholder="Enter new task todo..."
+                type="text"
+                value=""
+              />
               <svg
                 color="#d28312"
                 fill="currentColor"
-                height="16"
+                height="20"
                 stroke="currentColor"
                 stroke-width="0"
-                viewBox="0 0 24 24"
-                width="16"
+                style="cursor: pointer;"
+                viewBox="0 0 512 512"
+                width="20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M10.01 21.01c0 1.1.89 1.99 1.99 1.99s1.99-.89 1.99-1.99h-3.98zM12 6c2.76 0 5 2.24 5 5v7H7v-7c0-2.76 2.24-5 5-5zm0-4.5c-.83 0-1.5.67-1.5 1.5v1.17C7.36 4.85 5 7.65 5 11v6l-2 2v1h18v-1l-2-2v-6c0-3.35-2.36-6.15-5.5-6.83V3c0-.83-.67-1.5-1.5-1.5zM11 8h2v4h-2zm0 6h2v2h-2z"
+                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
                 />
               </svg>
-              Important
-            </div>
-          </div>
-          <div
-            class="sc-jItppe eaoklu"
-          >
-            <div
-              class="sc-gueXAH gRHGwY"
-              style="color: red;"
-            >
-              Expired time: 
-            </div>
-            <div
-              class="sc-gueXAH gRHGwY"
-              style="font-weight: bold; color: red;"
-            >
-              05/10/2024
-               
-              01:00:21
-            </div>
-          </div>
-          <div
-            class="sc-hLseSp fDeqZQ"
-            style="width: 100%;"
-          >
-            3333333
-          </div>
-          <div
-            class="sc-kMrIKE cJOEGp"
-          >
-            <button
-              buttontype="primary"
-              class="sc-gLDymS dItXMH"
-              data-testid="complete-todo-button"
-              style="min-height: 26px; height: 26px; padding: 0px 16px;"
-              type="button"
-            >
-              Done
-            </button>
-            <div
-              class="sc-ilFacN buTuHI"
-            >
-              <button
-                buttontype="primary"
-                class="sc-gLDymS dItXMH"
-                data-testid="edit-todo-button"
-                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
-                type="button"
-              >
-                <svg
-                  color="#6459e3"
-                  fill="currentColor"
-                  height="16"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 24 24"
-                  width="16"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z"
-                  />
-                </svg>
-              </button>
-              <button
-                buttontype="primary"
-                class="sc-gLDymS dItXMH"
-                data-testid="delete-todo-button"
-                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
-                type="button"
-              >
-                <svg
-                  color="#6459e3"
-                  fill="currentColor"
-                  height="16"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 24 24"
-                  width="16"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM13.4142 13.9997L15.182 15.7675L13.7678 17.1817L12 15.4139L10.2322 17.1817L8.81802 15.7675L10.5858 13.9997L8.81802 12.232L10.2322 10.8178L12 12.5855L13.7678 10.8178L15.182 12.232L13.4142 13.9997ZM9 4V6H15V4H9Z"
-                  />
-                </svg>
-              </button>
             </div>
           </div>
         </div>
@@ -471,10 +541,10 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gXSDep gJDjCe"
+      class="sc-dQemvk wOclD"
     >
       <div
-        class="sc-cCYzbQ eCWQQc"
+        class="sc-bCDiRt eARhqa"
       >
         <div
           class="sc-beqWNU hnIjJd"
@@ -495,121 +565,191 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
         </div>
       </div>
       <div
-        class="sc-gjTHFV cTcOTr"
+        class="sc-kiLFAs evgFUU"
       >
         <div
-          class="sc-bZPOSD fvQZo"
+          class="sc-hIqOjz fPDDfK"
+        >
+          <div
+            class="sc-kgKWtt fzsik"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
+            >
+              333333
+            </div>
+            <div
+              class="sc-dnwKha fNMlSi"
+              color="#d28312"
+            >
+              <svg
+                color="#d28312"
+                fill="currentColor"
+                height="16"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.01 21.01c0 1.1.89 1.99 1.99 1.99s1.99-.89 1.99-1.99h-3.98zM12 6c2.76 0 5 2.24 5 5v7H7v-7c0-2.76 2.24-5 5-5zm0-4.5c-.83 0-1.5.67-1.5 1.5v1.17C7.36 4.85 5 7.65 5 11v6l-2 2v1h18v-1l-2-2v-6c0-3.35-2.36-6.15-5.5-6.83V3c0-.83-.67-1.5-1.5-1.5zM11 8h2v4h-2zm0 6h2v2h-2z"
+                />
+              </svg>
+              Important
+            </div>
+          </div>
+          <div
+            class="sc-ivnBVK jAqqam"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: red;"
+            >
+              Expired time: 
+            </div>
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="font-weight: bold; color: red;"
+            >
+              05/10/2024
+               
+              01:00:21
+            </div>
+          </div>
+          <div
+            class="sc-hLseSp fDeqZQ"
+            style="width: 100%; padding-bottom: 20px;"
+          >
+            3333333
+          </div>
+          <div
+            class="sc-fmSBHF eBNMxx"
+          >
+            <div
+              class="sc-fGFvMH fvjPgr"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="color: rgb(210, 131, 18);"
+              >
+                Progress
+              </div>
+              <div
+                class="sc-blLrKi hGZLFn"
+                color="#d28312"
+              >
+                0
+                %
+              </div>
+            </div>
+            <div
+              class="sc-ieZDWB bUnyJt"
+              color="#d28312"
+            >
+              <div
+                class="sc-dKfzUc phyfu"
+                color="#d28312"
+                count="0"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-fLQSqU hxCtCW"
+          >
+            <button
+              buttontype="primary"
+              class="sc-gLDymS dItXMH"
+              data-testid="complete-todo-button"
+              style="min-height: 26px; height: 26px; padding: 0px 16px;"
+              type="button"
+            >
+              Done
+            </button>
+            <div
+              class="sc-bALWzn jWTQiv"
+            >
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                data-testid="edit-todo-button"
+                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                type="button"
+              >
+                <svg
+                  color="#6459e3"
+                  fill="currentColor"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z"
+                  />
+                </svg>
+              </button>
+              <button
+                buttontype="primary"
+                class="sc-gLDymS dItXMH"
+                data-testid="delete-todo-button"
+                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                type="button"
+              >
+                <svg
+                  color="#6459e3"
+                  fill="currentColor"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM13.4142 13.9997L15.182 15.7675L13.7678 17.1817L12 15.4139L10.2322 17.1817L8.81802 15.7675L10.5858 13.9997L8.81802 12.232L10.2322 10.8178L12 12.5855L13.7678 10.8178L15.182 12.232L13.4142 13.9997ZM9 4V6H15V4H9Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-iCmjXL gnybjk"
         >
           <div
             class="sc-gueXAH gRHGwY"
             style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
           >
-            333333
+            Check List
           </div>
           <div
-            class="sc-eACxAu fMaGsu"
-            color="#d28312"
+            class="sc-ehsfVm hGElCJ"
           >
+            <input
+              class="sc-cRZdQV erCITr"
+              placeholder="Enter new task todo..."
+              type="text"
+              value=""
+            />
             <svg
               color="#d28312"
               fill="currentColor"
-              height="16"
+              height="20"
               stroke="currentColor"
               stroke-width="0"
-              viewBox="0 0 24 24"
-              width="16"
+              style="cursor: pointer;"
+              viewBox="0 0 512 512"
+              width="20"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M10.01 21.01c0 1.1.89 1.99 1.99 1.99s1.99-.89 1.99-1.99h-3.98zM12 6c2.76 0 5 2.24 5 5v7H7v-7c0-2.76 2.24-5 5-5zm0-4.5c-.83 0-1.5.67-1.5 1.5v1.17C7.36 4.85 5 7.65 5 11v6l-2 2v1h18v-1l-2-2v-6c0-3.35-2.36-6.15-5.5-6.83V3c0-.83-.67-1.5-1.5-1.5zM11 8h2v4h-2zm0 6h2v2h-2z"
+                d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
               />
             </svg>
-            Important
-          </div>
-        </div>
-        <div
-          class="sc-jItppe eaoklu"
-        >
-          <div
-            class="sc-gueXAH gRHGwY"
-            style="color: red;"
-          >
-            Expired time: 
-          </div>
-          <div
-            class="sc-gueXAH gRHGwY"
-            style="font-weight: bold; color: red;"
-          >
-            05/10/2024
-             
-            01:00:21
-          </div>
-        </div>
-        <div
-          class="sc-hLseSp fDeqZQ"
-          style="width: 100%;"
-        >
-          3333333
-        </div>
-        <div
-          class="sc-kMrIKE cJOEGp"
-        >
-          <button
-            buttontype="primary"
-            class="sc-gLDymS dItXMH"
-            data-testid="complete-todo-button"
-            style="min-height: 26px; height: 26px; padding: 0px 16px;"
-            type="button"
-          >
-            Done
-          </button>
-          <div
-            class="sc-ilFacN buTuHI"
-          >
-            <button
-              buttontype="primary"
-              class="sc-gLDymS dItXMH"
-              data-testid="edit-todo-button"
-              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
-              type="button"
-            >
-              <svg
-                color="#6459e3"
-                fill="currentColor"
-                height="16"
-                stroke="currentColor"
-                stroke-width="0"
-                viewBox="0 0 24 24"
-                width="16"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z"
-                />
-              </svg>
-            </button>
-            <button
-              buttontype="primary"
-              class="sc-gLDymS dItXMH"
-              data-testid="delete-todo-button"
-              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
-              type="button"
-            >
-              <svg
-                color="#6459e3"
-                fill="currentColor"
-                height="16"
-                stroke="currentColor"
-                stroke-width="0"
-                viewBox="0 0 24 24"
-                width="16"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM13.4142 13.9997L15.182 15.7675L13.7678 17.1817L12 15.4139L10.2322 17.1817L8.81802 15.7675L10.5858 13.9997L8.81802 12.232L10.2322 10.8178L12 12.5855L13.7678 10.8178L15.182 12.232L13.4142 13.9997ZM9 4V6H15V4H9Z"
-                />
-              </svg>
-            </button>
           </div>
         </div>
       </div>
@@ -675,11 +815,11 @@ exports[`TaskDetailView renders TaskDetailView with mobile view 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-jegwpa gPhanV"
+        class="sc-BKzFX cKdcpK"
       >
         <img
           alt="No task found"
-          class="sc-cjEQSD jLfEeV"
+          class="sc-cPlDjO iivbbN"
           src="/img.jpg"
         />
         <div
@@ -693,11 +833,11 @@ exports[`TaskDetailView renders TaskDetailView with mobile view 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-jegwpa gPhanV"
+      class="sc-BKzFX cKdcpK"
     >
       <img
         alt="No task found"
-        class="sc-cjEQSD jLfEeV"
+        class="sc-cPlDjO iivbbN"
         src="/img.jpg"
       />
       <div

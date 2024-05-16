@@ -10,6 +10,7 @@ import { MODE } from 'src/constants';
 import { Button } from '../button';
 import dayjs from 'dayjs';
 import { isEmpty } from 'lodash';
+import { ProgressBar } from '../progress-bar';
 
 const Container = styled.div<{ isMobile: boolean }>`
   ${styles.container}
@@ -74,6 +75,12 @@ export const TodoDetailItem = ({
     setIsEdit(false);
   };
 
+  const progress = todo.completed
+    ? 100
+    : todo.checkList?.length
+      ? (todo.checkList.filter(item => item.completed).length / todo.checkList.length) * 100
+      : 0;
+
   return (
     <Container isMobile={isMobile}>
       <TitleWrapper>
@@ -107,7 +114,8 @@ export const TodoDetailItem = ({
           </Title>
         </NotificationWrapper>
       ) : null}
-      <SubTitle style={{ width: '100%' }}>{todo.detail}</SubTitle>
+      <SubTitle style={{ width: '100%', paddingBottom: 20 }}>{todo.detail}</SubTitle>
+      <ProgressBar count={progress} color={categoryData[todo.category as CategoryType].color} />
       <ActionWrapper>
         <Button
           handleButton={() => handleCompleteTodo(todo)}

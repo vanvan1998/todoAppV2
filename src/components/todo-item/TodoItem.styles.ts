@@ -8,11 +8,12 @@ export const styles = {
     border: 1px solid #d8e2eb;
     padding: 16px;
     border-radius: 6px;
-    height: 170px;
+    height: 194px;
     background-color: white;
     justify-content: space-between;
   `,
   actionWrapper: css`
+    padding-top: 8px;
     display: flex;
     flex-direction: row;
     width: 100%;

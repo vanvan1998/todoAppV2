@@ -9,6 +9,7 @@ const todo = {
   startDate: '05/10/2024',
   category: 1,
   completed: false,
-  userId: 'j3WklyoTrBg4E1GKNz0Gn0az34V2'
+  userId: 'j3WklyoTrBg4E1GKNz0Gn0az34V2',
+  checkList: []
 };
 export { todo };

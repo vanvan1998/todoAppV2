@@ -6,10 +6,10 @@ exports[`Test TodoList component should match its snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-blLrKi jPROYq"
+        class="sc-iKGqnM bAjscv"
       >
         <div
-          class="sc-ktEKgv ckszcg"
+          class="sc-bALWzn lNTDe"
           draggable="true"
           id="82zB2At6gnxs0SbDJ8SW"
         >
@@ -20,7 +20,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             333333
           </div>
           <div
-            class="sc-fGFvMH kCKAqd"
+            class="sc-lnAfUH koPQRt"
           >
             <div
               class="sc-gueXAH gRHGwY"
@@ -39,12 +39,43 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           </div>
           <div
             class="sc-hLseSp fDeqZQ"
-            style="height: 70px; width: 100%;"
+            style="height: 60px; width: 100%; margin-bottom: 8px;"
           >
             3333333
           </div>
           <div
-            class="sc-hAtFlw WdYvR"
+            class="sc-ktEKgv jZWMWx"
+          >
+            <div
+              class="sc-hAtFlw dfuuuD"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="color: rgb(210, 131, 18);"
+              >
+                Progress
+              </div>
+              <div
+                class="sc-fmSBHF kyktUN"
+                color="#d28312"
+              >
+                0
+                %
+              </div>
+            </div>
+            <div
+              class="sc-fGFvMH kzrFFa"
+              color="#d28312"
+            >
+              <div
+                class="sc-blLrKi bOozld"
+                color="#d28312"
+                count="0"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-ivnBVK eMkHXj"
           >
             <button
               buttontype="primary"
@@ -56,7 +87,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               Task details
             </button>
             <div
-              class="sc-fmSBHF gzwAvP"
+              class="sc-cyRfdC kUlieG"
             >
               <button
                 buttontype="primary"
@@ -129,7 +160,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-ktEKgv ckszcg"
+          class="sc-bALWzn lNTDe"
           draggable="true"
           id="82zB2At6gnxs0SbDJ8SW"
         >
@@ -140,7 +171,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             333333
           </div>
           <div
-            class="sc-fGFvMH kCKAqd"
+            class="sc-lnAfUH koPQRt"
           >
             <div
               class="sc-gueXAH gRHGwY"
@@ -159,12 +190,43 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           </div>
           <div
             class="sc-hLseSp fDeqZQ"
-            style="height: 70px; width: 100%;"
+            style="height: 60px; width: 100%; margin-bottom: 8px;"
           >
             3333333
           </div>
           <div
-            class="sc-hAtFlw WdYvR"
+            class="sc-ktEKgv jZWMWx"
+          >
+            <div
+              class="sc-hAtFlw dfuuuD"
+            >
+              <div
+                class="sc-gueXAH gRHGwY"
+                style="color: rgb(210, 131, 18);"
+              >
+                Progress
+              </div>
+              <div
+                class="sc-fmSBHF kyktUN"
+                color="#d28312"
+              >
+                100
+                %
+              </div>
+            </div>
+            <div
+              class="sc-fGFvMH kzrFFa"
+              color="#d28312"
+            >
+              <div
+                class="sc-blLrKi gdjbfA"
+                color="#d28312"
+                count="100"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-ivnBVK eMkHXj"
           >
             <button
               buttontype="primary"
@@ -176,7 +238,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               Task details
             </button>
             <div
-              class="sc-fmSBHF gzwAvP"
+              class="sc-cyRfdC kUlieG"
             >
               <button
                 buttontype="primary"
@@ -251,7 +313,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           <button
             buttontype="secondary"
             class="sc-gLDymS jcdnJc"
-            style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+            style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
             type="button"
           >
             <svg
@@ -274,10 +336,10 @@ exports[`Test TodoList component should match its snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-blLrKi jPROYq"
+      class="sc-iKGqnM bAjscv"
     >
       <div
-        class="sc-ktEKgv ckszcg"
+        class="sc-bALWzn lNTDe"
         draggable="true"
         id="82zB2At6gnxs0SbDJ8SW"
       >
@@ -288,7 +350,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           333333
         </div>
         <div
-          class="sc-fGFvMH kCKAqd"
+          class="sc-lnAfUH koPQRt"
         >
           <div
             class="sc-gueXAH gRHGwY"
@@ -307,12 +369,43 @@ exports[`Test TodoList component should match its snapshot 1`] = `
         </div>
         <div
           class="sc-hLseSp fDeqZQ"
-          style="height: 70px; width: 100%;"
+          style="height: 60px; width: 100%; margin-bottom: 8px;"
         >
           3333333
         </div>
         <div
-          class="sc-hAtFlw WdYvR"
+          class="sc-ktEKgv jZWMWx"
+        >
+          <div
+            class="sc-hAtFlw dfuuuD"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: rgb(210, 131, 18);"
+            >
+              Progress
+            </div>
+            <div
+              class="sc-fmSBHF kyktUN"
+              color="#d28312"
+            >
+              0
+              %
+            </div>
+          </div>
+          <div
+            class="sc-fGFvMH kzrFFa"
+            color="#d28312"
+          >
+            <div
+              class="sc-blLrKi bOozld"
+              color="#d28312"
+              count="0"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-ivnBVK eMkHXj"
         >
           <button
             buttontype="primary"
@@ -324,7 +417,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             Task details
           </button>
           <div
-            class="sc-fmSBHF gzwAvP"
+            class="sc-cyRfdC kUlieG"
           >
             <button
               buttontype="primary"
@@ -397,7 +490,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-ktEKgv ckszcg"
+        class="sc-bALWzn lNTDe"
         draggable="true"
         id="82zB2At6gnxs0SbDJ8SW"
       >
@@ -408,7 +501,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           333333
         </div>
         <div
-          class="sc-fGFvMH kCKAqd"
+          class="sc-lnAfUH koPQRt"
         >
           <div
             class="sc-gueXAH gRHGwY"
@@ -427,12 +520,43 @@ exports[`Test TodoList component should match its snapshot 1`] = `
         </div>
         <div
           class="sc-hLseSp fDeqZQ"
-          style="height: 70px; width: 100%;"
+          style="height: 60px; width: 100%; margin-bottom: 8px;"
         >
           3333333
         </div>
         <div
-          class="sc-hAtFlw WdYvR"
+          class="sc-ktEKgv jZWMWx"
+        >
+          <div
+            class="sc-hAtFlw dfuuuD"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: rgb(210, 131, 18);"
+            >
+              Progress
+            </div>
+            <div
+              class="sc-fmSBHF kyktUN"
+              color="#d28312"
+            >
+              100
+              %
+            </div>
+          </div>
+          <div
+            class="sc-fGFvMH kzrFFa"
+            color="#d28312"
+          >
+            <div
+              class="sc-blLrKi gdjbfA"
+              color="#d28312"
+              count="100"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-ivnBVK eMkHXj"
         >
           <button
             buttontype="primary"
@@ -444,7 +568,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             Task details
           </button>
           <div
-            class="sc-fmSBHF gzwAvP"
+            class="sc-cyRfdC kUlieG"
           >
             <button
               buttontype="primary"
@@ -519,7 +643,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
         <button
           buttontype="secondary"
           class="sc-gLDymS jcdnJc"
-          style="height: 170px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
+          style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
           type="button"
         >
           <svg

@@ -6,10 +6,10 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-ktEKgv hUXoee"
+        class="sc-ieZDWB gzpYkO"
       >
         <div
-          class="sc-fmSBHF fSxNHk"
+          class="sc-hIqOjz cNoyqv"
         >
           <div
             class="sc-gueXAH gRHGwY"
@@ -18,7 +18,7 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
             333333
           </div>
           <div
-            class="sc-hAtFlw hPgznd"
+            class="sc-dKfzUc fKMUkQ"
             color="#d28312"
           >
             <svg
@@ -39,7 +39,7 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-ieZDWB kTYFOv"
+          class="sc-fLQSqU ha-DoYg"
         >
           <div
             class="sc-gueXAH gRHGwY"
@@ -58,12 +58,43 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
         </div>
         <div
           class="sc-hLseSp fDeqZQ"
-          style="width: 100%;"
+          style="width: 100%; padding-bottom: 20px;"
         >
           3333333
         </div>
         <div
-          class="sc-fGFvMH twQZS"
+          class="sc-ktEKgv jZWMWx"
+        >
+          <div
+            class="sc-hAtFlw dfuuuD"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: rgb(210, 131, 18);"
+            >
+              Progress
+            </div>
+            <div
+              class="sc-fmSBHF kyktUN"
+              color="#d28312"
+            >
+              0
+              %
+            </div>
+          </div>
+          <div
+            class="sc-fGFvMH kzrFFa"
+            color="#d28312"
+          >
+            <div
+              class="sc-blLrKi bOozld"
+              color="#d28312"
+              count="0"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-dnwKha iiefKd"
         >
           <button
             buttontype="primary"
@@ -75,7 +106,7 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
             Done
           </button>
           <div
-            class="sc-blLrKi djSrFV"
+            class="sc-kgKWtt eEfpbf"
           >
             <button
               buttontype="primary"
@@ -128,10 +159,10 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-ktEKgv hUXoee"
+      class="sc-ieZDWB gzpYkO"
     >
       <div
-        class="sc-fmSBHF fSxNHk"
+        class="sc-hIqOjz cNoyqv"
       >
         <div
           class="sc-gueXAH gRHGwY"
@@ -140,7 +171,7 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
           333333
         </div>
         <div
-          class="sc-hAtFlw hPgznd"
+          class="sc-dKfzUc fKMUkQ"
           color="#d28312"
         >
           <svg
@@ -161,7 +192,7 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-ieZDWB kTYFOv"
+        class="sc-fLQSqU ha-DoYg"
       >
         <div
           class="sc-gueXAH gRHGwY"
@@ -180,12 +211,43 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
       </div>
       <div
         class="sc-hLseSp fDeqZQ"
-        style="width: 100%;"
+        style="width: 100%; padding-bottom: 20px;"
       >
         3333333
       </div>
       <div
-        class="sc-fGFvMH twQZS"
+        class="sc-ktEKgv jZWMWx"
+      >
+        <div
+          class="sc-hAtFlw dfuuuD"
+        >
+          <div
+            class="sc-gueXAH gRHGwY"
+            style="color: rgb(210, 131, 18);"
+          >
+            Progress
+          </div>
+          <div
+            class="sc-fmSBHF kyktUN"
+            color="#d28312"
+          >
+            0
+            %
+          </div>
+        </div>
+        <div
+          class="sc-fGFvMH kzrFFa"
+          color="#d28312"
+        >
+          <div
+            class="sc-blLrKi bOozld"
+            color="#d28312"
+            count="0"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-dnwKha iiefKd"
       >
         <button
           buttontype="primary"
@@ -197,7 +259,7 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
           Done
         </button>
         <div
-          class="sc-blLrKi djSrFV"
+          class="sc-kgKWtt eEfpbf"
         >
           <button
             buttontype="primary"
@@ -307,10 +369,10 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
   "baseElement": <body>
     <div>
       <div
-        class="sc-ktEKgv hUXoee"
+        class="sc-ieZDWB howllc"
       >
         <div
-          class="sc-fmSBHF fSxNHk"
+          class="sc-hIqOjz cNoyqv"
         >
           <div
             class="sc-gueXAH gRHGwY"
@@ -319,7 +381,7 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
             333333
           </div>
           <div
-            class="sc-hAtFlw bEfkBB"
+            class="sc-dKfzUc hhyAOs"
             color="#db0f25"
           >
             <svg
@@ -345,7 +407,7 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
           </div>
         </div>
         <div
-          class="sc-ieZDWB kTYFOv"
+          class="sc-fLQSqU ha-DoYg"
         >
           <div
             class="sc-gueXAH gRHGwY"
@@ -364,12 +426,43 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
         </div>
         <div
           class="sc-hLseSp fDeqZQ"
-          style="width: 100%;"
+          style="width: 100%; padding-bottom: 20px;"
         >
           3333333
         </div>
         <div
-          class="sc-fGFvMH twQZS"
+          class="sc-ktEKgv jZWMWx"
+        >
+          <div
+            class="sc-hAtFlw dfuuuD"
+          >
+            <div
+              class="sc-gueXAH gRHGwY"
+              style="color: rgb(219, 15, 37);"
+            >
+              Progress
+            </div>
+            <div
+              class="sc-fmSBHF eOLhQU"
+              color="#db0f25"
+            >
+              100
+              %
+            </div>
+          </div>
+          <div
+            class="sc-fGFvMH giKZNz"
+            color="#db0f25"
+          >
+            <div
+              class="sc-blLrKi cnEHvZ"
+              color="#db0f25"
+              count="100"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-dnwKha iiefKd"
         >
           <button
             buttontype="primary"
@@ -381,7 +474,7 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
             Reopen
           </button>
           <div
-            class="sc-blLrKi djSrFV"
+            class="sc-kgKWtt eEfpbf"
           >
             <button
               buttontype="primary"
@@ -434,10 +527,10 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
   </body>,
   "container": <div>
     <div
-      class="sc-ktEKgv hUXoee"
+      class="sc-ieZDWB howllc"
     >
       <div
-        class="sc-fmSBHF fSxNHk"
+        class="sc-hIqOjz cNoyqv"
       >
         <div
           class="sc-gueXAH gRHGwY"
@@ -446,7 +539,7 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
           333333
         </div>
         <div
-          class="sc-hAtFlw bEfkBB"
+          class="sc-dKfzUc hhyAOs"
           color="#db0f25"
         >
           <svg
@@ -472,7 +565,7 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
         </div>
       </div>
       <div
-        class="sc-ieZDWB kTYFOv"
+        class="sc-fLQSqU ha-DoYg"
       >
         <div
           class="sc-gueXAH gRHGwY"
@@ -491,12 +584,43 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
       </div>
       <div
         class="sc-hLseSp fDeqZQ"
-        style="width: 100%;"
+        style="width: 100%; padding-bottom: 20px;"
       >
         3333333
       </div>
       <div
-        class="sc-fGFvMH twQZS"
+        class="sc-ktEKgv jZWMWx"
+      >
+        <div
+          class="sc-hAtFlw dfuuuD"
+        >
+          <div
+            class="sc-gueXAH gRHGwY"
+            style="color: rgb(219, 15, 37);"
+          >
+            Progress
+          </div>
+          <div
+            class="sc-fmSBHF eOLhQU"
+            color="#db0f25"
+          >
+            100
+            %
+          </div>
+        </div>
+        <div
+          class="sc-fGFvMH giKZNz"
+          color="#db0f25"
+        >
+          <div
+            class="sc-blLrKi cnEHvZ"
+            color="#db0f25"
+            count="100"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-dnwKha iiefKd"
       >
         <button
           buttontype="primary"
@@ -508,7 +632,7 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
           Reopen
         </button>
         <div
-          class="sc-blLrKi djSrFV"
+          class="sc-kgKWtt eEfpbf"
         >
           <button
             buttontype="primary"
