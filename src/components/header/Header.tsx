@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { HomeIcon, AccountIcon, SignOutIcon, ChangePassIcon } from '../../icons';
 import styled from 'styled-components';
 import { styles } from './Header.styles';
-import { Title, placeholder, secondary, transparent } from 'src/theme';
+import { Title } from 'src/components';
+import { placeholderColor, secondaryColor, transparent } from 'src/theme';
 import { Button } from '../button';
 import { useRouter } from 'next/navigation';
 
@@ -66,10 +67,10 @@ export const Header = () => {
     <>
       <Container>
         <Link href='/' className=''>
-          <HomeIcon fill={secondary} />
+          <HomeIcon fill={secondaryColor} />
         </Link>
         <LeftHeader>
-          <Title style={{ color: secondary }}>Hi {currentUser?.displayName || currentUser?.email}</Title>
+          <Title style={{ color: secondaryColor }}>Hi {currentUser?.displayName || currentUser?.email}</Title>
           <div ref={ref}>
             <Button
               handleButton={() => {
@@ -79,9 +80,9 @@ export const Header = () => {
               testId='account-button'
             >
               {currentUser ? (
-                <AccountIcon width={24} fill={secondary} />
+                <AccountIcon width={24} fill={secondaryColor} />
               ) : (
-                <SignOutIcon width={24} fill={secondary} style={{ transform: 'rotate(180deg)' }} />
+                <SignOutIcon width={24} fill={secondaryColor} style={{ transform: 'rotate(180deg)' }} />
               )}
             </Button>
             {showLeftMenu ? (
@@ -94,14 +95,14 @@ export const Header = () => {
                     alignItems: 'center',
                     gap: 16,
                     backgroundColor: transparent,
-                    borderBottom: `1px solid ${placeholder}`,
+                    borderBottom: `1px solid ${placeholderColor}`,
                     borderRadius: 0,
                     width: '100%'
                   }}
                   testId='profile-button'
                 >
                   <AccountTitle>
-                    <AccountIcon width={20} fill={secondary} />
+                    <AccountIcon width={20} fill={secondaryColor} />
                     <Title style={{ textDecoration: 'none' }}>Profile</Title>
                   </AccountTitle>
                 </Button>
@@ -113,14 +114,14 @@ export const Header = () => {
                     alignItems: 'center',
                     gap: 16,
                     backgroundColor: transparent,
-                    borderBottom: `1px solid ${placeholder}`,
+                    borderBottom: `1px solid ${placeholderColor}`,
                     borderRadius: 0,
                     width: '100%'
                   }}
                   testId='change-password-button'
                 >
                   <AccountTitle>
-                    <ChangePassIcon width={20} fill={secondary} />
+                    <ChangePassIcon width={20} fill={secondaryColor} />
                     <Title style={{ textDecoration: 'none' }}>Change password</Title>
                   </AccountTitle>
                 </Button>
@@ -138,7 +139,7 @@ export const Header = () => {
                   testId='sign-out-button'
                 >
                   <AccountTitle>
-                    <SignOutIcon width={20} fill={secondary} />
+                    <SignOutIcon width={20} fill={secondaryColor} />
                     <Title style={{ textDecoration: 'none' }}>Sign out</Title>
                   </AccountTitle>
                 </Button>

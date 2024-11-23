@@ -1,16 +1,16 @@
 'use client';
 
 import React, { useRef, useState } from 'react';
+import { isEmpty } from 'lodash';
+import styled from 'styled-components';
 import { Form, Image } from 'react-bootstrap';
 import { useAuth } from 'src/contexts/AuthContext';
 import { storage } from '../../firebase';
 import { ref, getDownloadURL, uploadBytesResumable } from 'firebase/storage';
-import styled from 'styled-components';
 import { styles } from './UpdateProfileView.styles';
-import { ErrorText, Header, SuccessText, Title, placeholder } from 'src/theme';
+import { ErrorText, HeaderTitle, SuccessText, Title, Button, Input } from 'src/components';
+import { placeholderColor } from 'src/theme';
 import { useMediaQuery } from 'src/hooks';
-import { Button, Input } from 'src/components';
-import { isEmpty } from 'lodash';
 
 const Container = styled.div`
   ${styles.Container}
@@ -107,7 +107,7 @@ export const UpdateProfileView = () => {
   return (
     <Container>
       <HeaderWrapper isMobile={isMobile}>
-        <Header style={{ fontWeight: '600' }}>Profile</Header>
+        <HeaderTitle style={{ fontWeight: '600' }}>Profile</HeaderTitle>
         <Title>
           You&apos;re logged in as <Title style={{ fontWeight: 'bold' }}>{currentUser.email}</Title>
         </Title>
@@ -150,7 +150,7 @@ export const UpdateProfileView = () => {
         placeholder='Enter your full name...'
         inputStyles={{
           ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { minHeight: 48, minWidth: 320 }),
-          border: `1px solid ${placeholder}`,
+          border: `1px solid ${placeholderColor}`,
           backgroundColor: '#fefeff'
         }}
       />

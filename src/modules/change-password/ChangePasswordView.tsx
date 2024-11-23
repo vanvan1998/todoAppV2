@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 import { useAuth } from 'src/contexts/AuthContext';
 import styled from 'styled-components';
 import { styles } from './ChangePassword.styles';
-import { ErrorText, Header, PlaceholderTitle, SuccessText, Title, placeholder } from 'src/theme';
-import { Button, Input } from 'src/components';
+import { placeholderColor } from 'src/theme';
+import { ErrorText, HeaderTitle, PlaceholderTitle, SuccessText, Title, Button, Input } from 'src/components';
 import { useMediaQuery } from 'src/hooks';
 import { isEmpty } from 'lodash';
 
@@ -67,7 +67,7 @@ export const ChangePasswordView = () => {
       <Container isMobile={isMobile}>
         <HeaderWrapper isMobile={isMobile}>
           <TitleWrapper>
-            <Header style={{ fontWeight: '600' }}>Change password</Header>
+            <HeaderTitle style={{ fontWeight: '600' }}>Change password</HeaderTitle>
             <PlaceholderTitle>Please enter your new password to change</PlaceholderTitle>
           </TitleWrapper>
           <Title>
@@ -86,7 +86,7 @@ export const ChangePasswordView = () => {
           placeholder='Enter your password...'
           inputStyles={{
             ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { minHeight: 48, minWidth: 320 }),
-            border: `1px solid ${placeholder}`,
+            border: `1px solid ${placeholderColor}`,
             backgroundColor: '#fefeff'
           }}
         />
@@ -99,7 +99,7 @@ export const ChangePasswordView = () => {
           placeholder='Enter your password...'
           inputStyles={{
             ...(isMobile ? { maxWidth: 320, minWidth: 200, width: '80vw' } : { minHeight: 48, minWidth: 320 }),
-            border: `1px solid ${placeholder}`,
+            border: `1px solid ${placeholderColor}`,
             backgroundColor: '#fefeff'
           }}
         />

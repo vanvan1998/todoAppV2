@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { styles } from './TitleItem.styles';
-import { Title } from 'src/theme';
+import { Title } from 'src/components';
 
 const Container = styled.div`
   ${styles.container}

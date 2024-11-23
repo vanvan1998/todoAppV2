@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { styles } from './ProgressBar.styles';
-import { Title } from 'src/theme';
+import { Title } from 'src/components';
 
 const Container = styled.div`
   ${styles.container}
@@ -28,7 +28,7 @@ export const ProgressBar = ({ count, color }: { color: string; count: number }) 
     <Container>
       <Wrapper>
         <Title style={{ color: color }}>Progress</Title>
-        <Count color={color}>{count}%</Count>
+        <Count color={color}>{count.toFixed(2)}%</Count>
       </Wrapper>
       <ProgressBorder color={color}>
         <Progress count={count} color={color} />

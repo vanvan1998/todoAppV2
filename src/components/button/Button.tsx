@@ -1,7 +1,7 @@
 import React, { MouseEventHandler } from 'react';
 import styled from 'styled-components';
 import { styles } from './Button.styles';
-import { disabledButton } from 'src/theme';
+import { disabledButtonColor } from 'src/theme';
 
 const ButtonStyled = styled.button<{ buttonType: string }>`
   ${styles.button}
@@ -32,7 +32,7 @@ export const Button = ({
     <ButtonStyled
       disabled={disabled}
       buttonType={buttonType}
-      style={{ ...styles, ...(disabled ? { backgroundColor: disabledButton } : {}) }}
+      style={{ ...styles, ...(disabled ? { backgroundColor: disabledButtonColor } : {}) }}
       onClick={handleButton}
       type={type}
       data-testid={testId}

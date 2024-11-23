@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { isEmpty } from 'lodash';
-import { Title } from 'src/theme';
+import { Title } from 'src/components';
 import styled from 'styled-components';
 import { AddIcon } from '../../icons';
 import { CategoryType, TodoItemType } from '../../types';

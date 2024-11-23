@@ -7,8 +7,7 @@ import { useRouter } from 'next/navigation';
 import { Layout } from '../../components';
 import styled from 'styled-components';
 import { styles } from './SignIn.styles';
-import { ErrorText, Header, PlaceholderTitle } from 'src/theme';
-import { Button, Input } from 'src/components';
+import { ErrorText, HeaderTitle, PlaceholderTitle, Button, Input } from 'src/components';
 import { useMediaQuery } from 'src/hooks';
 import { isEmpty } from 'lodash';
 import { GoogleIcon } from 'src/icons';
@@ -53,7 +52,7 @@ export const SignIn = () => {
   return (
     <Layout>
       <Container isMobile={isMobile}>
-        <Header>Welcome Back</Header>
+        <HeaderTitle>Welcome Back</HeaderTitle>
         <PlaceholderTitle>Please enter your details to sign in</PlaceholderTitle>
         <Input
           title='Email'

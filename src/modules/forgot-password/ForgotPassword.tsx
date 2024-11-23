@@ -6,8 +6,7 @@ import Link from 'next/link';
 import { Layout } from '../../components';
 import styled from 'styled-components';
 import { styles } from './ForgotPassword.styles';
-import { SuccessText, ErrorText, Header, PlaceholderTitle } from 'src/theme';
-import { Button, Input } from 'src/components';
+import { SuccessText, ErrorText, HeaderTitle, PlaceholderTitle, Button, Input } from 'src/components';
 import { useMediaQuery } from 'src/hooks';
 import { isEmpty } from 'lodash';
 
@@ -54,7 +53,7 @@ export const ForgotPassword = () => {
   return (
     <Layout>
       <Container isMobile={isMobile}>
-        <Header>Password Reset</Header>
+        <HeaderTitle>Password Reset</HeaderTitle>
         <SubHeader>
           <PlaceholderTitle>
             Enter your email and we will send you information on how to reset your password

@@ -9,7 +9,8 @@ import { isEmpty } from 'lodash';
 import { useState } from 'react';
 import { useMediaQuery } from 'src/hooks';
 import { ImportantIcon, UpcomingIcon, UrgentIcon } from 'src/icons';
-import { Title, disabledButton, primaryButton } from 'src/theme';
+import { Title } from 'src/components';
+import { disabledButtonColor, primaryButtonColor } from 'src/theme';
 import styled from 'styled-components';
 import { DATE_FORMAT, MODE, TIME_FORMAT } from '../../constants';
 import { CategoryType, TodoItemType } from '../../types';
@@ -140,7 +141,7 @@ export const AddTodo = ({
             alignItems: 'center',
             gap: 8,
             width: 130,
-            backgroundColor: category === CategoryType.Upcoming ? primaryButton : disabledButton
+            backgroundColor: category === CategoryType.Upcoming ? primaryButtonColor : disabledButtonColor
           }}
           testId='upcoming-button'
         >
@@ -159,7 +160,7 @@ export const AddTodo = ({
             alignItems: 'center',
             gap: 8,
             width: 130,
-            backgroundColor: category === CategoryType.Important ? primaryButton : disabledButton
+            backgroundColor: category === CategoryType.Important ? primaryButtonColor : disabledButtonColor
           }}
           testId='important-button'
         >
@@ -178,7 +179,7 @@ export const AddTodo = ({
             alignItems: 'center',
             gap: 8,
             width: 130,
-            backgroundColor: category === CategoryType.Urgent ? primaryButton : disabledButton
+            backgroundColor: category === CategoryType.Urgent ? primaryButtonColor : disabledButtonColor
           }}
           testId='urgent-button'
         >

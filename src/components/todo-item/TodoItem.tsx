@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { styles } from './TodoItem.styles';
-import { SubTitle, Title, primaryButton } from 'src/theme';
+import { SubTitle, Title } from 'src/components';
+import { deletedColor, primaryButtonColor } from 'src/theme';
 import { Modal } from 'react-bootstrap';
 import { CategoryType, TodoItemType } from '../../types';
-import { CheckedIcon, DeleteIcon, EditIcon, UnCheckedIcon } from '../../icons';
+import { CheckedIcon, DeleteIcon, EditIcon } from '../../icons';
 import { isEmpty } from 'lodash';
 import { AddTodo } from '../addTodo';
 import { MODE } from 'src/constants';
@@ -100,7 +101,7 @@ export const TodoItem = ({
             height: 26,
             padding: 0,
             backgroundColor: 'transparent',
-            color: primaryButton
+            color: primaryButtonColor
           }}
           testId='task-details-button'
         >
@@ -113,14 +114,16 @@ export const TodoItem = ({
               minHeight: 26,
               height: 26,
               padding: 0,
-              backgroundColor: 'transparent'
+              backgroundColor: 'transparent',
+              display: 'flex',
+              alignItems: 'center'
             }}
             testId='complete-button'
           >
             {todo.completed ? (
-              <CheckedIcon color={primaryButton} width={24} height={24} />
+              <CheckedIcon color={primaryButtonColor} width={18} height={18} />
             ) : (
-              <UnCheckedIcon color={primaryButton} width={24} height={24} />
+              <SubTitle style={{ width: '100%', color: primaryButtonColor, fontSize: 14}}>Done</SubTitle>
             )}
           </Button>
           <Button
@@ -133,8 +136,7 @@ export const TodoItem = ({
             }}
             styles={{
               backgroundColor: 'white',
-              padding: '0 8px',
-              border: `1px solid ${primaryButton}`,
+              padding: '0',
               minHeight: 26,
               height: 26,
               display: 'flex',
@@ -142,14 +144,13 @@ export const TodoItem = ({
             }}
             testId='edit-button'
           >
-            <EditIcon color={primaryButton} width={16} height={16} />
+            <EditIcon color={primaryButtonColor} width={18} height={18} />
           </Button>
           <Button
             handleButton={() => handleDeleteTodo(todo.id)}
             styles={{
               backgroundColor: 'white',
-              padding: '0 8px',
-              border: `1px solid ${primaryButton}`,
+              padding: '0',
               minHeight: 26,
               height: 26,
               display: 'flex',
@@ -157,7 +158,7 @@ export const TodoItem = ({
             }}
             testId='delete-button'
           >
-            <DeleteIcon color={primaryButton} width={16} height={16} />
+            <DeleteIcon color={deletedColor} width={18} height={18} />
           </Button>
         </RightAction>
       </ActionWrapper>

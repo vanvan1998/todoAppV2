@@ -5,7 +5,7 @@ import { TodoItemType } from '../../types';
 import { useFirebase, useNotification, useMediaQuery } from '../../hooks';
 import styled from 'styled-components';
 import { styles } from './TaskDetail.styles';
-import { Header, Title } from 'src/theme';
+import { HeaderTitle, Title } from 'src/components';
 import { useRouter } from 'next/navigation';
 import noTaskFound from '../../assets/no-task-found.png';
 
@@ -69,7 +69,7 @@ export const TaskDetailView = (props: any) => {
   return todo ? (
     <Container>
       <HeaderWrapper isMobile={isMobile}>
-        <Header style={{ fontWeight: '600' }}>Task Details</Header>
+        <HeaderTitle style={{ fontWeight: '600' }}>Task Details</HeaderTitle>
         <Title>
           This task belongs to <Title style={{ fontWeight: 'bold' }}>{todo.email}</Title>
         </Title>

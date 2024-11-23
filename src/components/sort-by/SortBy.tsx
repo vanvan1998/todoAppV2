@@ -2,7 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { SortIcon, SortClockIcon } from '../../icons';
 import styled from 'styled-components';
 import { styles } from './SortBy.styles';
-import { Title, placeholder, primaryButton, transparent } from 'src/theme';
+import { placeholderColor, primaryButtonColor, transparent } from 'src/theme';
+import { Title } from 'src/components';
 import { Button } from '../button';
 import { SORT_BY } from 'src/constants';
 
@@ -22,9 +23,9 @@ const geSortTitle = (sortType: string) =>
   sortType === SORT_BY.NONE ? (
     <SortIcon width={20} />
   ) : sortType === SORT_BY.NEWEST ? (
-    <SortClockIcon width={20} fill={primaryButton} />
+    <SortClockIcon width={20} fill={primaryButtonColor} />
   ) : (
-    <SortClockIcon width={20} fill={primaryButton} style={{ transform: 'rotate(180deg)' }} />
+    <SortClockIcon width={20} fill={primaryButtonColor} style={{ transform: 'rotate(180deg)' }} />
   );
 
 export const SortBy = ({ handleSort, sortType }: { handleSort: (value: string) => void; sortType: string }) => {
@@ -73,14 +74,14 @@ export const SortBy = ({ handleSort, sortType }: { handleSort: (value: string) =
                 alignItems: 'center',
                 gap: 16,
                 backgroundColor: transparent,
-                borderBottom: `1px solid ${placeholder}`,
+                borderBottom: `1px solid ${placeholderColor}`,
                 borderRadius: 0,
                 width: '100%'
               }}
               testId='sort-by-none-button'
             >
               <SortTitle>
-                <SortIcon width={20} fill={primaryButton} />
+                <SortIcon width={20} fill={primaryButtonColor} />
                 <Title style={{ textDecoration: 'none' }}>None</Title>
               </SortTitle>
             </Button>
@@ -95,14 +96,14 @@ export const SortBy = ({ handleSort, sortType }: { handleSort: (value: string) =
                 alignItems: 'center',
                 gap: 16,
                 backgroundColor: transparent,
-                borderBottom: `1px solid ${placeholder}`,
+                borderBottom: `1px solid ${placeholderColor}`,
                 borderRadius: 0,
                 width: '100%'
               }}
               testId='sort-by-newest-button'
             >
               <SortTitle>
-                <SortClockIcon width={20} fill={primaryButton} />
+                <SortClockIcon width={20} fill={primaryButtonColor} />
                 <Title style={{ textDecoration: 'none' }}>Newest</Title>
               </SortTitle>
             </Button>
@@ -123,7 +124,7 @@ export const SortBy = ({ handleSort, sortType }: { handleSort: (value: string) =
               testId='sort-by-oldest-button'
             >
               <SortTitle>
-                <SortClockIcon width={20} fill={primaryButton} style={{ transform: 'rotate(180deg)' }} />
+                <SortClockIcon width={20} fill={primaryButtonColor} style={{ transform: 'rotate(180deg)' }} />
                 <Title style={{ textDecoration: 'none' }}>Oldest</Title>
               </SortTitle>
             </Button>

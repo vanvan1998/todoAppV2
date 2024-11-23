@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { styles } from './TodoDetailItem.styles';
-import { SubTitle, Title, placeholder, primaryButton } from 'src/theme';
+import { SubTitle, Title } from 'src/components';
+import { deletedColor, placeholderColor, primaryButtonColor } from 'src/theme';
 import { Modal } from 'react-bootstrap';
 import { CategoryType, TodoItemType } from '../../types';
 import { DeleteIcon, EditIcon, ImportantIcon, UpcomingIcon, UrgentIcon } from '../../icons';
@@ -127,8 +128,8 @@ export const TodoDetailItem = ({
               ? {
                   backgroundColor: 'transparent',
                   borderRadius: 4,
-                  border: `1px solid ${placeholder}`,
-                  color: primaryButton
+                  border: `1px solid ${placeholderColor}`,
+                  color: primaryButtonColor
                 }
               : {})
           }}
@@ -147,8 +148,7 @@ export const TodoDetailItem = ({
             }}
             styles={{
               backgroundColor: 'white',
-              padding: '0 8px',
-              border: `1px solid ${primaryButton}`,
+              padding: '0',
               minHeight: 26,
               height: 26,
               display: 'flex',
@@ -156,14 +156,13 @@ export const TodoDetailItem = ({
             }}
             testId='edit-todo-button'
           >
-            <EditIcon color={primaryButton} width={16} height={16} />
+            <EditIcon color={primaryButtonColor} width={18} height={18} />
           </Button>
           <Button
             handleButton={() => handleDeleteTodo(todo.id)}
             styles={{
               backgroundColor: 'white',
-              padding: '0 8px',
-              border: `1px solid ${primaryButton}`,
+              padding: '0',
               minHeight: 26,
               height: 26,
               display: 'flex',
@@ -171,7 +170,7 @@ export const TodoDetailItem = ({
             }}
             testId='delete-todo-button'
           >
-            <DeleteIcon color={primaryButton} width={16} height={16} />
+            <DeleteIcon color={deletedColor} width={18} height={18} />
           </Button>
         </RightAction>
       </ActionWrapper>

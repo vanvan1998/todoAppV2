@@ -8,7 +8,7 @@ import { CategoryType, TodoItemType } from '../../types';
 import { useFirebase, useNotification, useMediaQuery } from '../../hooks';
 import styled from 'styled-components';
 import { styles } from './DashBoard.styles';
-import { Header } from 'src/theme';
+import { HeaderTitle } from 'src/components';
 
 const Container = styled.div`
   ${styles.Container}
@@ -115,7 +115,7 @@ export const DashBoardView = () => {
   return (
     <Container>
       <HeaderWrapper isMobile={isMobile}>
-        <Header style={{ fontWeight: '600' }}>My Tasks</Header>
+        <HeaderTitle style={{ fontWeight: '600' }}>My Tasks</HeaderTitle>
         <ActionWrapper>
           <SortBy
             sortType={sortBy}

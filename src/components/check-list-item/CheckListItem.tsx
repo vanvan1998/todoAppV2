@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { styles } from './CheckListItem.styles';
-import { Title } from 'src/theme';
+import { Title } from 'src/components';
 import { ClosedIcon, DoneIcon, PendingIcon } from 'src/icons';
+import { deletedColor } from 'src/theme';
 
 const Container = styled.div`
   ${styles.container}
@@ -30,7 +31,7 @@ export const CheckListItem = ({ title, isChecked, color, handleCompleted, handle
       )}
       <Wrapper>
         <Title style={{ flex: 1 }}>{title}</Title>
-        <ClosedIcon fill={`${color}99`} width={18} onClick={handleDelete} data-testid='delete-check-button' />
+        <ClosedIcon fill={deletedColor} width={18} onClick={handleDelete} data-testid='delete-check-button' />
       </Wrapper>
     </Container>
   );

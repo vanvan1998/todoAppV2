@@ -7,8 +7,7 @@ import { useRouter } from 'next/navigation';
 import { Layout } from '../../components';
 import styled from 'styled-components';
 import { styles } from './SignUp.styles';
-import { ErrorText, Header, PlaceholderTitle } from 'src/theme';
-import { Button, Input } from 'src/components';
+import { ErrorText, HeaderTitle, PlaceholderTitle, Button, Input } from 'src/components';
 import { useMediaQuery } from 'src/hooks';
 import { isEmpty } from 'lodash';
 
@@ -56,7 +55,7 @@ export const SignUp = () => {
   return (
     <Layout>
       <Container isMobile={isMobile}>
-        <Header>Sign Up</Header>
+        <HeaderTitle>Sign Up</HeaderTitle>
         <PlaceholderTitle>Please enter your details to sign up</PlaceholderTitle>
         <Input
           title='Email'
