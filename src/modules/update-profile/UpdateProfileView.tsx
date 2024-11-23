@@ -4,7 +4,7 @@ import React, { useRef, useState } from 'react';
 import { isEmpty } from 'lodash';
 import styled from 'styled-components';
 import { Form, Image } from 'react-bootstrap';
-import { useAuth } from 'src/contexts/AuthContext';
+import { useAuth } from 'src/contexts';
 import { storage } from '../../firebase';
 import { ref, getDownloadURL, uploadBytesResumable } from 'firebase/storage';
 import { styles } from './UpdateProfileView.styles';

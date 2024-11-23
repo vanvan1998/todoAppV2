@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { useAuth } from 'src/contexts/AuthContext';
+import { useAuth } from 'src/contexts';
 import styled from 'styled-components';
 import { styles } from './ChangePassword.styles';
 import { placeholderColor } from 'src/theme';

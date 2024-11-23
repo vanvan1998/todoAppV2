@@ -52,9 +52,9 @@ export const categoryData = {
     icon: <UrgentIcon width={16} height={16} color='#db0f25' style={{ transform: 'rotate(270deg)' }} />
   },
   [CategoryType.Important]: {
-    color: '#d28312',
+    color: '#d25a12',
     text: 'Important',
-    icon: <ImportantIcon width={16} height={16} color='#d28312' />
+    icon: <ImportantIcon width={16} height={16} color='#d25a12' />
   },
   [CategoryType.Upcoming]: {
     color: '#475071',

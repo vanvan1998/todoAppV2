@@ -6,20 +6,20 @@ exports[`Test TodoDetailItem component should handle uncheck checklist 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-cyRfdC fiSUvA"
+        class="sc-iqyJx fzwjUx"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
         >
           Check List
         </div>
         <div
-          class="sc-gLDymS ecMQoN"
-          color="#d28312"
+          class="sc-jIyAiq iridzR"
+          color="#d25a12"
         >
           <svg
-            color="#d28312"
+            color="#d25a12"
             data-testid="uncheck-button"
             fill="currentColor"
             height="18"
@@ -34,17 +34,17 @@ exports[`Test TodoDetailItem component should handle uncheck checklist 1`] = `
             />
           </svg>
           <div
-            class="sc-iAEzLF bHGBeD"
+            class="sc-lnsxGb glTJah"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="flex: 1;"
             >
               vvvvv
             </div>
             <svg
               data-testid="delete-check-button"
-              fill="#d2831299"
+              fill="#e2342d"
               stroke="currentColor"
               stroke-width="0"
               viewBox="0 0 512 512"
@@ -58,16 +58,16 @@ exports[`Test TodoDetailItem component should handle uncheck checklist 1`] = `
           </div>
         </div>
         <div
-          class="sc-lnAfUH pWkVm"
+          class="sc-eDHQDy iWIXDk"
         >
           <input
-            class="sc-iKGqnM ejLPKQ"
+            class="sc-giBObj hDMvKn"
             placeholder="Enter new task todo..."
             type="text"
             value=""
           />
           <svg
-            color="#d28312"
+            color="#d25a12"
             fill="currentColor"
             height="20"
             stroke="currentColor"
@@ -87,20 +87,20 @@ exports[`Test TodoDetailItem component should handle uncheck checklist 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-cyRfdC fiSUvA"
+      class="sc-iqyJx fzwjUx"
     >
       <div
-        class="sc-gueXAH gRHGwY"
+        class="sc-gtLWhw jPWJOW"
         style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
       >
         Check List
       </div>
       <div
-        class="sc-gLDymS ecMQoN"
-        color="#d28312"
+        class="sc-jIyAiq iridzR"
+        color="#d25a12"
       >
         <svg
-          color="#d28312"
+          color="#d25a12"
           data-testid="uncheck-button"
           fill="currentColor"
           height="18"
@@ -115,17 +115,17 @@ exports[`Test TodoDetailItem component should handle uncheck checklist 1`] = `
           />
         </svg>
         <div
-          class="sc-iAEzLF bHGBeD"
+          class="sc-lnsxGb glTJah"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="flex: 1;"
           >
             vvvvv
           </div>
           <svg
             data-testid="delete-check-button"
-            fill="#d2831299"
+            fill="#e2342d"
             stroke="currentColor"
             stroke-width="0"
             viewBox="0 0 512 512"
@@ -139,16 +139,16 @@ exports[`Test TodoDetailItem component should handle uncheck checklist 1`] = `
         </div>
       </div>
       <div
-        class="sc-lnAfUH pWkVm"
+        class="sc-eDHQDy iWIXDk"
       >
         <input
-          class="sc-iKGqnM ejLPKQ"
+          class="sc-giBObj hDMvKn"
           placeholder="Enter new task todo..."
           type="text"
           value=""
         />
         <svg
-          color="#d28312"
+          color="#d25a12"
           fill="currentColor"
           height="20"
           stroke="currentColor"
@@ -225,21 +225,21 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-cyRfdC fiSUvA"
+        class="sc-iqyJx fzwjUx"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
         >
           Check List
         </div>
         <div
-          class="sc-gLDymS ecMQoN"
-          color="#d28312"
+          class="sc-jIyAiq iridzR"
+          color="#d25a12"
         >
           <svg
             data-testid="check-button"
-            fill="#d28312"
+            fill="#d25a12"
             stroke="currentColor"
             stroke-width="0"
             viewBox="0 0 448 512"
@@ -251,17 +251,17 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
             />
           </svg>
           <div
-            class="sc-iAEzLF bHGBeD"
+            class="sc-lnsxGb glTJah"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="flex: 1;"
             >
               vvvvv
             </div>
             <svg
               data-testid="delete-check-button"
-              fill="#d2831299"
+              fill="#e2342d"
               stroke="currentColor"
               stroke-width="0"
               viewBox="0 0 512 512"
@@ -275,16 +275,16 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-lnAfUH pWkVm"
+          class="sc-eDHQDy iWIXDk"
         >
           <input
-            class="sc-iKGqnM ejLPKQ"
+            class="sc-giBObj hDMvKn"
             placeholder="Enter new task todo..."
             type="text"
             value=""
           />
           <svg
-            color="#d28312"
+            color="#d25a12"
             fill="currentColor"
             height="20"
             stroke="currentColor"
@@ -304,21 +304,21 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-cyRfdC fiSUvA"
+      class="sc-iqyJx fzwjUx"
     >
       <div
-        class="sc-gueXAH gRHGwY"
+        class="sc-gtLWhw jPWJOW"
         style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
       >
         Check List
       </div>
       <div
-        class="sc-gLDymS ecMQoN"
-        color="#d28312"
+        class="sc-jIyAiq iridzR"
+        color="#d25a12"
       >
         <svg
           data-testid="check-button"
-          fill="#d28312"
+          fill="#d25a12"
           stroke="currentColor"
           stroke-width="0"
           viewBox="0 0 448 512"
@@ -330,17 +330,17 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
           />
         </svg>
         <div
-          class="sc-iAEzLF bHGBeD"
+          class="sc-lnsxGb glTJah"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="flex: 1;"
           >
             vvvvv
           </div>
           <svg
             data-testid="delete-check-button"
-            fill="#d2831299"
+            fill="#e2342d"
             stroke="currentColor"
             stroke-width="0"
             viewBox="0 0 512 512"
@@ -354,16 +354,16 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-lnAfUH pWkVm"
+        class="sc-eDHQDy iWIXDk"
       >
         <input
-          class="sc-iKGqnM ejLPKQ"
+          class="sc-giBObj hDMvKn"
           placeholder="Enter new task todo..."
           type="text"
           value=""
         />
         <svg
-          color="#d28312"
+          color="#d25a12"
           fill="currentColor"
           height="20"
           stroke="currentColor"
@@ -440,25 +440,25 @@ exports[`Test TodoDetailItem component should render empty checklist todo snapsh
   "baseElement": <body>
     <div>
       <div
-        class="sc-cyRfdC iSpkes"
+        class="sc-iqyJx ilDgpx"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
         >
           Check List
         </div>
         <div
-          class="sc-lnAfUH pWkVm"
+          class="sc-eDHQDy iWIXDk"
         >
           <input
-            class="sc-iKGqnM ejLPKQ"
+            class="sc-giBObj hDMvKn"
             placeholder="Enter new task todo..."
             type="text"
             value=""
           />
           <svg
-            color="#d28312"
+            color="#d25a12"
             fill="currentColor"
             height="20"
             stroke="currentColor"
@@ -478,25 +478,25 @@ exports[`Test TodoDetailItem component should render empty checklist todo snapsh
   </body>,
   "container": <div>
     <div
-      class="sc-cyRfdC iSpkes"
+      class="sc-iqyJx ilDgpx"
     >
       <div
-        class="sc-gueXAH gRHGwY"
+        class="sc-gtLWhw jPWJOW"
         style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
       >
         Check List
       </div>
       <div
-        class="sc-lnAfUH pWkVm"
+        class="sc-eDHQDy iWIXDk"
       >
         <input
-          class="sc-iKGqnM ejLPKQ"
+          class="sc-giBObj hDMvKn"
           placeholder="Enter new task todo..."
           type="text"
           value=""
         />
         <svg
-          color="#d28312"
+          color="#d25a12"
           fill="currentColor"
           height="20"
           stroke="currentColor"

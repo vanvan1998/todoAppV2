@@ -9,13 +9,13 @@ exports[`Test Input component should match its snapshot 1`] = `
         style="margin-bottom: 16px; margin-top: 60px;"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
         >
           email
         </div>
         <input
           aria-label="email"
-          class="sc-gLDymS jWEMcX"
+          class="sc-giBObj CEnWr"
           placeholder="Enter your email..."
           type="text"
           value="email"
@@ -28,13 +28,13 @@ exports[`Test Input component should match its snapshot 1`] = `
       style="margin-bottom: 16px; margin-top: 60px;"
     >
       <div
-        class="sc-gueXAH gRHGwY"
+        class="sc-gtLWhw jPWJOW"
       >
         email
       </div>
       <input
         aria-label="email"
-        class="sc-gLDymS jWEMcX"
+        class="sc-giBObj CEnWr"
         placeholder="Enter your email..."
         type="text"
         value="email"

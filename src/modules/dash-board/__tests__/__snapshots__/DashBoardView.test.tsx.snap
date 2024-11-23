@@ -6,27 +6,27 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-dQemvk wOclD"
+        class="sc-UblHX cpfeAb"
       >
         <div
-          class="sc-bCDiRt dOHJPT"
+          class="sc-fufdwm hegytp"
         >
           <div
-            class="sc-beqWNU hnIjJd"
+            class="sc-blHHSb kTKyqX"
             style="font-weight: 600;"
           >
             My Tasks
           </div>
           <div
-            class="sc-cPlDjO gddTSE"
+            class="sc-Rjrgp cklEDc"
           >
             <div
-              class="sc-jItppe ttwte"
+              class="sc-diYFot iPGbMy"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   data-testid="sort-by-button"
                   style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
                   type="button"
@@ -48,7 +48,7 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
             <div>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="show-modal-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
                 type="button"
@@ -73,7 +73,7 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
         </div>
         <form>
           <div
-            class="sc-ktEKgv lofJrt"
+            class="sc-cEzcPc dBkrUy"
           >
             <svg
               fill="currentColor"
@@ -90,7 +90,7 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
             </svg>
             <input
               aria-label="Search"
-              class="sc-hAtFlw ixaysd"
+              class="sc-ovuCP bIjoAN"
               placeholder="Search..."
               type="text"
               value=""
@@ -98,35 +98,35 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
           </div>
         </form>
         <div
-          class="sc-BKzFX jfkntz"
+          class="sc-frniUE jcbXZe"
         >
           <div
-            class="sc-kiLFAs kgJQRC"
+            class="sc-huXwEz coSqZy"
           >
             <div
-              class="sc-cCYzbQ dUWbmU"
+              class="sc-eMwmJz gpkZcp"
               color="#e75565"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(231, 85, 101); font-weight: 500;"
               >
                 URGENT
               </div>
               <div
-                class="sc-cjEQSD dFrKMS"
+                class="sc-drVZOg kMdDmN"
                 color="#e75565"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-jegwpa eFkFEC"
+              class="sc-eWPXlR jMruLr"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                   type="button"
                 >
@@ -148,32 +148,32 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
             </div>
           </div>
           <div
-            class="sc-kiLFAs kgJQRC"
+            class="sc-huXwEz coSqZy"
           >
             <div
-              class="sc-cCYzbQ cuBEkF"
+              class="sc-eMwmJz lhGxdc"
               color="#6459e3"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(100, 89, 227); font-weight: 500;"
               >
                 IMPORTANT
               </div>
               <div
-                class="sc-cjEQSD fjBJza"
+                class="sc-drVZOg kvcYUp"
                 color="#6459e3"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-jegwpa eFkFEC"
+              class="sc-eWPXlR jMruLr"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                   type="button"
                 >
@@ -195,32 +195,32 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
             </div>
           </div>
           <div
-            class="sc-kiLFAs kgJQRC"
+            class="sc-huXwEz coSqZy"
           >
             <div
-              class="sc-cCYzbQ jTsKwK"
+              class="sc-eMwmJz ixovHr"
               color="#24c5f5"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(36, 197, 245); font-weight: 500;"
               >
                 UPCOMING
               </div>
               <div
-                class="sc-cjEQSD hxJLpi"
+                class="sc-drVZOg eDlmvJ"
                 color="#24c5f5"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-jegwpa eFkFEC"
+              class="sc-eWPXlR jMruLr"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                   type="button"
                 >
@@ -247,27 +247,27 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-dQemvk wOclD"
+      class="sc-UblHX cpfeAb"
     >
       <div
-        class="sc-bCDiRt dOHJPT"
+        class="sc-fufdwm hegytp"
       >
         <div
-          class="sc-beqWNU hnIjJd"
+          class="sc-blHHSb kTKyqX"
           style="font-weight: 600;"
         >
           My Tasks
         </div>
         <div
-          class="sc-cPlDjO gddTSE"
+          class="sc-Rjrgp cklEDc"
         >
           <div
-            class="sc-jItppe ttwte"
+            class="sc-diYFot iPGbMy"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 data-testid="sort-by-button"
                 style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
                 type="button"
@@ -289,7 +289,7 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
           <div>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="show-modal-button"
               style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
               type="button"
@@ -314,7 +314,7 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
       </div>
       <form>
         <div
-          class="sc-ktEKgv lofJrt"
+          class="sc-cEzcPc dBkrUy"
         >
           <svg
             fill="currentColor"
@@ -331,7 +331,7 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
           </svg>
           <input
             aria-label="Search"
-            class="sc-hAtFlw ixaysd"
+            class="sc-ovuCP bIjoAN"
             placeholder="Search..."
             type="text"
             value=""
@@ -339,35 +339,35 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
         </div>
       </form>
       <div
-        class="sc-BKzFX jfkntz"
+        class="sc-frniUE jcbXZe"
       >
         <div
-          class="sc-kiLFAs kgJQRC"
+          class="sc-huXwEz coSqZy"
         >
           <div
-            class="sc-cCYzbQ dUWbmU"
+            class="sc-eMwmJz gpkZcp"
             color="#e75565"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(231, 85, 101); font-weight: 500;"
             >
               URGENT
             </div>
             <div
-              class="sc-cjEQSD dFrKMS"
+              class="sc-drVZOg kMdDmN"
               color="#e75565"
             >
               0
             </div>
           </div>
           <div
-            class="sc-jegwpa eFkFEC"
+            class="sc-eWPXlR jMruLr"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                 type="button"
               >
@@ -389,32 +389,32 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
           </div>
         </div>
         <div
-          class="sc-kiLFAs kgJQRC"
+          class="sc-huXwEz coSqZy"
         >
           <div
-            class="sc-cCYzbQ cuBEkF"
+            class="sc-eMwmJz lhGxdc"
             color="#6459e3"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(100, 89, 227); font-weight: 500;"
             >
               IMPORTANT
             </div>
             <div
-              class="sc-cjEQSD fjBJza"
+              class="sc-drVZOg kvcYUp"
               color="#6459e3"
             >
               0
             </div>
           </div>
           <div
-            class="sc-jegwpa eFkFEC"
+            class="sc-eWPXlR jMruLr"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                 type="button"
               >
@@ -436,32 +436,32 @@ exports[`DashBoardView renders DashBoardView with desktop view 1`] = `
           </div>
         </div>
         <div
-          class="sc-kiLFAs kgJQRC"
+          class="sc-huXwEz coSqZy"
         >
           <div
-            class="sc-cCYzbQ jTsKwK"
+            class="sc-eMwmJz ixovHr"
             color="#24c5f5"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(36, 197, 245); font-weight: 500;"
             >
               UPCOMING
             </div>
             <div
-              class="sc-cjEQSD hxJLpi"
+              class="sc-drVZOg eDlmvJ"
               color="#24c5f5"
             >
               0
             </div>
           </div>
           <div
-            class="sc-jegwpa eFkFEC"
+            class="sc-eWPXlR jMruLr"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                 type="button"
               >
@@ -545,27 +545,27 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-dQemvk wOclD"
+        class="sc-UblHX cpfeAb"
       >
         <div
-          class="sc-bCDiRt dOHJPT"
+          class="sc-fufdwm hegytp"
         >
           <div
-            class="sc-beqWNU hnIjJd"
+            class="sc-blHHSb kTKyqX"
             style="font-weight: 600;"
           >
             My Tasks
           </div>
           <div
-            class="sc-cPlDjO gddTSE"
+            class="sc-Rjrgp cklEDc"
           >
             <div
-              class="sc-jItppe ttwte"
+              class="sc-diYFot iPGbMy"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   data-testid="sort-by-button"
                   style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
                   type="button"
@@ -588,7 +588,7 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
             <div>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="show-modal-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
                 type="button"
@@ -613,7 +613,7 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
         </div>
         <form>
           <div
-            class="sc-ktEKgv lofJrt"
+            class="sc-cEzcPc dBkrUy"
           >
             <svg
               fill="currentColor"
@@ -630,7 +630,7 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
             </svg>
             <input
               aria-label="Search"
-              class="sc-hAtFlw ixaysd"
+              class="sc-ovuCP bIjoAN"
               placeholder="Search..."
               type="text"
               value=""
@@ -638,35 +638,35 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
           </div>
         </form>
         <div
-          class="sc-BKzFX jfkntz"
+          class="sc-frniUE jcbXZe"
         >
           <div
-            class="sc-kiLFAs kgJQRC"
+            class="sc-huXwEz coSqZy"
           >
             <div
-              class="sc-cCYzbQ dUWbmU"
+              class="sc-eMwmJz gpkZcp"
               color="#e75565"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(231, 85, 101); font-weight: 500;"
               >
                 URGENT
               </div>
               <div
-                class="sc-cjEQSD dFrKMS"
+                class="sc-drVZOg kMdDmN"
                 color="#e75565"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-jegwpa eFkFEC"
+              class="sc-eWPXlR jMruLr"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                   type="button"
                 >
@@ -688,32 +688,32 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
             </div>
           </div>
           <div
-            class="sc-kiLFAs kgJQRC"
+            class="sc-huXwEz coSqZy"
           >
             <div
-              class="sc-cCYzbQ cuBEkF"
+              class="sc-eMwmJz lhGxdc"
               color="#6459e3"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(100, 89, 227); font-weight: 500;"
               >
                 IMPORTANT
               </div>
               <div
-                class="sc-cjEQSD fjBJza"
+                class="sc-drVZOg kvcYUp"
                 color="#6459e3"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-jegwpa eFkFEC"
+              class="sc-eWPXlR jMruLr"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                   type="button"
                 >
@@ -735,32 +735,32 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
             </div>
           </div>
           <div
-            class="sc-kiLFAs kgJQRC"
+            class="sc-huXwEz coSqZy"
           >
             <div
-              class="sc-cCYzbQ jTsKwK"
+              class="sc-eMwmJz ixovHr"
               color="#24c5f5"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(36, 197, 245); font-weight: 500;"
               >
                 UPCOMING
               </div>
               <div
-                class="sc-cjEQSD hxJLpi"
+                class="sc-drVZOg eDlmvJ"
                 color="#24c5f5"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-jegwpa eFkFEC"
+              class="sc-eWPXlR jMruLr"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                   type="button"
                 >
@@ -787,27 +787,27 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-dQemvk wOclD"
+      class="sc-UblHX cpfeAb"
     >
       <div
-        class="sc-bCDiRt dOHJPT"
+        class="sc-fufdwm hegytp"
       >
         <div
-          class="sc-beqWNU hnIjJd"
+          class="sc-blHHSb kTKyqX"
           style="font-weight: 600;"
         >
           My Tasks
         </div>
         <div
-          class="sc-cPlDjO gddTSE"
+          class="sc-Rjrgp cklEDc"
         >
           <div
-            class="sc-jItppe ttwte"
+            class="sc-diYFot iPGbMy"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 data-testid="sort-by-button"
                 style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
                 type="button"
@@ -830,7 +830,7 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
           <div>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="show-modal-button"
               style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
               type="button"
@@ -855,7 +855,7 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
       </div>
       <form>
         <div
-          class="sc-ktEKgv lofJrt"
+          class="sc-cEzcPc dBkrUy"
         >
           <svg
             fill="currentColor"
@@ -872,7 +872,7 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
           </svg>
           <input
             aria-label="Search"
-            class="sc-hAtFlw ixaysd"
+            class="sc-ovuCP bIjoAN"
             placeholder="Search..."
             type="text"
             value=""
@@ -880,35 +880,35 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
         </div>
       </form>
       <div
-        class="sc-BKzFX jfkntz"
+        class="sc-frniUE jcbXZe"
       >
         <div
-          class="sc-kiLFAs kgJQRC"
+          class="sc-huXwEz coSqZy"
         >
           <div
-            class="sc-cCYzbQ dUWbmU"
+            class="sc-eMwmJz gpkZcp"
             color="#e75565"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(231, 85, 101); font-weight: 500;"
             >
               URGENT
             </div>
             <div
-              class="sc-cjEQSD dFrKMS"
+              class="sc-drVZOg kMdDmN"
               color="#e75565"
             >
               0
             </div>
           </div>
           <div
-            class="sc-jegwpa eFkFEC"
+            class="sc-eWPXlR jMruLr"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                 type="button"
               >
@@ -930,32 +930,32 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
           </div>
         </div>
         <div
-          class="sc-kiLFAs kgJQRC"
+          class="sc-huXwEz coSqZy"
         >
           <div
-            class="sc-cCYzbQ cuBEkF"
+            class="sc-eMwmJz lhGxdc"
             color="#6459e3"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(100, 89, 227); font-weight: 500;"
             >
               IMPORTANT
             </div>
             <div
-              class="sc-cjEQSD fjBJza"
+              class="sc-drVZOg kvcYUp"
               color="#6459e3"
             >
               0
             </div>
           </div>
           <div
-            class="sc-jegwpa eFkFEC"
+            class="sc-eWPXlR jMruLr"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                 type="button"
               >
@@ -977,32 +977,32 @@ exports[`DashBoardView renders DashBoardView with mobile view 1`] = `
           </div>
         </div>
         <div
-          class="sc-kiLFAs kgJQRC"
+          class="sc-huXwEz coSqZy"
         >
           <div
-            class="sc-cCYzbQ jTsKwK"
+            class="sc-eMwmJz ixovHr"
             color="#24c5f5"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(36, 197, 245); font-weight: 500;"
             >
               UPCOMING
             </div>
             <div
-              class="sc-cjEQSD hxJLpi"
+              class="sc-drVZOg eDlmvJ"
               color="#24c5f5"
             >
               0
             </div>
           </div>
           <div
-            class="sc-jegwpa eFkFEC"
+            class="sc-eWPXlR jMruLr"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                 type="button"
               >
@@ -1086,27 +1086,27 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-dQemvk wOclD"
+        class="sc-UblHX cpfeAb"
       >
         <div
-          class="sc-bCDiRt dOHJPT"
+          class="sc-fufdwm hegytp"
         >
           <div
-            class="sc-beqWNU hnIjJd"
+            class="sc-blHHSb kTKyqX"
             style="font-weight: 600;"
           >
             My Tasks
           </div>
           <div
-            class="sc-cPlDjO gddTSE"
+            class="sc-Rjrgp cklEDc"
           >
             <div
-              class="sc-jItppe ttwte"
+              class="sc-diYFot iPGbMy"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   data-testid="sort-by-button"
                   style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
                   type="button"
@@ -1129,7 +1129,7 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
             <div>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="show-modal-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
                 type="button"
@@ -1154,7 +1154,7 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
         </div>
         <form>
           <div
-            class="sc-ktEKgv lofJrt"
+            class="sc-cEzcPc dBkrUy"
           >
             <svg
               fill="currentColor"
@@ -1171,7 +1171,7 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
             </svg>
             <input
               aria-label="Search"
-              class="sc-hAtFlw ixaysd"
+              class="sc-ovuCP bIjoAN"
               placeholder="Search..."
               type="text"
               value=""
@@ -1179,35 +1179,35 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
           </div>
         </form>
         <div
-          class="sc-BKzFX jfkntz"
+          class="sc-frniUE jcbXZe"
         >
           <div
-            class="sc-kiLFAs kgJQRC"
+            class="sc-huXwEz coSqZy"
           >
             <div
-              class="sc-cCYzbQ dUWbmU"
+              class="sc-eMwmJz gpkZcp"
               color="#e75565"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(231, 85, 101); font-weight: 500;"
               >
                 URGENT
               </div>
               <div
-                class="sc-cjEQSD dFrKMS"
+                class="sc-drVZOg kMdDmN"
                 color="#e75565"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-jegwpa eFkFEC"
+              class="sc-eWPXlR jMruLr"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                   type="button"
                 >
@@ -1229,32 +1229,32 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
             </div>
           </div>
           <div
-            class="sc-kiLFAs kgJQRC"
+            class="sc-huXwEz coSqZy"
           >
             <div
-              class="sc-cCYzbQ cuBEkF"
+              class="sc-eMwmJz lhGxdc"
               color="#6459e3"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(100, 89, 227); font-weight: 500;"
               >
                 IMPORTANT
               </div>
               <div
-                class="sc-cjEQSD fjBJza"
+                class="sc-drVZOg kvcYUp"
                 color="#6459e3"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-jegwpa eFkFEC"
+              class="sc-eWPXlR jMruLr"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                   type="button"
                 >
@@ -1276,32 +1276,32 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
             </div>
           </div>
           <div
-            class="sc-kiLFAs kgJQRC"
+            class="sc-huXwEz coSqZy"
           >
             <div
-              class="sc-cCYzbQ jTsKwK"
+              class="sc-eMwmJz ixovHr"
               color="#24c5f5"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(36, 197, 245); font-weight: 500;"
               >
                 UPCOMING
               </div>
               <div
-                class="sc-cjEQSD hxJLpi"
+                class="sc-drVZOg eDlmvJ"
                 color="#24c5f5"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-jegwpa eFkFEC"
+              class="sc-eWPXlR jMruLr"
             >
               <div>
                 <button
                   buttontype="secondary"
-                  class="sc-gLDymS jcdnJc"
+                  class="sc-ghWlax a-dPbm"
                   style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                   type="button"
                 >
@@ -1328,27 +1328,27 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-dQemvk wOclD"
+      class="sc-UblHX cpfeAb"
     >
       <div
-        class="sc-bCDiRt dOHJPT"
+        class="sc-fufdwm hegytp"
       >
         <div
-          class="sc-beqWNU hnIjJd"
+          class="sc-blHHSb kTKyqX"
           style="font-weight: 600;"
         >
           My Tasks
         </div>
         <div
-          class="sc-cPlDjO gddTSE"
+          class="sc-Rjrgp cklEDc"
         >
           <div
-            class="sc-jItppe ttwte"
+            class="sc-diYFot iPGbMy"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 data-testid="sort-by-button"
                 style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
                 type="button"
@@ -1371,7 +1371,7 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
           <div>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="show-modal-button"
               style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
               type="button"
@@ -1396,7 +1396,7 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
       </div>
       <form>
         <div
-          class="sc-ktEKgv lofJrt"
+          class="sc-cEzcPc dBkrUy"
         >
           <svg
             fill="currentColor"
@@ -1413,7 +1413,7 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
           </svg>
           <input
             aria-label="Search"
-            class="sc-hAtFlw ixaysd"
+            class="sc-ovuCP bIjoAN"
             placeholder="Search..."
             type="text"
             value=""
@@ -1421,35 +1421,35 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
         </div>
       </form>
       <div
-        class="sc-BKzFX jfkntz"
+        class="sc-frniUE jcbXZe"
       >
         <div
-          class="sc-kiLFAs kgJQRC"
+          class="sc-huXwEz coSqZy"
         >
           <div
-            class="sc-cCYzbQ dUWbmU"
+            class="sc-eMwmJz gpkZcp"
             color="#e75565"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(231, 85, 101); font-weight: 500;"
             >
               URGENT
             </div>
             <div
-              class="sc-cjEQSD dFrKMS"
+              class="sc-drVZOg kMdDmN"
               color="#e75565"
             >
               0
             </div>
           </div>
           <div
-            class="sc-jegwpa eFkFEC"
+            class="sc-eWPXlR jMruLr"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                 type="button"
               >
@@ -1471,32 +1471,32 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
           </div>
         </div>
         <div
-          class="sc-kiLFAs kgJQRC"
+          class="sc-huXwEz coSqZy"
         >
           <div
-            class="sc-cCYzbQ cuBEkF"
+            class="sc-eMwmJz lhGxdc"
             color="#6459e3"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(100, 89, 227); font-weight: 500;"
             >
               IMPORTANT
             </div>
             <div
-              class="sc-cjEQSD fjBJza"
+              class="sc-drVZOg kvcYUp"
               color="#6459e3"
             >
               0
             </div>
           </div>
           <div
-            class="sc-jegwpa eFkFEC"
+            class="sc-eWPXlR jMruLr"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                 type="button"
               >
@@ -1518,32 +1518,32 @@ exports[`DashBoardView renders DashBoardView with search 1`] = `
           </div>
         </div>
         <div
-          class="sc-kiLFAs kgJQRC"
+          class="sc-huXwEz coSqZy"
         >
           <div
-            class="sc-cCYzbQ jTsKwK"
+            class="sc-eMwmJz ixovHr"
             color="#24c5f5"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(36, 197, 245); font-weight: 500;"
             >
               UPCOMING
             </div>
             <div
-              class="sc-cjEQSD hxJLpi"
+              class="sc-drVZOg eDlmvJ"
               color="#24c5f5"
             >
               0
             </div>
           </div>
           <div
-            class="sc-jegwpa eFkFEC"
+            class="sc-eWPXlR jMruLr"
           >
             <div>
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
                 type="button"
               >

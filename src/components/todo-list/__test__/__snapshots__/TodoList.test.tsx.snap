@@ -6,30 +6,30 @@ exports[`Test TodoList component should match its snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-iKGqnM bAjscv"
+        class="sc-giBObj fRmTPw"
       >
         <div
-          class="sc-bALWzn lNTDe"
+          class="sc-lnsxGb bhrQgR"
           draggable="true"
           id="82zB2At6gnxs0SbDJ8SW"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: 500; padding-bottom: 6px;"
           >
             333333
           </div>
           <div
-            class="sc-lnAfUH koPQRt"
+            class="sc-eDHQDy bAfrRD"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="font-size: 12px; color: red;"
             >
               Expired time: 
             </div>
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="font-weight: bold; font-size: 12px; color: red;"
             >
               05/10/2024
@@ -38,48 +38,48 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-hLseSp fDeqZQ"
+            class="sc-fAUdSK mdalg"
             style="height: 60px; width: 100%; margin-bottom: 8px;"
           >
             3333333
           </div>
           <div
-            class="sc-ktEKgv jZWMWx"
+            class="sc-fwzISk dMMkLs"
           >
             <div
-              class="sc-hAtFlw dfuuuD"
+              class="sc-hbtGpV fHzlwb"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(210, 131, 18);"
               >
                 Progress
               </div>
               <div
-                class="sc-fmSBHF kyktUN"
-                color="#d28312"
+                class="sc-bMTdWJ zHuWI"
+                color="#d25a12"
               >
-                0
+                0.00
                 %
               </div>
             </div>
             <div
-              class="sc-fGFvMH kzrFFa"
-              color="#d28312"
+              class="sc-jhZTHU cthOBg"
+              color="#d25a12"
             >
               <div
-                class="sc-blLrKi bOozld"
-                color="#d28312"
+                class="sc-epnzzT ciucZT"
+                color="#d25a12"
                 count="0"
               />
             </div>
           </div>
           <div
-            class="sc-ivnBVK eMkHXj"
+            class="sc-jSSkKI iHvVdp"
           >
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="task-details-button"
               style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; color: rgb(100, 89, 227);"
               type="button"
@@ -87,46 +87,37 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               Task details
             </button>
             <div
-              class="sc-cyRfdC kUlieG"
+              class="sc-iqyJx bUawTT"
             >
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="complete-button"
-                style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent;"
+                style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; display: flex; align-items: center;"
                 type="button"
               >
-                <svg
-                  color="#6459e3"
-                  fill="currentColor"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  version="1.1"
-                  viewBox="0 0 16 16"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
+                <div
+                  class="sc-fAUdSK mdalg"
+                  style="width: 100%; color: rgb(100, 89, 227); font-size: 14px;"
                 >
-                  <path
-                    d="M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 14c-3.314 0-6-2.686-6-6s2.686-6 6-6c3.314 0 6 2.686 6 6s-2.686 6-6 6z"
-                  />
-                </svg>
+                  Done
+                </div>
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="edit-button"
-                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
                 type="button"
               >
                 <svg
                   color="#6459e3"
                   fill="currentColor"
-                  height="16"
+                  height="18"
                   stroke="currentColor"
                   stroke-width="0"
                   viewBox="0 0 24 24"
-                  width="16"
+                  width="18"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -136,19 +127,19 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="delete-button"
-                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
                 type="button"
               >
                 <svg
-                  color="#6459e3"
+                  color="#e2342d"
                   fill="currentColor"
-                  height="16"
+                  height="18"
                   stroke="currentColor"
                   stroke-width="0"
                   viewBox="0 0 24 24"
-                  width="16"
+                  width="18"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -160,27 +151,27 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-bALWzn lNTDe"
+          class="sc-lnsxGb bhrQgR"
           draggable="true"
           id="82zB2At6gnxs0SbDJ8SW"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: 500; padding-bottom: 6px;"
           >
             333333
           </div>
           <div
-            class="sc-lnAfUH koPQRt"
+            class="sc-eDHQDy bAfrRD"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="font-size: 12px; color: red;"
             >
               Expired time: 
             </div>
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="font-weight: bold; font-size: 12px; color: red;"
             >
               05/10/2024
@@ -189,48 +180,48 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-hLseSp fDeqZQ"
+            class="sc-fAUdSK mdalg"
             style="height: 60px; width: 100%; margin-bottom: 8px;"
           >
             3333333
           </div>
           <div
-            class="sc-ktEKgv jZWMWx"
+            class="sc-fwzISk dMMkLs"
           >
             <div
-              class="sc-hAtFlw dfuuuD"
+              class="sc-hbtGpV fHzlwb"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(210, 131, 18);"
               >
                 Progress
               </div>
               <div
-                class="sc-fmSBHF kyktUN"
-                color="#d28312"
+                class="sc-bMTdWJ zHuWI"
+                color="#d25a12"
               >
-                100
+                100.00
                 %
               </div>
             </div>
             <div
-              class="sc-fGFvMH kzrFFa"
-              color="#d28312"
+              class="sc-jhZTHU cthOBg"
+              color="#d25a12"
             >
               <div
-                class="sc-blLrKi gdjbfA"
-                color="#d28312"
+                class="sc-epnzzT ifxcgW"
+                color="#d25a12"
                 count="100"
               />
             </div>
           </div>
           <div
-            class="sc-ivnBVK eMkHXj"
+            class="sc-jSSkKI iHvVdp"
           >
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="task-details-button"
               style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; color: rgb(100, 89, 227);"
               type="button"
@@ -238,23 +229,23 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               Task details
             </button>
             <div
-              class="sc-cyRfdC kUlieG"
+              class="sc-iqyJx bUawTT"
             >
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="complete-button"
-                style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent;"
+                style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; display: flex; align-items: center;"
                 type="button"
               >
                 <svg
                   color="#6459e3"
                   fill="currentColor"
-                  height="24"
+                  height="18"
                   stroke="currentColor"
                   stroke-width="0"
                   viewBox="0 0 512 512"
-                  width="24"
+                  width="18"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -264,19 +255,19 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="edit-button"
-                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
                 type="button"
               >
                 <svg
                   color="#6459e3"
                   fill="currentColor"
-                  height="16"
+                  height="18"
                   stroke="currentColor"
                   stroke-width="0"
                   viewBox="0 0 24 24"
-                  width="16"
+                  width="18"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -286,19 +277,19 @@ exports[`Test TodoList component should match its snapshot 1`] = `
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="delete-button"
-                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
                 type="button"
               >
                 <svg
-                  color="#6459e3"
+                  color="#e2342d"
                   fill="currentColor"
-                  height="16"
+                  height="18"
                   stroke="currentColor"
                   stroke-width="0"
                   viewBox="0 0 24 24"
-                  width="16"
+                  width="18"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -312,7 +303,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
         <div>
           <button
             buttontype="secondary"
-            class="sc-gLDymS jcdnJc"
+            class="sc-ghWlax a-dPbm"
             style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
             type="button"
           >
@@ -336,30 +327,30 @@ exports[`Test TodoList component should match its snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-iKGqnM bAjscv"
+      class="sc-giBObj fRmTPw"
     >
       <div
-        class="sc-bALWzn lNTDe"
+        class="sc-lnsxGb bhrQgR"
         draggable="true"
         id="82zB2At6gnxs0SbDJ8SW"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-weight: 500; padding-bottom: 6px;"
         >
           333333
         </div>
         <div
-          class="sc-lnAfUH koPQRt"
+          class="sc-eDHQDy bAfrRD"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-size: 12px; color: red;"
           >
             Expired time: 
           </div>
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: bold; font-size: 12px; color: red;"
           >
             05/10/2024
@@ -368,48 +359,48 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-hLseSp fDeqZQ"
+          class="sc-fAUdSK mdalg"
           style="height: 60px; width: 100%; margin-bottom: 8px;"
         >
           3333333
         </div>
         <div
-          class="sc-ktEKgv jZWMWx"
+          class="sc-fwzISk dMMkLs"
         >
           <div
-            class="sc-hAtFlw dfuuuD"
+            class="sc-hbtGpV fHzlwb"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(210, 131, 18);"
             >
               Progress
             </div>
             <div
-              class="sc-fmSBHF kyktUN"
-              color="#d28312"
+              class="sc-bMTdWJ zHuWI"
+              color="#d25a12"
             >
-              0
+              0.00
               %
             </div>
           </div>
           <div
-            class="sc-fGFvMH kzrFFa"
-            color="#d28312"
+            class="sc-jhZTHU cthOBg"
+            color="#d25a12"
           >
             <div
-              class="sc-blLrKi bOozld"
-              color="#d28312"
+              class="sc-epnzzT ciucZT"
+              color="#d25a12"
               count="0"
             />
           </div>
         </div>
         <div
-          class="sc-ivnBVK eMkHXj"
+          class="sc-jSSkKI iHvVdp"
         >
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="task-details-button"
             style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; color: rgb(100, 89, 227);"
             type="button"
@@ -417,46 +408,37 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             Task details
           </button>
           <div
-            class="sc-cyRfdC kUlieG"
+            class="sc-iqyJx bUawTT"
           >
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="complete-button"
-              style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent;"
+              style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; display: flex; align-items: center;"
               type="button"
             >
-              <svg
-                color="#6459e3"
-                fill="currentColor"
-                height="24"
-                stroke="currentColor"
-                stroke-width="0"
-                version="1.1"
-                viewBox="0 0 16 16"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
+              <div
+                class="sc-fAUdSK mdalg"
+                style="width: 100%; color: rgb(100, 89, 227); font-size: 14px;"
               >
-                <path
-                  d="M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 14c-3.314 0-6-2.686-6-6s2.686-6 6-6c3.314 0 6 2.686 6 6s-2.686 6-6 6z"
-                />
-              </svg>
+                Done
+              </div>
             </button>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="edit-button"
-              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+              style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
               <svg
                 color="#6459e3"
                 fill="currentColor"
-                height="16"
+                height="18"
                 stroke="currentColor"
                 stroke-width="0"
                 viewBox="0 0 24 24"
-                width="16"
+                width="18"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -466,19 +448,19 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             </button>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="delete-button"
-              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+              style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
               <svg
-                color="#6459e3"
+                color="#e2342d"
                 fill="currentColor"
-                height="16"
+                height="18"
                 stroke="currentColor"
                 stroke-width="0"
                 viewBox="0 0 24 24"
-                width="16"
+                width="18"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -490,27 +472,27 @@ exports[`Test TodoList component should match its snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-bALWzn lNTDe"
+        class="sc-lnsxGb bhrQgR"
         draggable="true"
         id="82zB2At6gnxs0SbDJ8SW"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-weight: 500; padding-bottom: 6px;"
         >
           333333
         </div>
         <div
-          class="sc-lnAfUH koPQRt"
+          class="sc-eDHQDy bAfrRD"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-size: 12px; color: red;"
           >
             Expired time: 
           </div>
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: bold; font-size: 12px; color: red;"
           >
             05/10/2024
@@ -519,48 +501,48 @@ exports[`Test TodoList component should match its snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-hLseSp fDeqZQ"
+          class="sc-fAUdSK mdalg"
           style="height: 60px; width: 100%; margin-bottom: 8px;"
         >
           3333333
         </div>
         <div
-          class="sc-ktEKgv jZWMWx"
+          class="sc-fwzISk dMMkLs"
         >
           <div
-            class="sc-hAtFlw dfuuuD"
+            class="sc-hbtGpV fHzlwb"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(210, 131, 18);"
             >
               Progress
             </div>
             <div
-              class="sc-fmSBHF kyktUN"
-              color="#d28312"
+              class="sc-bMTdWJ zHuWI"
+              color="#d25a12"
             >
-              100
+              100.00
               %
             </div>
           </div>
           <div
-            class="sc-fGFvMH kzrFFa"
-            color="#d28312"
+            class="sc-jhZTHU cthOBg"
+            color="#d25a12"
           >
             <div
-              class="sc-blLrKi gdjbfA"
-              color="#d28312"
+              class="sc-epnzzT ifxcgW"
+              color="#d25a12"
               count="100"
             />
           </div>
         </div>
         <div
-          class="sc-ivnBVK eMkHXj"
+          class="sc-jSSkKI iHvVdp"
         >
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="task-details-button"
             style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; color: rgb(100, 89, 227);"
             type="button"
@@ -568,23 +550,23 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             Task details
           </button>
           <div
-            class="sc-cyRfdC kUlieG"
+            class="sc-iqyJx bUawTT"
           >
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="complete-button"
-              style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent;"
+              style="min-height: 26px; height: 26px; padding: 0px; background-color: transparent; display: flex; align-items: center;"
               type="button"
             >
               <svg
                 color="#6459e3"
                 fill="currentColor"
-                height="24"
+                height="18"
                 stroke="currentColor"
                 stroke-width="0"
                 viewBox="0 0 512 512"
-                width="24"
+                width="18"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -594,19 +576,19 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             </button>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="edit-button"
-              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+              style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
               <svg
                 color="#6459e3"
                 fill="currentColor"
-                height="16"
+                height="18"
                 stroke="currentColor"
                 stroke-width="0"
                 viewBox="0 0 24 24"
-                width="16"
+                width="18"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -616,19 +598,19 @@ exports[`Test TodoList component should match its snapshot 1`] = `
             </button>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="delete-button"
-              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+              style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
               <svg
-                color="#6459e3"
+                color="#e2342d"
                 fill="currentColor"
-                height="16"
+                height="18"
                 stroke="currentColor"
                 stroke-width="0"
                 viewBox="0 0 24 24"
-                width="16"
+                width="18"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -642,7 +624,7 @@ exports[`Test TodoList component should match its snapshot 1`] = `
       <div>
         <button
           buttontype="secondary"
-          class="sc-gLDymS jcdnJc"
+          class="sc-ghWlax a-dPbm"
           style="height: 194px; padding: 0px 16px; width: 100%; display: flex; align-items: center; justify-content: center; border-style: dashed; background-color: rgb(242, 246, 250);"
           type="button"
         >

@@ -1,7 +1,7 @@
 import React from 'react';
 import { screen, render, fireEvent } from '@testing-library/react';
 import { ChangePasswordView } from '../ChangePasswordView';
-import { useAuth } from 'src/contexts/AuthContext';
+import { useAuth } from 'src/contexts';
 
 jest.mock('@next/third-parties/google', () => {
   return {
@@ -23,7 +23,7 @@ jest.mock('src/hooks', () => {
   };
 });
 
-jest.mock('src/contexts/AuthContext', () => {
+jest.mock('src/contexts', () => {
   return {
     useAuth: jest
       .fn()

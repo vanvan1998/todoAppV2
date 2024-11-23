@@ -6,17 +6,17 @@ exports[`Test TitleItem component should match its snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gLDymS jsayho"
+        class="sc-eDHQDy mWqS"
         color="blue"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="color: blue; font-weight: 500;"
         >
           title
         </div>
         <div
-          class="sc-iAEzLF eUToDV"
+          class="sc-giBObj eazRyU"
           color="blue"
         >
           2
@@ -26,17 +26,17 @@ exports[`Test TitleItem component should match its snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gLDymS jsayho"
+      class="sc-eDHQDy mWqS"
       color="blue"
     >
       <div
-        class="sc-gueXAH gRHGwY"
+        class="sc-gtLWhw jPWJOW"
         style="color: blue; font-weight: 500;"
       >
         title
       </div>
       <div
-        class="sc-iAEzLF eUToDV"
+        class="sc-giBObj eazRyU"
         color="blue"
       >
         2
@@ -103,17 +103,17 @@ exports[`Test TitleItem component should match its snapshot without color 1`] = 
   "baseElement": <body>
     <div>
       <div
-        class="sc-gLDymS jKJOxA"
+        class="sc-eDHQDy iwqoAO"
         color=""
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-weight: 500;"
         >
           title
         </div>
         <div
-          class="sc-iAEzLF gnudwl"
+          class="sc-giBObj eAXgeo"
           color=""
         >
           2
@@ -123,17 +123,17 @@ exports[`Test TitleItem component should match its snapshot without color 1`] = 
   </body>,
   "container": <div>
     <div
-      class="sc-gLDymS jKJOxA"
+      class="sc-eDHQDy iwqoAO"
       color=""
     >
       <div
-        class="sc-gueXAH gRHGwY"
+        class="sc-gtLWhw jPWJOW"
         style="font-weight: 500;"
       >
         title
       </div>
       <div
-        class="sc-iAEzLF gnudwl"
+        class="sc-giBObj eAXgeo"
         color=""
       >
         2

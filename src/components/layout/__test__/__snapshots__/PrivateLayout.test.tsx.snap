@@ -9,7 +9,7 @@ exports[`Test PrivateLayout component should match its snapshot 1`] = `
         style="width: 100%; display: flex; flex-direction: column; min-height: 100vh; background-color: rgb(239, 241, 249); align-items: center;"
       >
         <div
-          class="sc-iAEzLF kaGtxb"
+          class="sc-lnsxGb iqsbQF"
         >
           <a
             class=""
@@ -33,10 +33,10 @@ exports[`Test PrivateLayout component should match its snapshot 1`] = `
             </svg>
           </a>
           <div
-            class="sc-fsQjcA jtBUTr"
+            class="sc-jSSkKI cqVDKH"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(107, 113, 133);"
             >
               Hi 
@@ -44,7 +44,7 @@ exports[`Test PrivateLayout component should match its snapshot 1`] = `
             <div>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="account-button"
                 style="background-color: transparent;"
                 type="button"
@@ -70,7 +70,7 @@ exports[`Test PrivateLayout component should match its snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-kFuvnu cgKxhp justify-content-center"
+          class="sc-giBObj dJbnCU justify-content-center"
         >
           Test Layout
         </div>
@@ -82,7 +82,7 @@ exports[`Test PrivateLayout component should match its snapshot 1`] = `
       style="width: 100%; display: flex; flex-direction: column; min-height: 100vh; background-color: rgb(239, 241, 249); align-items: center;"
     >
       <div
-        class="sc-iAEzLF kaGtxb"
+        class="sc-lnsxGb iqsbQF"
       >
         <a
           class=""
@@ -106,10 +106,10 @@ exports[`Test PrivateLayout component should match its snapshot 1`] = `
           </svg>
         </a>
         <div
-          class="sc-fsQjcA jtBUTr"
+          class="sc-jSSkKI cqVDKH"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="color: rgb(107, 113, 133);"
           >
             Hi 
@@ -117,7 +117,7 @@ exports[`Test PrivateLayout component should match its snapshot 1`] = `
           <div>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="account-button"
               style="background-color: transparent;"
               type="button"
@@ -143,7 +143,7 @@ exports[`Test PrivateLayout component should match its snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-kFuvnu cgKxhp justify-content-center"
+        class="sc-giBObj dJbnCU justify-content-center"
       >
         Test Layout
       </div>
@@ -212,7 +212,7 @@ exports[`Test PrivateLayout component should match private its snapshot 1`] = `
         style="width: 100%; display: flex; flex-direction: column; min-height: 100vh; background-color: rgb(239, 241, 249); align-items: center;"
       >
         <div
-          class="sc-iAEzLF kaGtxb"
+          class="sc-lnsxGb iqsbQF"
         >
           <a
             class=""
@@ -236,10 +236,10 @@ exports[`Test PrivateLayout component should match private its snapshot 1`] = `
             </svg>
           </a>
           <div
-            class="sc-fsQjcA jtBUTr"
+            class="sc-jSSkKI cqVDKH"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(107, 113, 133);"
             >
               Hi 
@@ -247,7 +247,7 @@ exports[`Test PrivateLayout component should match private its snapshot 1`] = `
             <div>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="account-button"
                 style="background-color: transparent;"
                 type="button"
@@ -273,7 +273,7 @@ exports[`Test PrivateLayout component should match private its snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-kFuvnu cgKxhp justify-content-center"
+          class="sc-giBObj dJbnCU justify-content-center"
         >
           Test Layout
         </div>
@@ -285,7 +285,7 @@ exports[`Test PrivateLayout component should match private its snapshot 1`] = `
       style="width: 100%; display: flex; flex-direction: column; min-height: 100vh; background-color: rgb(239, 241, 249); align-items: center;"
     >
       <div
-        class="sc-iAEzLF kaGtxb"
+        class="sc-lnsxGb iqsbQF"
       >
         <a
           class=""
@@ -309,10 +309,10 @@ exports[`Test PrivateLayout component should match private its snapshot 1`] = `
           </svg>
         </a>
         <div
-          class="sc-fsQjcA jtBUTr"
+          class="sc-jSSkKI cqVDKH"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="color: rgb(107, 113, 133);"
           >
             Hi 
@@ -320,7 +320,7 @@ exports[`Test PrivateLayout component should match private its snapshot 1`] = `
           <div>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="account-button"
               style="background-color: transparent;"
               type="button"
@@ -346,7 +346,7 @@ exports[`Test PrivateLayout component should match private its snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-kFuvnu cgKxhp justify-content-center"
+        class="sc-giBObj dJbnCU justify-content-center"
       >
         Test Layout
       </div>

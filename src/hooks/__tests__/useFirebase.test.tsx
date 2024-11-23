@@ -3,7 +3,7 @@ import { renderHook, act } from '@testing-library/react';
 import { useFirebase } from '../useFirebase';
 import { todo } from 'src/__mocks__';
 
-jest.mock('src/contexts/AuthContext', () => {
+jest.mock('src/contexts', () => {
   return {
     useAuth: jest.fn().mockReturnValue({
       currentUser: { displayName: 'displayName', email: 'email', userId: 'j3WklyoTrBg4E1GKNz0Gn0az34V2' },

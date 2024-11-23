@@ -164,7 +164,7 @@ export const AddTodo = ({
           }}
           testId='important-button'
         >
-          <ImportantIcon width={16} height={16} color='#d28312' />
+          <ImportantIcon width={16} height={16} color='#d25a12' />
         </Button>
         <Button
           title='Urgent'

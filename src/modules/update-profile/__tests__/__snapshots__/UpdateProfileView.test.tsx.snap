@@ -6,23 +6,23 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-dQemvk eeThTR"
+        class="sc-UblHX ZlAPB"
       >
         <div
-          class="sc-bCDiRt hSyFex"
+          class="sc-fufdwm jgRucL"
         >
           <div
-            class="sc-beqWNU hnIjJd"
+            class="sc-blHHSb kTKyqX"
             style="font-weight: 600;"
           >
             Profile
           </div>
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
           >
             You're logged in as 
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="font-weight: bold;"
             >
               email
@@ -40,7 +40,7 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
               class="mb-4 text-center"
             />
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="padding: 8px 0px;"
             >
               Avatar
@@ -52,7 +52,7 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
           </div>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="update-avatar-button"
             disabled=""
             style="margin-top: 8px; margin-bottom: 16px; max-width: 320px; min-width: 200px; width: 80vw; background-color: rgb(182, 180, 185);"
@@ -65,13 +65,13 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
           style="margin-bottom: 8px; margin-top: 32px;"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
           >
             Full name
           </div>
           <input
             aria-label="Full name"
-            class="sc-iAEzLF gTKcTi"
+            class="sc-kLhKbu gjDzjv"
             placeholder="Enter your full name..."
             style="max-width: 320px; min-width: 200px; width: 80vw; border: 1px solid #858585; background-color: rgb(254, 254, 255);"
             type="text"
@@ -80,7 +80,7 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
         </div>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="update-button"
           disabled=""
           style="margin-top: 8px; margin-bottom: 16px; max-width: 320px; min-width: 200px; width: 80vw; background-color: rgb(182, 180, 185);"
@@ -93,23 +93,23 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-dQemvk eeThTR"
+      class="sc-UblHX ZlAPB"
     >
       <div
-        class="sc-bCDiRt hSyFex"
+        class="sc-fufdwm jgRucL"
       >
         <div
-          class="sc-beqWNU hnIjJd"
+          class="sc-blHHSb kTKyqX"
           style="font-weight: 600;"
         >
           Profile
         </div>
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
         >
           You're logged in as 
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: bold;"
           >
             email
@@ -127,7 +127,7 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
             class="mb-4 text-center"
           />
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="padding: 8px 0px;"
           >
             Avatar
@@ -139,7 +139,7 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
         </div>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="update-avatar-button"
           disabled=""
           style="margin-top: 8px; margin-bottom: 16px; max-width: 320px; min-width: 200px; width: 80vw; background-color: rgb(182, 180, 185);"
@@ -152,13 +152,13 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
         style="margin-bottom: 8px; margin-top: 32px;"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
         >
           Full name
         </div>
         <input
           aria-label="Full name"
-          class="sc-iAEzLF gTKcTi"
+          class="sc-kLhKbu gjDzjv"
           placeholder="Enter your full name..."
           style="max-width: 320px; min-width: 200px; width: 80vw; border: 1px solid #858585; background-color: rgb(254, 254, 255);"
           type="text"
@@ -167,7 +167,7 @@ exports[`UpdateProfileView renders UpdateProfileView with desktop view 1`] = `
       </div>
       <button
         buttontype="primary"
-        class="sc-gLDymS dItXMH"
+        class="sc-ghWlax hYhlzt"
         data-testid="update-button"
         disabled=""
         style="margin-top: 8px; margin-bottom: 16px; max-width: 320px; min-width: 200px; width: 80vw; background-color: rgb(182, 180, 185);"
@@ -237,23 +237,23 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-dQemvk eeThTR"
+        class="sc-UblHX ZlAPB"
       >
         <div
-          class="sc-bCDiRt QpqjE"
+          class="sc-fufdwm jXQHlC"
         >
           <div
-            class="sc-beqWNU hnIjJd"
+            class="sc-blHHSb kTKyqX"
             style="font-weight: 600;"
           >
             Profile
           </div>
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
           >
             You're logged in as 
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="font-weight: bold;"
             >
               email
@@ -271,7 +271,7 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
               class="mb-4 text-center"
             />
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="padding: 8px 0px;"
             >
               Avatar
@@ -283,7 +283,7 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
           </div>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="update-avatar-button"
             style="margin-top: 8px; margin-bottom: 16px; width: 320px;"
             type="button"
@@ -295,13 +295,13 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
           style="margin-bottom: 8px; margin-top: 32px;"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
           >
             Full name
           </div>
           <input
             aria-label="Full name"
-            class="sc-iAEzLF gTKcTi"
+            class="sc-kLhKbu gjDzjv"
             placeholder="Enter your full name..."
             style="min-height: 48px; min-width: 320px; border: 1px solid #858585; background-color: rgb(254, 254, 255);"
             type="text"
@@ -310,7 +310,7 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
         </div>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="update-button"
           style="margin-top: 8px; margin-bottom: 16px; width: 320px;"
           type="button"
@@ -322,23 +322,23 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-dQemvk eeThTR"
+      class="sc-UblHX ZlAPB"
     >
       <div
-        class="sc-bCDiRt QpqjE"
+        class="sc-fufdwm jXQHlC"
       >
         <div
-          class="sc-beqWNU hnIjJd"
+          class="sc-blHHSb kTKyqX"
           style="font-weight: 600;"
         >
           Profile
         </div>
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
         >
           You're logged in as 
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: bold;"
           >
             email
@@ -356,7 +356,7 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
             class="mb-4 text-center"
           />
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="padding: 8px 0px;"
           >
             Avatar
@@ -368,7 +368,7 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
         </div>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="update-avatar-button"
           style="margin-top: 8px; margin-bottom: 16px; width: 320px;"
           type="button"
@@ -380,13 +380,13 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
         style="margin-bottom: 8px; margin-top: 32px;"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
         >
           Full name
         </div>
         <input
           aria-label="Full name"
-          class="sc-iAEzLF gTKcTi"
+          class="sc-kLhKbu gjDzjv"
           placeholder="Enter your full name..."
           style="min-height: 48px; min-width: 320px; border: 1px solid #858585; background-color: rgb(254, 254, 255);"
           type="text"
@@ -395,7 +395,7 @@ exports[`UpdateProfileView renders UpdateProfileView with mobile view 1`] = `
       </div>
       <button
         buttontype="primary"
-        class="sc-gLDymS dItXMH"
+        class="sc-ghWlax hYhlzt"
         data-testid="update-button"
         style="margin-top: 8px; margin-bottom: 16px; width: 320px;"
         type="button"

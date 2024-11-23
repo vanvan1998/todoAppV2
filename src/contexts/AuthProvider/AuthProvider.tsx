@@ -13,7 +13,7 @@ import {
   updatePassword,
   signInWithPopup
 } from 'firebase/auth';
-import { auth, provider } from '../firebase';
+import { auth, provider } from 'src/firebase';
 
 export type AuthContextProps = {
   currentUser: any;

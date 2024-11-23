@@ -6,23 +6,23 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-ieZDWB gzpYkO"
+        class="sc-jIyAiq ecvQHB"
       >
         <div
-          class="sc-hIqOjz cNoyqv"
+          class="sc-jSSkKI hKmXFM"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
           >
             333333
           </div>
           <div
-            class="sc-dKfzUc fKMUkQ"
-            color="#d28312"
+            class="sc-lnsxGb dRXIya"
+            color="#d25a12"
           >
             <svg
-              color="#d28312"
+              color="#d25a12"
               fill="currentColor"
               height="16"
               stroke="currentColor"
@@ -39,16 +39,16 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-fLQSqU ha-DoYg"
+          class="sc-giBObj bcSdwk"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="color: red;"
           >
             Expired time: 
           </div>
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: bold; color: red;"
           >
             05/10/2024
@@ -57,48 +57,48 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-hLseSp fDeqZQ"
+          class="sc-fAUdSK mdalg"
           style="width: 100%; padding-bottom: 20px;"
         >
           3333333
         </div>
         <div
-          class="sc-ktEKgv jZWMWx"
+          class="sc-eOzmre cJypHI"
         >
           <div
-            class="sc-hAtFlw dfuuuD"
+            class="sc-eauhAA dXrxmV"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(210, 131, 18);"
             >
               Progress
             </div>
             <div
-              class="sc-fmSBHF kyktUN"
-              color="#d28312"
+              class="sc-fFoeYl hjSeGF"
+              color="#d25a12"
             >
-              0
+              0.00
               %
             </div>
           </div>
           <div
-            class="sc-fGFvMH kzrFFa"
-            color="#d28312"
+            class="sc-gQaihK iJEwxc"
+            color="#d25a12"
           >
             <div
-              class="sc-blLrKi bOozld"
-              color="#d28312"
+              class="sc-iuUfFv VWWbf"
+              color="#d25a12"
               count="0"
             />
           </div>
         </div>
         <div
-          class="sc-dnwKha iiefKd"
+          class="sc-iqyJx bRWUYm"
         >
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="complete-todo-button"
             style="min-height: 26px; height: 26px; padding: 0px 16px;"
             type="button"
@@ -106,23 +106,23 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
             Done
           </button>
           <div
-            class="sc-kgKWtt eEfpbf"
+            class="sc-eDHQDy koaWsF"
           >
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="edit-todo-button"
-              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+              style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
               <svg
                 color="#6459e3"
                 fill="currentColor"
-                height="16"
+                height="18"
                 stroke="currentColor"
                 stroke-width="0"
                 viewBox="0 0 24 24"
-                width="16"
+                width="18"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -132,19 +132,19 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
             </button>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="delete-todo-button"
-              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+              style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
               <svg
-                color="#6459e3"
+                color="#e2342d"
                 fill="currentColor"
-                height="16"
+                height="18"
                 stroke="currentColor"
                 stroke-width="0"
                 viewBox="0 0 24 24"
-                width="16"
+                width="18"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -159,23 +159,23 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-ieZDWB gzpYkO"
+      class="sc-jIyAiq ecvQHB"
     >
       <div
-        class="sc-hIqOjz cNoyqv"
+        class="sc-jSSkKI hKmXFM"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
         >
           333333
         </div>
         <div
-          class="sc-dKfzUc fKMUkQ"
-          color="#d28312"
+          class="sc-lnsxGb dRXIya"
+          color="#d25a12"
         >
           <svg
-            color="#d28312"
+            color="#d25a12"
             fill="currentColor"
             height="16"
             stroke="currentColor"
@@ -192,16 +192,16 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-fLQSqU ha-DoYg"
+        class="sc-giBObj bcSdwk"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="color: red;"
         >
           Expired time: 
         </div>
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-weight: bold; color: red;"
         >
           05/10/2024
@@ -210,48 +210,48 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-hLseSp fDeqZQ"
+        class="sc-fAUdSK mdalg"
         style="width: 100%; padding-bottom: 20px;"
       >
         3333333
       </div>
       <div
-        class="sc-ktEKgv jZWMWx"
+        class="sc-eOzmre cJypHI"
       >
         <div
-          class="sc-hAtFlw dfuuuD"
+          class="sc-eauhAA dXrxmV"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="color: rgb(210, 131, 18);"
           >
             Progress
           </div>
           <div
-            class="sc-fmSBHF kyktUN"
-            color="#d28312"
+            class="sc-fFoeYl hjSeGF"
+            color="#d25a12"
           >
-            0
+            0.00
             %
           </div>
         </div>
         <div
-          class="sc-fGFvMH kzrFFa"
-          color="#d28312"
+          class="sc-gQaihK iJEwxc"
+          color="#d25a12"
         >
           <div
-            class="sc-blLrKi bOozld"
-            color="#d28312"
+            class="sc-iuUfFv VWWbf"
+            color="#d25a12"
             count="0"
           />
         </div>
       </div>
       <div
-        class="sc-dnwKha iiefKd"
+        class="sc-iqyJx bRWUYm"
       >
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="complete-todo-button"
           style="min-height: 26px; height: 26px; padding: 0px 16px;"
           type="button"
@@ -259,23 +259,23 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
           Done
         </button>
         <div
-          class="sc-kgKWtt eEfpbf"
+          class="sc-eDHQDy koaWsF"
         >
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="edit-todo-button"
-            style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+            style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
             type="button"
           >
             <svg
               color="#6459e3"
               fill="currentColor"
-              height="16"
+              height="18"
               stroke="currentColor"
               stroke-width="0"
               viewBox="0 0 24 24"
-              width="16"
+              width="18"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -285,19 +285,19 @@ exports[`Test TodoDetailItem component should match its snapshot 1`] = `
           </button>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="delete-todo-button"
-            style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+            style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
             type="button"
           >
             <svg
-              color="#6459e3"
+              color="#e2342d"
               fill="currentColor"
-              height="16"
+              height="18"
               stroke="currentColor"
               stroke-width="0"
               viewBox="0 0 24 24"
-              width="16"
+              width="18"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -369,19 +369,19 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
   "baseElement": <body>
     <div>
       <div
-        class="sc-ieZDWB howllc"
+        class="sc-jIyAiq hMlPwj"
       >
         <div
-          class="sc-hIqOjz cNoyqv"
+          class="sc-jSSkKI hKmXFM"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
           >
             333333
           </div>
           <div
-            class="sc-dKfzUc hhyAOs"
+            class="sc-lnsxGb fmPdhK"
             color="#db0f25"
           >
             <svg
@@ -407,16 +407,16 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
           </div>
         </div>
         <div
-          class="sc-fLQSqU ha-DoYg"
+          class="sc-giBObj bcSdwk"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="color: green;"
           >
             Expired time: 
           </div>
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: bold; color: green;"
           >
             05/10/2026
@@ -425,48 +425,48 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
           </div>
         </div>
         <div
-          class="sc-hLseSp fDeqZQ"
+          class="sc-fAUdSK mdalg"
           style="width: 100%; padding-bottom: 20px;"
         >
           3333333
         </div>
         <div
-          class="sc-ktEKgv jZWMWx"
+          class="sc-eOzmre cJypHI"
         >
           <div
-            class="sc-hAtFlw dfuuuD"
+            class="sc-eauhAA dXrxmV"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: rgb(219, 15, 37);"
             >
               Progress
             </div>
             <div
-              class="sc-fmSBHF eOLhQU"
+              class="sc-fFoeYl PKhVA"
               color="#db0f25"
             >
-              100
+              100.00
               %
             </div>
           </div>
           <div
-            class="sc-fGFvMH giKZNz"
+            class="sc-gQaihK dgmUbZ"
             color="#db0f25"
           >
             <div
-              class="sc-blLrKi cnEHvZ"
+              class="sc-iuUfFv hhDHib"
               color="#db0f25"
               count="100"
             />
           </div>
         </div>
         <div
-          class="sc-dnwKha iiefKd"
+          class="sc-iqyJx bRWUYm"
         >
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="complete-todo-button"
             style="min-height: 26px; height: 26px; padding: 0px 16px; background-color: transparent; border-radius: 4px; border: 1px solid #858585; color: rgb(100, 89, 227);"
             type="button"
@@ -474,23 +474,23 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
             Reopen
           </button>
           <div
-            class="sc-kgKWtt eEfpbf"
+            class="sc-eDHQDy koaWsF"
           >
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="edit-todo-button"
-              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+              style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
               <svg
                 color="#6459e3"
                 fill="currentColor"
-                height="16"
+                height="18"
                 stroke="currentColor"
                 stroke-width="0"
                 viewBox="0 0 24 24"
-                width="16"
+                width="18"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -500,19 +500,19 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
             </button>
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="delete-todo-button"
-              style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+              style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
               type="button"
             >
               <svg
-                color="#6459e3"
+                color="#e2342d"
                 fill="currentColor"
-                height="16"
+                height="18"
                 stroke="currentColor"
                 stroke-width="0"
                 viewBox="0 0 24 24"
-                width="16"
+                width="18"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -527,19 +527,19 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
   </body>,
   "container": <div>
     <div
-      class="sc-ieZDWB howllc"
+      class="sc-jIyAiq hMlPwj"
     >
       <div
-        class="sc-hIqOjz cNoyqv"
+        class="sc-jSSkKI hKmXFM"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
         >
           333333
         </div>
         <div
-          class="sc-dKfzUc hhyAOs"
+          class="sc-lnsxGb fmPdhK"
           color="#db0f25"
         >
           <svg
@@ -565,16 +565,16 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
         </div>
       </div>
       <div
-        class="sc-fLQSqU ha-DoYg"
+        class="sc-giBObj bcSdwk"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="color: green;"
         >
           Expired time: 
         </div>
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-weight: bold; color: green;"
         >
           05/10/2026
@@ -583,48 +583,48 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
         </div>
       </div>
       <div
-        class="sc-hLseSp fDeqZQ"
+        class="sc-fAUdSK mdalg"
         style="width: 100%; padding-bottom: 20px;"
       >
         3333333
       </div>
       <div
-        class="sc-ktEKgv jZWMWx"
+        class="sc-eOzmre cJypHI"
       >
         <div
-          class="sc-hAtFlw dfuuuD"
+          class="sc-eauhAA dXrxmV"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="color: rgb(219, 15, 37);"
           >
             Progress
           </div>
           <div
-            class="sc-fmSBHF eOLhQU"
+            class="sc-fFoeYl PKhVA"
             color="#db0f25"
           >
-            100
+            100.00
             %
           </div>
         </div>
         <div
-          class="sc-fGFvMH giKZNz"
+          class="sc-gQaihK dgmUbZ"
           color="#db0f25"
         >
           <div
-            class="sc-blLrKi cnEHvZ"
+            class="sc-iuUfFv hhDHib"
             color="#db0f25"
             count="100"
           />
         </div>
       </div>
       <div
-        class="sc-dnwKha iiefKd"
+        class="sc-iqyJx bRWUYm"
       >
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="complete-todo-button"
           style="min-height: 26px; height: 26px; padding: 0px 16px; background-color: transparent; border-radius: 4px; border: 1px solid #858585; color: rgb(100, 89, 227);"
           type="button"
@@ -632,23 +632,23 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
           Reopen
         </button>
         <div
-          class="sc-kgKWtt eEfpbf"
+          class="sc-eDHQDy koaWsF"
         >
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="edit-todo-button"
-            style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+            style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
             type="button"
           >
             <svg
               color="#6459e3"
               fill="currentColor"
-              height="16"
+              height="18"
               stroke="currentColor"
               stroke-width="0"
               viewBox="0 0 24 24"
-              width="16"
+              width="18"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -658,19 +658,19 @@ exports[`Test TodoDetailItem component should render completed todo snapshot 1`]
           </button>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="delete-todo-button"
-            style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+            style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
             type="button"
           >
             <svg
-              color="#6459e3"
+              color="#e2342d"
               fill="currentColor"
-              height="16"
+              height="18"
               stroke="currentColor"
               stroke-width="0"
               viewBox="0 0 24 24"
-              width="16"
+              width="18"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path

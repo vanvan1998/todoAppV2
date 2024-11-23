@@ -9,15 +9,15 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
         style="width: 100%; display: flex; flex-direction: column; min-height: 100vh; background-color: rgb(239, 241, 249); align-items: center;"
       >
         <div
-          class="sc-dQemvk jkmcEi"
+          class="sc-UblHX gPycWq"
         >
           <div
-            class="sc-beqWNU hnIjJd"
+            class="sc-blHHSb kTKyqX"
           >
             Welcome Back
           </div>
           <div
-            class="sc-dmqGRC jCARNj"
+            class="sc-egkSDF cGFidm"
           >
             Please enter your details to sign in
           </div>
@@ -25,13 +25,13 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
             style="margin-bottom: 16px; margin-top: 32px;"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
             >
               Email
             </div>
             <input
               aria-label="Email"
-              class="sc-iAEzLF gTKcTi"
+              class="sc-kLhKbu gjDzjv"
               placeholder="Enter your email..."
               style="max-width: 320px; min-width: 200px; width: 80vw;"
               type="text"
@@ -42,13 +42,13 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
             style="margin-bottom: 12px;"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
             >
               Password
             </div>
             <input
               aria-label="Password"
-              class="sc-iAEzLF gTKcTi"
+              class="sc-kLhKbu gjDzjv"
               placeholder="Enter your password..."
               style="max-width: 320px; min-width: 200px; width: 80vw;"
               type="password"
@@ -57,7 +57,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
           </div>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             disabled=""
             style="margin-top: 32px; margin-bottom: 16px; max-width: 320px; min-width: 200px; width: 80vw; background-color: rgb(182, 180, 185);"
             type="submit"
@@ -66,7 +66,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
           </button>
           <button
             buttontype="secondary"
-            class="sc-gLDymS jcdnJc"
+            class="sc-ghWlax a-dPbm"
             style="margin-top: 32px; margin-bottom: 16px; align-items: center; justify-content: center; display: flex; gap: 8px; max-width: 320px; min-width: 200px; width: 80vw;"
             type="button"
           >
@@ -99,7 +99,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
             Sign in with google
           </button>
           <div
-            class="sc-bCDiRt PogkA"
+            class="sc-fufdwm dzrqEa"
           >
             <a
               href="/forgot-password"
@@ -108,7 +108,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
             </a>
           </div>
           <div
-            class="sc-bCDiRt PogkA"
+            class="sc-fufdwm dzrqEa"
           >
             Don't have an account? 
             <a
@@ -126,15 +126,15 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
       style="width: 100%; display: flex; flex-direction: column; min-height: 100vh; background-color: rgb(239, 241, 249); align-items: center;"
     >
       <div
-        class="sc-dQemvk jkmcEi"
+        class="sc-UblHX gPycWq"
       >
         <div
-          class="sc-beqWNU hnIjJd"
+          class="sc-blHHSb kTKyqX"
         >
           Welcome Back
         </div>
         <div
-          class="sc-dmqGRC jCARNj"
+          class="sc-egkSDF cGFidm"
         >
           Please enter your details to sign in
         </div>
@@ -142,13 +142,13 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
           style="margin-bottom: 16px; margin-top: 32px;"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
           >
             Email
           </div>
           <input
             aria-label="Email"
-            class="sc-iAEzLF gTKcTi"
+            class="sc-kLhKbu gjDzjv"
             placeholder="Enter your email..."
             style="max-width: 320px; min-width: 200px; width: 80vw;"
             type="text"
@@ -159,13 +159,13 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
           style="margin-bottom: 12px;"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
           >
             Password
           </div>
           <input
             aria-label="Password"
-            class="sc-iAEzLF gTKcTi"
+            class="sc-kLhKbu gjDzjv"
             placeholder="Enter your password..."
             style="max-width: 320px; min-width: 200px; width: 80vw;"
             type="password"
@@ -174,7 +174,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
         </div>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           disabled=""
           style="margin-top: 32px; margin-bottom: 16px; max-width: 320px; min-width: 200px; width: 80vw; background-color: rgb(182, 180, 185);"
           type="submit"
@@ -183,7 +183,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
         </button>
         <button
           buttontype="secondary"
-          class="sc-gLDymS jcdnJc"
+          class="sc-ghWlax a-dPbm"
           style="margin-top: 32px; margin-bottom: 16px; align-items: center; justify-content: center; display: flex; gap: 8px; max-width: 320px; min-width: 200px; width: 80vw;"
           type="button"
         >
@@ -216,7 +216,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
           Sign in with google
         </button>
         <div
-          class="sc-bCDiRt PogkA"
+          class="sc-fufdwm dzrqEa"
         >
           <a
             href="/forgot-password"
@@ -225,7 +225,7 @@ exports[`SignIn renders SignIn with desktop view 1`] = `
           </a>
         </div>
         <div
-          class="sc-bCDiRt PogkA"
+          class="sc-fufdwm dzrqEa"
         >
           Don't have an account? 
           <a
@@ -300,15 +300,15 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
         style="width: 100%; display: flex; flex-direction: column; min-height: 100vh; background-color: rgb(239, 241, 249); align-items: center;"
       >
         <div
-          class="sc-dQemvk jEXEZw"
+          class="sc-UblHX gaOlys"
         >
           <div
-            class="sc-beqWNU hnIjJd"
+            class="sc-blHHSb kTKyqX"
           >
             Welcome Back
           </div>
           <div
-            class="sc-dmqGRC jCARNj"
+            class="sc-egkSDF cGFidm"
           >
             Please enter your details to sign in
           </div>
@@ -316,13 +316,13 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
             style="margin-bottom: 16px; margin-top: 32px;"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
             >
               Email
             </div>
             <input
               aria-label="Email"
-              class="sc-iAEzLF gTKcTi"
+              class="sc-kLhKbu gjDzjv"
               placeholder="Enter your email..."
               style="min-height: 48px; min-width: 320px;"
               type="text"
@@ -333,13 +333,13 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
             style="margin-bottom: 12px;"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
             >
               Password
             </div>
             <input
               aria-label="Password"
-              class="sc-iAEzLF gTKcTi"
+              class="sc-kLhKbu gjDzjv"
               placeholder="Enter your password..."
               style="min-height: 48px; min-width: 320px;"
               type="password"
@@ -348,7 +348,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
           </div>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             disabled=""
             style="margin-top: 32px; margin-bottom: 16px; width: 320px; background-color: rgb(182, 180, 185);"
             type="submit"
@@ -357,7 +357,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
           </button>
           <button
             buttontype="secondary"
-            class="sc-gLDymS jcdnJc"
+            class="sc-ghWlax a-dPbm"
             style="margin-top: 32px; margin-bottom: 16px; align-items: center; justify-content: center; display: flex; gap: 8px; width: 320px;"
             type="button"
           >
@@ -390,7 +390,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
             Sign in with google
           </button>
           <div
-            class="sc-bCDiRt PogkA"
+            class="sc-fufdwm dzrqEa"
           >
             <a
               href="/forgot-password"
@@ -399,7 +399,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
             </a>
           </div>
           <div
-            class="sc-bCDiRt PogkA"
+            class="sc-fufdwm dzrqEa"
           >
             Don't have an account? 
             <a
@@ -417,15 +417,15 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
       style="width: 100%; display: flex; flex-direction: column; min-height: 100vh; background-color: rgb(239, 241, 249); align-items: center;"
     >
       <div
-        class="sc-dQemvk jEXEZw"
+        class="sc-UblHX gaOlys"
       >
         <div
-          class="sc-beqWNU hnIjJd"
+          class="sc-blHHSb kTKyqX"
         >
           Welcome Back
         </div>
         <div
-          class="sc-dmqGRC jCARNj"
+          class="sc-egkSDF cGFidm"
         >
           Please enter your details to sign in
         </div>
@@ -433,13 +433,13 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
           style="margin-bottom: 16px; margin-top: 32px;"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
           >
             Email
           </div>
           <input
             aria-label="Email"
-            class="sc-iAEzLF gTKcTi"
+            class="sc-kLhKbu gjDzjv"
             placeholder="Enter your email..."
             style="min-height: 48px; min-width: 320px;"
             type="text"
@@ -450,13 +450,13 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
           style="margin-bottom: 12px;"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
           >
             Password
           </div>
           <input
             aria-label="Password"
-            class="sc-iAEzLF gTKcTi"
+            class="sc-kLhKbu gjDzjv"
             placeholder="Enter your password..."
             style="min-height: 48px; min-width: 320px;"
             type="password"
@@ -465,7 +465,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
         </div>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           disabled=""
           style="margin-top: 32px; margin-bottom: 16px; width: 320px; background-color: rgb(182, 180, 185);"
           type="submit"
@@ -474,7 +474,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
         </button>
         <button
           buttontype="secondary"
-          class="sc-gLDymS jcdnJc"
+          class="sc-ghWlax a-dPbm"
           style="margin-top: 32px; margin-bottom: 16px; align-items: center; justify-content: center; display: flex; gap: 8px; width: 320px;"
           type="button"
         >
@@ -507,7 +507,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
           Sign in with google
         </button>
         <div
-          class="sc-bCDiRt PogkA"
+          class="sc-fufdwm dzrqEa"
         >
           <a
             href="/forgot-password"
@@ -516,7 +516,7 @@ exports[`SignIn renders SignIn with mobile view 1`] = `
           </a>
         </div>
         <div
-          class="sc-bCDiRt PogkA"
+          class="sc-fufdwm dzrqEa"
         >
           Don't have an account? 
           <a

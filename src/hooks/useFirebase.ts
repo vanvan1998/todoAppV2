@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { db } from '../firebase';
 import dayjs from 'dayjs';
-import { useAuth } from 'src/contexts/AuthContext';
+import { useAuth, useGlobalLoadingContext } from 'src/contexts';
 import { TodoItemType } from '../types';
 import { collection, query, onSnapshot, doc, updateDoc, deleteDoc, addDoc, where, getDoc } from 'firebase/firestore';
 import { COLLECTION_TASKS } from 'src/constants';
@@ -11,15 +11,18 @@ export const useFirebase = () => {
   const userId = currentUser?.uid;
   const [todoList, setTodoList] = useState<TodoItemType[]>([]);
   const [todo, setTodo] = useState<TodoItemType | undefined>(undefined);
+  const { showGlobalLoading } = useGlobalLoadingContext();
 
   useEffect(() => {
     if (!userId) return;
+    showGlobalLoading(true);
     const q = query(collection(db, COLLECTION_TASKS), where('userId', '==', userId));
     const unsub = onSnapshot(q, querySnapshot => {
       const todoList: TodoItemType[] = [];
       querySnapshot.forEach((doc: any) => {
         todoList.push({ ...doc.data(), id: doc.id });
       });
+      showGlobalLoading(false);
       setTodoList(todoList);
     });
     return () => unsub();

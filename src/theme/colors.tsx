@@ -1,6 +1,6 @@
 export const primaryButtonColor = '#6459e3';
 export const disabledButtonColor = '#B6B4B9';
-export const deletedColor = '#e45a54';
+export const deletedColor = '#e2342d';
 
 export const textColor = '#323232';
 export const textPrimaryColor = '#5a69ea';

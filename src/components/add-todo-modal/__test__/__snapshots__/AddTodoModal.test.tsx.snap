@@ -12,7 +12,7 @@ exports[`Test AddTodoModal component should match its snapshot 1`] = `
       <div>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ixGGxD jZPfJ"
           data-testid="show-modal-button"
           style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
           type="button"
@@ -51,33 +51,33 @@ exports[`Test AddTodoModal component should match its snapshot 1`] = `
           class="modal-content"
         >
           <div
-            class="sc-fsQjcA jVeHvD"
+            class="sc-drVZOg bGlSty"
           >
             <div
-              class="sc-qRuZU lcwWSj"
+              class="sc-eWPXlR buhMJJ"
             >
               <div
-                class="sc-gueXAH hWXdbp"
+                class="sc-gtLWhw jWJCAr"
                 styles="font-size: 20px; font-weight: 600;"
               >
                 New Task Todo
               </div>
               <div
-                class="sc-jsMaUZ kfzPNd"
+                class="sc-jIyAiq DlTWn"
               />
             </div>
             <div
               style="margin-bottom: 16px;"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="font-size: 14px; font-weight: 500;"
               >
                 Title Task
               </div>
               <input
                 aria-label="Title Task"
-                class="sc-iAEzLF gTKcTi"
+                class="sc-epnzzT gwblLr"
                 placeholder="Enter new task todo..."
                 style="max-width: 438px; min-width: 294px; width: 100%;"
                 type="text"
@@ -85,17 +85,17 @@ exports[`Test AddTodoModal component should match its snapshot 1`] = `
               />
             </div>
             <div
-              class="sc-gueXAH bAvcGT"
+              class="sc-gtLWhw tBlfZ"
               styles="font-weight: 500; margin-bottom: 8px;"
             >
               Category
             </div>
             <div
-              class="sc-kFuvnu dtTRrU"
+              class="sc-lnsxGb geneua"
             >
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ixGGxD jZPfJ"
                 data-testid="upcoming-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
                 type="button"
@@ -117,13 +117,13 @@ exports[`Test AddTodoModal component should match its snapshot 1`] = `
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ixGGxD jZPfJ"
                 data-testid="important-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
                 type="button"
               >
                 <svg
-                  color="#d28312"
+                  color="#d25a12"
                   fill="currentColor"
                   height="16"
                   stroke="currentColor"
@@ -140,7 +140,7 @@ exports[`Test AddTodoModal component should match its snapshot 1`] = `
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ixGGxD jZPfJ"
                 data-testid="urgent-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
                 type="button"
@@ -168,20 +168,20 @@ exports[`Test AddTodoModal component should match its snapshot 1`] = `
               </button>
             </div>
             <div
-              class="sc-gueXAH bAvcGT"
+              class="sc-gtLWhw tBlfZ"
               styles="font-weight: 500; margin-bottom: 8px;"
             >
               Description
             </div>
             <textarea
-              class="sc-fbJSV liFuaL"
+              class="sc-eDHQDy dVNgLm"
               placeholder="Enter description..."
             />
             <div
-              class="sc-irTrJD dQTfHZ"
+              class="sc-jSSkKI gxzaZa"
             >
               <div
-                class="sc-gueXAH hmBKDZ"
+                class="sc-gtLWhw kuqrfP"
                 styles="font-size: 14px; font-weight: 500;"
               >
                 Notification
@@ -199,11 +199,11 @@ exports[`Test AddTodoModal component should match its snapshot 1`] = `
               </div>
             </div>
             <div
-              class="sc-brKelq eBpLhd"
+              class="sc-giBObj isODVq"
             >
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ixGGxD fjIgFe"
                 data-testid="cancel-todo-button"
                 style="flex: 1;"
                 type="button"
@@ -212,7 +212,7 @@ exports[`Test AddTodoModal component should match its snapshot 1`] = `
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ixGGxD jZPfJ"
                 data-testid="add-todo-button"
                 style="flex: 1;"
                 type="button"
@@ -229,7 +229,7 @@ exports[`Test AddTodoModal component should match its snapshot 1`] = `
     <div>
       <button
         buttontype="primary"
-        class="sc-gLDymS dItXMH"
+        class="sc-ixGGxD jZPfJ"
         data-testid="show-modal-button"
         style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px;"
         type="button"

@@ -6,12 +6,12 @@ exports[`Test SortBy component should match its snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-iAEzLF iWvtPl"
+        class="sc-iqyJx ezmOzM"
       >
         <div>
           <button
             buttontype="secondary"
-            class="sc-gLDymS jcdnJc"
+            class="sc-ghWlax a-dPbm"
             data-testid="sort-by-button"
             style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
             type="button"
@@ -33,12 +33,12 @@ exports[`Test SortBy component should match its snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-iAEzLF iWvtPl"
+      class="sc-iqyJx ezmOzM"
     >
       <div>
         <button
           buttontype="secondary"
-          class="sc-gLDymS jcdnJc"
+          class="sc-ghWlax a-dPbm"
           data-testid="sort-by-button"
           style="border-radius: 4px; padding: 0px 12px; min-height: 36px;"
           type="button"

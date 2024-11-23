@@ -6,31 +6,31 @@ exports[`Test ProgressBar component should match its snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gLDymS jSanBZ"
+        class="sc-lnsxGb icZPLm"
       >
         <div
-          class="sc-iAEzLF cDbHfC"
+          class="sc-jSSkKI bDRsKf"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="color: blue;"
           >
             Progress
           </div>
           <div
-            class="sc-fsQjcA gKgITW"
+            class="sc-iqyJx bQywQi"
             color="blue"
           >
-            2
+            2.00
             %
           </div>
         </div>
         <div
-          class="sc-qRuZU eixEaY"
+          class="sc-eDHQDy jHufWL"
           color="blue"
         >
           <div
-            class="sc-jsMaUZ ciRtdA"
+            class="sc-giBObj fyiRYu"
             color="blue"
             count="2"
           />
@@ -40,31 +40,31 @@ exports[`Test ProgressBar component should match its snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gLDymS jSanBZ"
+      class="sc-lnsxGb icZPLm"
     >
       <div
-        class="sc-iAEzLF cDbHfC"
+        class="sc-jSSkKI bDRsKf"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="color: blue;"
         >
           Progress
         </div>
         <div
-          class="sc-fsQjcA gKgITW"
+          class="sc-iqyJx bQywQi"
           color="blue"
         >
-          2
+          2.00
           %
         </div>
       </div>
       <div
-        class="sc-qRuZU eixEaY"
+        class="sc-eDHQDy jHufWL"
         color="blue"
       >
         <div
-          class="sc-jsMaUZ ciRtdA"
+          class="sc-giBObj fyiRYu"
           color="blue"
           count="2"
         />

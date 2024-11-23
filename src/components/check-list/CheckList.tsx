@@ -75,7 +75,9 @@ export const CheckList = ({ todo, handleUpdateTodo, isMobile }: CheckListProps) 
           handleCompleted={() => {
             handleCompleted(index);
           }}
-          handleDelete={() => {handleDelete(index);}}
+          handleDelete={() => {
+            handleDelete(index);
+          }}
         />
       ))}
       <InputWrapper>
@@ -85,7 +87,13 @@ export const CheckList = ({ todo, handleUpdateTodo, isMobile }: CheckListProps) 
           onChange={e => setNewItem(e.target.value)}
           placeholder='Enter new task todo...'
         />
-        <AddIcon width={20} height={20} color={color} style={{ cursor: 'pointer' }} onClick={handleAddCheckList} />
+        <AddIcon
+          width={20}
+          height={20}
+          color={isEmpty(newItem) ? `${color}70` : color}
+          style={{ cursor: isEmpty(newItem) ? 'not-allowed' : 'pointer' }}
+          onClick={handleAddCheckList}
+        />
       </InputWrapper>
     </Container>
   );

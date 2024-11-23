@@ -6,33 +6,33 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-fsQjcA jVeHvD"
+        class="sc-drVZOg bGlSty"
       >
         <div
-          class="sc-qRuZU lcwWSj"
+          class="sc-eWPXlR buhMJJ"
         >
           <div
-            class="sc-gueXAH hWXdbp"
+            class="sc-gtLWhw jWJCAr"
             styles="font-size: 20px; font-weight: 600;"
           >
             New Task Todo
           </div>
           <div
-            class="sc-jsMaUZ kfzPNd"
+            class="sc-jIyAiq DlTWn"
           />
         </div>
         <div
           style="margin-bottom: 16px;"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-size: 14px; font-weight: 500;"
           >
             Title Task
           </div>
           <input
             aria-label="Title Task"
-            class="sc-iAEzLF gTKcTi"
+            class="sc-epnzzT gwblLr"
             placeholder="Enter new task todo..."
             style="min-width: 294px; max-width: 438px; width: 100%;"
             type="text"
@@ -40,17 +40,17 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           />
         </div>
         <div
-          class="sc-gueXAH bAvcGT"
+          class="sc-gtLWhw tBlfZ"
           styles="font-weight: 500; margin-bottom: 8px;"
         >
           Category
         </div>
         <div
-          class="sc-kFuvnu dtTRrU"
+          class="sc-lnsxGb geneua"
         >
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="upcoming-button"
             style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
             type="button"
@@ -72,13 +72,13 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           </button>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="important-button"
             style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
             type="button"
           >
             <svg
-              color="#d28312"
+              color="#d25a12"
               fill="currentColor"
               height="16"
               stroke="currentColor"
@@ -95,7 +95,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           </button>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="urgent-button"
             style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
             type="button"
@@ -123,20 +123,20 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           </button>
         </div>
         <div
-          class="sc-gueXAH bAvcGT"
+          class="sc-gtLWhw tBlfZ"
           styles="font-weight: 500; margin-bottom: 8px;"
         >
           Description
         </div>
         <textarea
-          class="sc-fbJSV liFuaL"
+          class="sc-eDHQDy dVNgLm"
           placeholder="Enter description..."
         />
         <div
-          class="sc-irTrJD dQTfHZ"
+          class="sc-jSSkKI gxzaZa"
         >
           <div
-            class="sc-gueXAH hmBKDZ"
+            class="sc-gtLWhw kuqrfP"
             styles="font-size: 14px; font-weight: 500;"
           >
             Notification
@@ -154,11 +154,11 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-brKelq eBpLhd"
+          class="sc-giBObj isODVq"
         >
           <button
             buttontype="secondary"
-            class="sc-gLDymS jcdnJc"
+            class="sc-ghWlax a-dPbm"
             data-testid="cancel-todo-button"
             style="flex: 1;"
             type="button"
@@ -167,7 +167,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
           </button>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="add-todo-button"
             style="flex: 1;"
             type="button"
@@ -180,33 +180,33 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-fsQjcA jVeHvD"
+      class="sc-drVZOg bGlSty"
     >
       <div
-        class="sc-qRuZU lcwWSj"
+        class="sc-eWPXlR buhMJJ"
       >
         <div
-          class="sc-gueXAH hWXdbp"
+          class="sc-gtLWhw jWJCAr"
           styles="font-size: 20px; font-weight: 600;"
         >
           New Task Todo
         </div>
         <div
-          class="sc-jsMaUZ kfzPNd"
+          class="sc-jIyAiq DlTWn"
         />
       </div>
       <div
         style="margin-bottom: 16px;"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-size: 14px; font-weight: 500;"
         >
           Title Task
         </div>
         <input
           aria-label="Title Task"
-          class="sc-iAEzLF gTKcTi"
+          class="sc-epnzzT gwblLr"
           placeholder="Enter new task todo..."
           style="min-width: 294px; max-width: 438px; width: 100%;"
           type="text"
@@ -214,17 +214,17 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         />
       </div>
       <div
-        class="sc-gueXAH bAvcGT"
+        class="sc-gtLWhw tBlfZ"
         styles="font-weight: 500; margin-bottom: 8px;"
       >
         Category
       </div>
       <div
-        class="sc-kFuvnu dtTRrU"
+        class="sc-lnsxGb geneua"
       >
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="upcoming-button"
           style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
           type="button"
@@ -246,13 +246,13 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         </button>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="important-button"
           style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
           type="button"
         >
           <svg
-            color="#d28312"
+            color="#d25a12"
             fill="currentColor"
             height="16"
             stroke="currentColor"
@@ -269,7 +269,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         </button>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="urgent-button"
           style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
           type="button"
@@ -297,20 +297,20 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         </button>
       </div>
       <div
-        class="sc-gueXAH bAvcGT"
+        class="sc-gtLWhw tBlfZ"
         styles="font-weight: 500; margin-bottom: 8px;"
       >
         Description
       </div>
       <textarea
-        class="sc-fbJSV liFuaL"
+        class="sc-eDHQDy dVNgLm"
         placeholder="Enter description..."
       />
       <div
-        class="sc-irTrJD dQTfHZ"
+        class="sc-jSSkKI gxzaZa"
       >
         <div
-          class="sc-gueXAH hmBKDZ"
+          class="sc-gtLWhw kuqrfP"
           styles="font-size: 14px; font-weight: 500;"
         >
           Notification
@@ -328,11 +328,11 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-brKelq eBpLhd"
+        class="sc-giBObj isODVq"
       >
         <button
           buttontype="secondary"
-          class="sc-gLDymS jcdnJc"
+          class="sc-ghWlax a-dPbm"
           data-testid="cancel-todo-button"
           style="flex: 1;"
           type="button"
@@ -341,7 +341,7 @@ exports[`Test AddTodo component should match AddTodo snapshot 1`] = `
         </button>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="add-todo-button"
           style="flex: 1;"
           type="button"
@@ -411,33 +411,33 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
   "baseElement": <body>
     <div>
       <div
-        class="sc-fsQjcA jVeHvD"
+        class="sc-drVZOg bGlSty"
       >
         <div
-          class="sc-qRuZU lcwWSj"
+          class="sc-eWPXlR buhMJJ"
         >
           <div
-            class="sc-gueXAH hWXdbp"
+            class="sc-gtLWhw jWJCAr"
             styles="font-size: 20px; font-weight: 600;"
           >
             Update Task Todo
           </div>
           <div
-            class="sc-jsMaUZ kfzPNd"
+            class="sc-jIyAiq DlTWn"
           />
         </div>
         <div
           style="margin-bottom: 16px;"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-size: 14px; font-weight: 500;"
           >
             Title Task
           </div>
           <input
             aria-label="Title Task"
-            class="sc-iAEzLF gTKcTi"
+            class="sc-epnzzT gwblLr"
             placeholder="Enter new task todo..."
             style="max-width: 438px; min-width: 294px; width: 100%;"
             type="text"
@@ -445,17 +445,17 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
           />
         </div>
         <div
-          class="sc-gueXAH bAvcGT"
+          class="sc-gtLWhw tBlfZ"
           styles="font-weight: 500; margin-bottom: 8px;"
         >
           Category
         </div>
         <div
-          class="sc-kFuvnu dtTRrU"
+          class="sc-lnsxGb geneua"
         >
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="upcoming-button"
             style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
             type="button"
@@ -477,13 +477,13 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
           </button>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="important-button"
             style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
             type="button"
           >
             <svg
-              color="#d28312"
+              color="#d25a12"
               fill="currentColor"
               height="16"
               stroke="currentColor"
@@ -500,7 +500,7 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
           </button>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="urgent-button"
             style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
             type="button"
@@ -528,22 +528,22 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
           </button>
         </div>
         <div
-          class="sc-gueXAH bAvcGT"
+          class="sc-gtLWhw tBlfZ"
           styles="font-weight: 500; margin-bottom: 8px;"
         >
           Description
         </div>
         <textarea
-          class="sc-fbJSV liFuaL"
+          class="sc-eDHQDy dVNgLm"
           placeholder="Enter description..."
         >
           3333333
         </textarea>
         <div
-          class="sc-irTrJD dQTfHZ"
+          class="sc-jSSkKI gxzaZa"
         >
           <div
-            class="sc-gueXAH hmBKDZ"
+            class="sc-gtLWhw kuqrfP"
             styles="font-size: 14px; font-weight: 500;"
           >
             Notification
@@ -562,7 +562,7 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
           </div>
         </div>
         <div
-          class="sc-csCNwM gNPNHg"
+          class="sc-iqyJx igowwT"
         >
           <div
             class="MuiFormControl-root MuiTextField-root css-z3c6am-MuiFormControl-root-MuiTextField-root"
@@ -683,11 +683,11 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
           </div>
         </div>
         <div
-          class="sc-brKelq eBpLhd"
+          class="sc-giBObj isODVq"
         >
           <button
             buttontype="secondary"
-            class="sc-gLDymS jcdnJc"
+            class="sc-ghWlax a-dPbm"
             data-testid="cancel-todo-button"
             style="flex: 1;"
             type="button"
@@ -696,7 +696,7 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
           </button>
           <button
             buttontype="primary"
-            class="sc-gLDymS dItXMH"
+            class="sc-ghWlax hYhlzt"
             data-testid="add-todo-button"
             style="flex: 1;"
             type="button"
@@ -709,33 +709,33 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
   </body>,
   "container": <div>
     <div
-      class="sc-fsQjcA jVeHvD"
+      class="sc-drVZOg bGlSty"
     >
       <div
-        class="sc-qRuZU lcwWSj"
+        class="sc-eWPXlR buhMJJ"
       >
         <div
-          class="sc-gueXAH hWXdbp"
+          class="sc-gtLWhw jWJCAr"
           styles="font-size: 20px; font-weight: 600;"
         >
           Update Task Todo
         </div>
         <div
-          class="sc-jsMaUZ kfzPNd"
+          class="sc-jIyAiq DlTWn"
         />
       </div>
       <div
         style="margin-bottom: 16px;"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-size: 14px; font-weight: 500;"
         >
           Title Task
         </div>
         <input
           aria-label="Title Task"
-          class="sc-iAEzLF gTKcTi"
+          class="sc-epnzzT gwblLr"
           placeholder="Enter new task todo..."
           style="max-width: 438px; min-width: 294px; width: 100%;"
           type="text"
@@ -743,17 +743,17 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
         />
       </div>
       <div
-        class="sc-gueXAH bAvcGT"
+        class="sc-gtLWhw tBlfZ"
         styles="font-weight: 500; margin-bottom: 8px;"
       >
         Category
       </div>
       <div
-        class="sc-kFuvnu dtTRrU"
+        class="sc-lnsxGb geneua"
       >
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="upcoming-button"
           style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
           type="button"
@@ -775,13 +775,13 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
         </button>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="important-button"
           style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
           type="button"
         >
           <svg
-            color="#d28312"
+            color="#d25a12"
             fill="currentColor"
             height="16"
             stroke="currentColor"
@@ -798,7 +798,7 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
         </button>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="urgent-button"
           style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
           type="button"
@@ -826,22 +826,22 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
         </button>
       </div>
       <div
-        class="sc-gueXAH bAvcGT"
+        class="sc-gtLWhw tBlfZ"
         styles="font-weight: 500; margin-bottom: 8px;"
       >
         Description
       </div>
       <textarea
-        class="sc-fbJSV liFuaL"
+        class="sc-eDHQDy dVNgLm"
         placeholder="Enter description..."
       >
         3333333
       </textarea>
       <div
-        class="sc-irTrJD dQTfHZ"
+        class="sc-jSSkKI gxzaZa"
       >
         <div
-          class="sc-gueXAH hmBKDZ"
+          class="sc-gtLWhw kuqrfP"
           styles="font-size: 14px; font-weight: 500;"
         >
           Notification
@@ -860,7 +860,7 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
         </div>
       </div>
       <div
-        class="sc-csCNwM gNPNHg"
+        class="sc-iqyJx igowwT"
       >
         <div
           class="MuiFormControl-root MuiTextField-root css-z3c6am-MuiFormControl-root-MuiTextField-root"
@@ -981,11 +981,11 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
         </div>
       </div>
       <div
-        class="sc-brKelq eBpLhd"
+        class="sc-giBObj isODVq"
       >
         <button
           buttontype="secondary"
-          class="sc-gLDymS jcdnJc"
+          class="sc-ghWlax a-dPbm"
           data-testid="cancel-todo-button"
           style="flex: 1;"
           type="button"
@@ -994,7 +994,7 @@ exports[`Test AddTodo component should match update todo snapshot with desktop v
         </button>
         <button
           buttontype="primary"
-          class="sc-gLDymS dItXMH"
+          class="sc-ghWlax hYhlzt"
           data-testid="add-todo-button"
           style="flex: 1;"
           type="button"

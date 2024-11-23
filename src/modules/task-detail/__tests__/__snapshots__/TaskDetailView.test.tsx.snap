@@ -10,23 +10,23 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
   >
     <div>
       <div
-        class="sc-dQemvk wOclD"
+        class="sc-UblHX cpfeAb"
       >
         <div
-          class="sc-bCDiRt eARhqa"
+          class="sc-fufdwm bQXykI"
         >
           <div
-            class="sc-beqWNU hnIjJd"
+            class="sc-blHHSb kTKyqX"
             style="font-weight: 600;"
           >
             Task Details
           </div>
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
           >
             This task belongs to 
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="font-weight: bold;"
             >
               nguyensivan1998+102@gmail.com
@@ -34,26 +34,26 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
           </div>
         </div>
         <div
-          class="sc-kiLFAs evgFUU"
+          class="sc-huXwEz fEnxBo"
         >
           <div
-            class="sc-hIqOjz fPDDfK"
+            class="sc-dprtRQ hAjYkv"
           >
             <div
-              class="sc-kgKWtt fzsik"
+              class="sc-geXuza iXhLb"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
               >
                 333333
               </div>
               <div
-                class="sc-dnwKha fNMlSi"
-                color="#d28312"
+                class="sc-eUlrpB kcnWki"
+                color="#d25a12"
               >
                 <svg
-                  color="#d28312"
+                  color="#d25a12"
                   fill="currentColor"
                   height="16"
                   stroke="currentColor"
@@ -70,16 +70,16 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               </div>
             </div>
             <div
-              class="sc-ivnBVK jAqqam"
+              class="sc-hbtGpV fLTZCM"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: red;"
               >
                 Expired time: 
               </div>
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="font-weight: bold; color: red;"
               >
                 05/10/2024
@@ -88,48 +88,48 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               </div>
             </div>
             <div
-              class="sc-hLseSp fDeqZQ"
+              class="sc-fAUdSK mdalg"
               style="width: 100%; padding-bottom: 20px;"
             >
               3333333
             </div>
             <div
-              class="sc-fmSBHF eBNMxx"
+              class="sc-eOzmre cJypHI"
             >
               <div
-                class="sc-fGFvMH fvjPgr"
+                class="sc-eauhAA dXrxmV"
               >
                 <div
-                  class="sc-gueXAH gRHGwY"
+                  class="sc-gtLWhw jPWJOW"
                   style="color: rgb(210, 131, 18);"
                 >
                   Progress
                 </div>
                 <div
-                  class="sc-blLrKi hGZLFn"
-                  color="#d28312"
+                  class="sc-fFoeYl hjSeGF"
+                  color="#d25a12"
                 >
-                  0
+                  0.00
                   %
                 </div>
               </div>
               <div
-                class="sc-ieZDWB bUnyJt"
-                color="#d28312"
+                class="sc-gQaihK iJEwxc"
+                color="#d25a12"
               >
                 <div
-                  class="sc-dKfzUc phyfu"
-                  color="#d28312"
+                  class="sc-iuUfFv VWWbf"
+                  color="#d25a12"
                   count="0"
                 />
               </div>
             </div>
             <div
-              class="sc-fLQSqU hxCtCW"
+              class="sc-hJRrWL fkeQNY"
             >
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="complete-todo-button"
                 style="min-height: 26px; height: 26px; padding: 0px 16px;"
                 type="button"
@@ -137,23 +137,23 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
                 Done
               </button>
               <div
-                class="sc-bALWzn jWTQiv"
+                class="sc-fwzISk oFERC"
               >
                 <button
                   buttontype="primary"
-                  class="sc-gLDymS dItXMH"
+                  class="sc-ghWlax hYhlzt"
                   data-testid="edit-todo-button"
-                  style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                  style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
                   type="button"
                 >
                   <svg
                     color="#6459e3"
                     fill="currentColor"
-                    height="16"
+                    height="18"
                     stroke="currentColor"
                     stroke-width="0"
                     viewBox="0 0 24 24"
-                    width="16"
+                    width="18"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -163,19 +163,19 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
                 </button>
                 <button
                   buttontype="primary"
-                  class="sc-gLDymS dItXMH"
+                  class="sc-ghWlax hYhlzt"
                   data-testid="delete-todo-button"
-                  style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                  style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
                   type="button"
                 >
                   <svg
-                    color="#6459e3"
+                    color="#e2342d"
                     fill="currentColor"
-                    height="16"
+                    height="18"
                     stroke="currentColor"
                     stroke-width="0"
                     viewBox="0 0 24 24"
-                    width="16"
+                    width="18"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -187,25 +187,25 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
             </div>
           </div>
           <div
-            class="sc-iCmjXL gnybjk"
+            class="sc-jSSkKI hGpWjB"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
             >
               Check List
             </div>
             <div
-              class="sc-ehsfVm hGElCJ"
+              class="sc-iqyJx jkPoey"
             >
               <input
-                class="sc-cRZdQV erCITr"
+                class="sc-eDHQDy bDkHp"
                 placeholder="Enter new task todo..."
                 type="text"
                 value=""
               />
               <svg
-                color="#d28312"
+                color="#d25a12"
                 fill="currentColor"
                 height="20"
                 stroke="currentColor"
@@ -241,33 +241,33 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
           class="modal-content"
         >
           <div
-            class="sc-fsQjcA jVeHvD"
+            class="sc-ixGGxD fCrsUt"
           >
             <div
-              class="sc-qRuZU lcwWSj"
+              class="sc-khLCKb csOfow"
             >
               <div
-                class="sc-gueXAH hWXdbp"
+                class="sc-gtLWhw jWJCAr"
                 styles="font-size: 20px; font-weight: 600;"
               >
                 Update Task Todo
               </div>
               <div
-                class="sc-jsMaUZ kfzPNd"
+                class="sc-dstKZu eFForf"
               />
             </div>
             <div
               style="margin-bottom: 16px;"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="font-size: 14px; font-weight: 500;"
               >
                 Title Task
               </div>
               <input
                 aria-label="Title Task"
-                class="sc-iAEzLF gTKcTi"
+                class="sc-kLhKbu gjDzjv"
                 placeholder="Enter new task todo..."
                 style="max-width: 438px; min-width: 294px; width: 100%;"
                 type="text"
@@ -275,17 +275,17 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               />
             </div>
             <div
-              class="sc-gueXAH bAvcGT"
+              class="sc-gtLWhw tBlfZ"
               styles="font-weight: 500; margin-bottom: 8px;"
             >
               Category
             </div>
             <div
-              class="sc-kFuvnu dtTRrU"
+              class="sc-keTIit owrvE"
             >
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="upcoming-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
                 type="button"
@@ -307,13 +307,13 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="important-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(100, 89, 227);"
                 type="button"
               >
                 <svg
-                  color="#d28312"
+                  color="#d25a12"
                   fill="currentColor"
                   height="16"
                   stroke="currentColor"
@@ -330,7 +330,7 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="urgent-button"
                 style="height: 36px; min-height: 36px; padding: 0px 16px; display: flex; align-items: center; gap: 8px; width: 130px; background-color: rgb(182, 180, 185);"
                 type="button"
@@ -358,22 +358,22 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               </button>
             </div>
             <div
-              class="sc-gueXAH bAvcGT"
+              class="sc-gtLWhw tBlfZ"
               styles="font-weight: 500; margin-bottom: 8px;"
             >
               Description
             </div>
             <textarea
-              class="sc-fbJSV liFuaL"
+              class="sc-cHqXqK iWgkpH"
               placeholder="Enter description..."
             >
               3333333
             </textarea>
             <div
-              class="sc-irTrJD dQTfHZ"
+              class="sc-dpBQxM kPhpvz"
             >
               <div
-                class="sc-gueXAH hmBKDZ"
+                class="sc-gtLWhw kuqrfP"
                 styles="font-size: 14px; font-weight: 500;"
               >
                 Notification
@@ -392,7 +392,7 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               </div>
             </div>
             <div
-              class="sc-csCNwM gNPNHg"
+              class="sc-jwIPbr kzMTYk"
             >
               <div
                 class="MuiFormControl-root MuiTextField-root css-z3c6am-MuiFormControl-root-MuiTextField-root"
@@ -513,11 +513,11 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               </div>
             </div>
             <div
-              class="sc-brKelq eBpLhd"
+              class="sc-jtQUzJ fgdlnz"
             >
               <button
                 buttontype="secondary"
-                class="sc-gLDymS jcdnJc"
+                class="sc-ghWlax a-dPbm"
                 data-testid="cancel-todo-button"
                 style="flex: 1;"
                 type="button"
@@ -526,7 +526,7 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="add-todo-button"
                 style="flex: 1;"
                 type="button"
@@ -541,23 +541,23 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-dQemvk wOclD"
+      class="sc-UblHX cpfeAb"
     >
       <div
-        class="sc-bCDiRt eARhqa"
+        class="sc-fufdwm bQXykI"
       >
         <div
-          class="sc-beqWNU hnIjJd"
+          class="sc-blHHSb kTKyqX"
           style="font-weight: 600;"
         >
           Task Details
         </div>
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
         >
           This task belongs to 
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: bold;"
           >
             nguyensivan1998+102@gmail.com
@@ -565,26 +565,26 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
         </div>
       </div>
       <div
-        class="sc-kiLFAs evgFUU"
+        class="sc-huXwEz fEnxBo"
       >
         <div
-          class="sc-hIqOjz fPDDfK"
+          class="sc-dprtRQ hAjYkv"
         >
           <div
-            class="sc-kgKWtt fzsik"
+            class="sc-geXuza iXhLb"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
             >
               333333
             </div>
             <div
-              class="sc-dnwKha fNMlSi"
-              color="#d28312"
+              class="sc-eUlrpB kcnWki"
+              color="#d25a12"
             >
               <svg
-                color="#d28312"
+                color="#d25a12"
                 fill="currentColor"
                 height="16"
                 stroke="currentColor"
@@ -601,16 +601,16 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
             </div>
           </div>
           <div
-            class="sc-ivnBVK jAqqam"
+            class="sc-hbtGpV fLTZCM"
           >
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="color: red;"
             >
               Expired time: 
             </div>
             <div
-              class="sc-gueXAH gRHGwY"
+              class="sc-gtLWhw jPWJOW"
               style="font-weight: bold; color: red;"
             >
               05/10/2024
@@ -619,48 +619,48 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
             </div>
           </div>
           <div
-            class="sc-hLseSp fDeqZQ"
+            class="sc-fAUdSK mdalg"
             style="width: 100%; padding-bottom: 20px;"
           >
             3333333
           </div>
           <div
-            class="sc-fmSBHF eBNMxx"
+            class="sc-eOzmre cJypHI"
           >
             <div
-              class="sc-fGFvMH fvjPgr"
+              class="sc-eauhAA dXrxmV"
             >
               <div
-                class="sc-gueXAH gRHGwY"
+                class="sc-gtLWhw jPWJOW"
                 style="color: rgb(210, 131, 18);"
               >
                 Progress
               </div>
               <div
-                class="sc-blLrKi hGZLFn"
-                color="#d28312"
+                class="sc-fFoeYl hjSeGF"
+                color="#d25a12"
               >
-                0
+                0.00
                 %
               </div>
             </div>
             <div
-              class="sc-ieZDWB bUnyJt"
-              color="#d28312"
+              class="sc-gQaihK iJEwxc"
+              color="#d25a12"
             >
               <div
-                class="sc-dKfzUc phyfu"
-                color="#d28312"
+                class="sc-iuUfFv VWWbf"
+                color="#d25a12"
                 count="0"
               />
             </div>
           </div>
           <div
-            class="sc-fLQSqU hxCtCW"
+            class="sc-hJRrWL fkeQNY"
           >
             <button
               buttontype="primary"
-              class="sc-gLDymS dItXMH"
+              class="sc-ghWlax hYhlzt"
               data-testid="complete-todo-button"
               style="min-height: 26px; height: 26px; padding: 0px 16px;"
               type="button"
@@ -668,23 +668,23 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               Done
             </button>
             <div
-              class="sc-bALWzn jWTQiv"
+              class="sc-fwzISk oFERC"
             >
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="edit-todo-button"
-                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
                 type="button"
               >
                 <svg
                   color="#6459e3"
                   fill="currentColor"
-                  height="16"
+                  height="18"
                   stroke="currentColor"
                   stroke-width="0"
                   viewBox="0 0 24 24"
-                  width="16"
+                  width="18"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -694,19 +694,19 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
               </button>
               <button
                 buttontype="primary"
-                class="sc-gLDymS dItXMH"
+                class="sc-ghWlax hYhlzt"
                 data-testid="delete-todo-button"
-                style="background-color: white; padding: 0px 8px; border: 1px solid #6459e3; min-height: 26px; height: 26px; display: flex; align-items: center;"
+                style="background-color: white; padding: 0px; min-height: 26px; height: 26px; display: flex; align-items: center;"
                 type="button"
               >
                 <svg
-                  color="#6459e3"
+                  color="#e2342d"
                   fill="currentColor"
-                  height="16"
+                  height="18"
                   stroke="currentColor"
                   stroke-width="0"
                   viewBox="0 0 24 24"
-                  width="16"
+                  width="18"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -718,25 +718,25 @@ exports[`TaskDetailView renders TaskDetailView with desktop view 1`] = `
           </div>
         </div>
         <div
-          class="sc-iCmjXL gnybjk"
+          class="sc-jSSkKI hGpWjB"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="font-weight: bold; font-size: 16px; padding-bottom: 6px;"
           >
             Check List
           </div>
           <div
-            class="sc-ehsfVm hGElCJ"
+            class="sc-iqyJx jkPoey"
           >
             <input
-              class="sc-cRZdQV erCITr"
+              class="sc-eDHQDy bDkHp"
               placeholder="Enter new task todo..."
               type="text"
               value=""
             />
             <svg
-              color="#d28312"
+              color="#d25a12"
               fill="currentColor"
               height="20"
               stroke="currentColor"
@@ -815,15 +815,15 @@ exports[`TaskDetailView renders TaskDetailView with mobile view 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-BKzFX cKdcpK"
+        class="sc-frniUE dcHdav"
       >
         <img
           alt="No task found"
-          class="sc-cPlDjO iivbbN"
+          class="sc-Rjrgp dnwEOZ"
           src="/img.jpg"
         />
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="font-size: 24px; color: rgb(159, 160, 174);"
         >
           Task is not found
@@ -833,15 +833,15 @@ exports[`TaskDetailView renders TaskDetailView with mobile view 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-BKzFX cKdcpK"
+      class="sc-frniUE dcHdav"
     >
       <img
         alt="No task found"
-        class="sc-cPlDjO iivbbN"
+        class="sc-Rjrgp dnwEOZ"
         src="/img.jpg"
       />
       <div
-        class="sc-gueXAH gRHGwY"
+        class="sc-gtLWhw jPWJOW"
         style="font-size: 24px; color: rgb(159, 160, 174);"
       >
         Task is not found

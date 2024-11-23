@@ -22,7 +22,7 @@ jest.mock('src/hooks', () => {
   };
 });
 
-jest.mock('src/contexts/AuthContext', () => {
+jest.mock('src/contexts', () => {
   return {
     useAuth: jest.fn().mockReturnValue({ currentUser: undefined, signIn: jest.fn() })
   };

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { useAuth } from 'src/contexts/AuthContext';
+import { useAuth } from 'src/contexts';
 import Link from 'next/link';
 import { HomeIcon, AccountIcon, SignOutIcon, ChangePassIcon } from '../../icons';
 import styled from 'styled-components';

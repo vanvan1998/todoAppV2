@@ -1,6 +1,6 @@
 import React, { createContext } from 'react';
 import { render } from '@testing-library/react';
-import { AuthContextProps, AuthProvider, useAuth } from '../AuthContext';
+import { AuthContextProps, AuthProvider, useAuth } from '../AuthProvider';
 
 jest.mock('@next/third-parties/google', () => {
   return {

@@ -6,7 +6,7 @@ exports[`Test CheckListItem component should match its snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gLDymS ecMQoN"
+        class="sc-eDHQDy jXEMvL"
         color="blue"
       >
         <svg
@@ -23,17 +23,17 @@ exports[`Test CheckListItem component should match its snapshot 1`] = `
           />
         </svg>
         <div
-          class="sc-iAEzLF bHGBeD"
+          class="sc-giBObj hfrvmW"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="flex: 1;"
           >
             title
           </div>
           <svg
             data-testid="delete-check-button"
-            fill="blue99"
+            fill="#e2342d"
             stroke="currentColor"
             stroke-width="0"
             viewBox="0 0 512 512"
@@ -50,7 +50,7 @@ exports[`Test CheckListItem component should match its snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gLDymS ecMQoN"
+      class="sc-eDHQDy jXEMvL"
       color="blue"
     >
       <svg
@@ -67,17 +67,17 @@ exports[`Test CheckListItem component should match its snapshot 1`] = `
         />
       </svg>
       <div
-        class="sc-iAEzLF bHGBeD"
+        class="sc-giBObj hfrvmW"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="flex: 1;"
         >
           title
         </div>
         <svg
           data-testid="delete-check-button"
-          fill="blue99"
+          fill="#e2342d"
           stroke="currentColor"
           stroke-width="0"
           viewBox="0 0 512 512"
@@ -151,7 +151,7 @@ exports[`Test CheckListItem component should match its snapshot without check 1`
   "baseElement": <body>
     <div>
       <div
-        class="sc-gLDymS ecMQoN"
+        class="sc-eDHQDy jXEMvL"
         color="blue"
       >
         <svg
@@ -170,17 +170,17 @@ exports[`Test CheckListItem component should match its snapshot without check 1`
           />
         </svg>
         <div
-          class="sc-iAEzLF bHGBeD"
+          class="sc-giBObj hfrvmW"
         >
           <div
-            class="sc-gueXAH gRHGwY"
+            class="sc-gtLWhw jPWJOW"
             style="flex: 1;"
           >
             title
           </div>
           <svg
             data-testid="delete-check-button"
-            fill="blue99"
+            fill="#e2342d"
             stroke="currentColor"
             stroke-width="0"
             viewBox="0 0 512 512"
@@ -197,7 +197,7 @@ exports[`Test CheckListItem component should match its snapshot without check 1`
   </body>,
   "container": <div>
     <div
-      class="sc-gLDymS ecMQoN"
+      class="sc-eDHQDy jXEMvL"
       color="blue"
     >
       <svg
@@ -216,17 +216,17 @@ exports[`Test CheckListItem component should match its snapshot without check 1`
         />
       </svg>
       <div
-        class="sc-iAEzLF bHGBeD"
+        class="sc-giBObj hfrvmW"
       >
         <div
-          class="sc-gueXAH gRHGwY"
+          class="sc-gtLWhw jPWJOW"
           style="flex: 1;"
         >
           title
         </div>
         <svg
           data-testid="delete-check-button"
-          fill="blue99"
+          fill="#e2342d"
           stroke="currentColor"
           stroke-width="0"
           viewBox="0 0 512 512"
